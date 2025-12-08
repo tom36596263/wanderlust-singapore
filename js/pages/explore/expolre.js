@@ -261,6 +261,7 @@ function renderStack() {
     });
 }
 
+
 function initDragEvents(card) {
     let isDragging = false;
     let startX = 0;
