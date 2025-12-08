@@ -11,7 +11,54 @@ document.addEventListener('DOMContentLoaded', async () => {
         loadAndRenderNews(),
         loadAndRenderAnnouncements()
     ]);
+    
+    const initialQuery = getUrlParameter('q');
+    const initialTab = getUrlParameter('tab');
+
+    if (initialQuery && initialTab !== 'news') {
+        const articleInput = document.getElementById('article-search-input');
+        if (articleInput) {
+            articleInput.value = initialQuery;
+        }
+        
+        const filtered = filterData(allArticlesData, initialQuery.toLowerCase());
+        renderArticlesHTML(sortArticles(filtered));
+        
+        const navItem = document.getElementById('nav-corner');
+        const section = document.getElementById('section-1');
+        document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        if (navItem) navItem.classList.add('active');
+        if (section) section.classList.add('active');
+    } 
+    
+    if (initialQuery && initialTab === 'news') {
+        const newsInput = document.getElementById('news-search-input');
+        if (newsInput) {
+            newsInput.value = initialQuery;
+        }
+
+        const filtered = allNewsData.filter(item => 
+            item.title.toLowerCase().includes(initialQuery.toLowerCase()) || 
+            item.desc.toLowerCase().includes(initialQuery.toLowerCase())
+        );
+        renderNewsHTML(filtered);
+        
+        const navItem = document.getElementById('nav-news');
+        const section = document.getElementById('section-2');
+        document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        if (navItem) navItem.classList.add('active');
+        if (section) section.classList.add('active');
+    }
 });
+
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    const results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
 
 function initNavTabs() {
     const navItems = document.querySelectorAll('.nav-item');

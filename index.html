@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home.css">
     <style>
-        .gap-between-section{
+        .gap-between-section {
             width: 100%;
             height: 100px;
         }
@@ -330,10 +330,12 @@
 
         <section id="section-1" class="tab-content active home-forum-corner">
             <aside class="tag-bar w-100per">
-                <form action="/search-result" method="get"
+                <form action="forum.html" method="get"
                     class="corner-search-bar w-100per dp-flex jc-center ai-center p-0">
                     <button type="submit" class="material-symbols-outlined w-20per">search</button>
-                    <input type="text" id="corner-search" class="w-80per p-10 corner-search-text" placeholder="熱門話題">
+                    <input type="text" name="q" id="corner-search" class="w-80per p-10 corner-search-text"
+                        placeholder="熱門話題">
+                    <input type="hidden" name="tab" value="articles">
                 </form>
 
                 <a href="#" id="tag-cafe" class="tag-card active" data-target="content-cafe">
@@ -383,11 +385,12 @@
 
         <section id="section-2" class="tab-content forum-news-events">
             <div class="forum-news-area">
-                <form action="/search-result" method="get" class="search-bar">
-                    <button class="search-icon material-symbols-outlined">search</button>
-                    <input type="text" id="news-search" class="news-search-text" placeholder="輸入活動或節慶">
-                </form>
 
+                <form action="forum.html" method="get" class="search-bar">
+                    <button type="submit" class="search-icon material-symbols-outlined">search</button>
+                    <input type="text" name="q" id="news-search" class="news-search-text" placeholder="輸入活動或節慶">
+                    <input type="hidden" name="tab" value="news">
+                </form>
                 <div class="news-area" id="news-container"></div>
             </div>
 
@@ -508,8 +511,7 @@
         </header>
         <header class="itinerary-banner">
             <div class="banner-pic" id="bannerCarousel">
-                <img src="assets/images/home/home-itinerary-1.png" alt="Singapore View 1"
-                    class="active">
+                <img src="assets/images/home/home-itinerary-1.png" alt="Singapore View 1" class="active">
                 <img src="assets/images/home/home-itinerary-2.png" alt="Singapore View 2">
                 <img src="assets/images/home/home-itinerary-3.png" alt="Singapore View 3">
             </div>
@@ -551,7 +553,7 @@
         </div>
     </section>
 
-    <div class="gap-between-section"></div>    
+    <div class="gap-between-section"></div>
     <!-- footer -->
     <footer class="footer">
 
@@ -627,7 +629,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="js/layout/nav.js"></script>
     <script src="js/layout/footer.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -635,7 +637,7 @@
     <script src="js/pages/home/forum.js"></script>
     <script src="js/pages/home/travelers.js"></script>
     <script src="js/pages/home/itinerary.js"></script>
-    
+
 </body>
 
 </html>

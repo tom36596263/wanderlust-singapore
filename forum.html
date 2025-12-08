@@ -274,13 +274,14 @@
             <section id="section-2" class="tab-content forum-news-events">
                 <div class="forum-news-area">
                     <div class="search-area">
-                        <div class="search-bar">
+                        <form id="news-search-form" class="search-bar" onsubmit="return false;">
                             <div class="search-text">
                                 <span class="search-icon material-symbols-outlined">search</span>
-                                <input type="text" id="news-search-input" class="search-input" placeholder="輸入活動或節慶"
+                                <input type="text" id="news-search-input" name="q" class="search-input"
+                                    placeholder="輸入活動或節慶"
                                     style="border:none; outline:none; background:transparent; width:100%; font-size:16px;">
                             </div>
-                        </div>
+                        </form>
                     </div>
                     <div class="news-area" id="news-container"></div>
                 </div>
@@ -437,7 +438,7 @@
     <script src="js/layout/nav.js"></script>
     <script src="js/pages/forum/forum.js"></script>
 
-    
+
 </body>
 
 </html>
