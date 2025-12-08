@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    
+
     await Promise.all([
         loadAndRenderItineraries()
     ]);
@@ -16,37 +16,59 @@ async function loadAndRenderItineraries() {
         if (!response.ok) throw new Error('Failed to load itineraries data');
         
         const itineraries = await response.json();
+        
+        sessionStorage.setItem('allItinerariesData', JSON.stringify(itineraries));
 
-        const html = itineraries.map(item => `
-            <article class="itinerary-card" data-id="${item.id}">
-                <div class="card-image">
-                    <img src="${item.image}" alt="${item.title}">
-                </div>
-                <div class="card-content">
-                    <div class="card-header">
-                        <h3 class="card-title">${item.title}</h3>
-                        <span class="card-duration">${item.duration}</span>
+        const html = itineraries.map(item => {
+            const targetUrl = `itinerary.html?id=${item.id}`;
+            return `
+                <article class="itinerary-card" data-id="${item.id}">
+                    <div class="card-image">
+                        <img src="${item.image}" alt="${item.title}">
                     </div>
-                    <p class="card-description">${item.desc}</p>
-                </div>
-            </article>
-        `).join('');
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                <a href="${targetUrl}">${item.title}</a>
+                            </h3>
+                            <span class="card-duration">${item.duration}</span>
+                        </div>
+                        <p class="card-description">${item.desc}</p>
+                    </div>
+                </article>
+            `;
+        }).join('');
 
         container.innerHTML = html;
 
         const cards = container.querySelectorAll('.itinerary-card');
+        const attractionResponse = await fetch('./data/attractions.json');
+        const allAttractions = await attractionResponse.json();
+
         cards.forEach(card => {
-            card.addEventListener('click', () => {
-                const id = parseInt(card.dataset.id);
-                const data = itineraries.find(item => item.id === id);
+            const id = parseInt(card.dataset.id);
+            const data = itineraries.find(item => item.id === id);
+
+            card.addEventListener('click', (event) => {
+                event.preventDefault();
                 if (data) {
-                    openItineraryModal(data);
+                    openItineraryModal(data, allAttractions);
                 }
             });
+
+            const titleLink = card.querySelector('.card-title a');
+            if (titleLink) {
+                titleLink.addEventListener('click', (event) => {
+                    event.preventDefault(); 
+                    if (data) {
+                        openItineraryModal(data, allAttractions);
+                    }
+                });
+            }
         });
 
     } catch (error) {
-        console.error('Error loading itineraries:', error);
+        console.error('Error loading data:', error);
         container.innerHTML = '<p style="text-align:center; padding:20px;">暫時無法載入行程資料。</p>';
     }
 }
@@ -68,8 +90,9 @@ function startBannerCarousel() {
 const modal = document.getElementById('itinerary-modal');
 const modalOverlay = document.querySelector('.modal-overlay');
 const modalCloseBtn = document.querySelector('.modal-close-btn');
+const modalActionBtn = document.querySelector('.modal-action-btn');
 
-function openItineraryModal(data) {
+function openItineraryModal(data, allAttractions) {
     if (!modal) return;
 
     document.getElementById('modal-img').src = data.image;
@@ -78,8 +101,53 @@ function openItineraryModal(data) {
     document.getElementById('modal-desc').innerText = data.desc;
     document.getElementById('modal-details').innerHTML = data.details;
 
+    if (modalActionBtn) {
+        modalActionBtn.onclick = (e) => {
+            e.preventDefault();
+            generateAndSaveItinerary(data, allAttractions);
+            window.location.href = 'itinerary.html';
+        };
+        modalActionBtn.href = '#'; 
+    }
+    
     modal.classList.add('show');
     document.body.style.overflow = 'hidden'; 
+}
+
+function generateAndSaveItinerary(itineraryItem, allAttractions) {
+    if (!itineraryItem.route) {
+        alert('此行程暫無詳細路線資料');
+        return;
+    }
+
+    const plannerData = {};
+
+    Object.keys(itineraryItem.route).forEach(dayKey => {
+        const dayRoute = itineraryItem.route[dayKey];
+        const dayItems = [];
+
+        dayRoute.forEach(routePoint => {
+            const attractionDetails = allAttractions.find(attr => attr.id === routePoint.id);
+            
+            if (attractionDetails) {
+                dayItems.push({
+                    id: attractionDetails.id,
+                    title: attractionDetails.title,
+                    category: attractionDetails.category,
+                    image: attractionDetails.image,
+                    lat: attractionDetails.lat,
+                    lng: attractionDetails.lng,
+                    rating: attractionDetails.rating,
+                    isCustom: false,
+                    note: routePoint.note
+                });
+            }
+        });
+
+        plannerData[dayKey] = dayItems;
+    });
+
+    localStorage.setItem('wanderlust_itinerary', JSON.stringify(plannerData));
 }
 
 function closeItineraryModal() {
@@ -96,4 +164,3 @@ document.addEventListener('keydown', (e) => {
         closeItineraryModal();
     }
 });
-
