@@ -990,6 +990,7 @@ function updateItineraryUI() {
 
 
 
+    
     listContainer.innerHTML = '';
 
     savedAttractions.forEach((item, index) => {

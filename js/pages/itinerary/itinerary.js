@@ -2020,6 +2020,7 @@ function initTabletMapControls() {
 
     });
 
+    
 }
 
 
