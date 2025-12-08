@@ -6,6 +6,7 @@
     .section-header {
         width: 66%;
         max-width: 1200px;
+        min-width: 1200px;
         margin:auto auto 20px auto;
 
         .title {
@@ -27,6 +28,7 @@
         height: auto;
         min-height: 40px;
         max-width: 1200px;
+        min-width: 1200px;
         border-bottom: 1px solid #aaa;
         display: flex;
         align-items: center;

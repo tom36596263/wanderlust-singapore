@@ -128,11 +128,11 @@ async function loadAndRenderForumArticles() {
                         <div class="article-preview-follow">追蹤</div>
                     </div>
                     
-                    <a href="article.html?id=${article.id}" class="article-title-link" style="text-decoration:none; color:inherit;">
+                    <a href="forum-article-detail.html" class="article-title-link" style="text-decoration:none; color:inherit;">
                         <h3 class="article-title">${article.title}</h3>
                     </a>
 
-                    <a href="article.html?id=${article.id}" class="article-pic">
+                    <a href="forum-article-detail.html" class="article-pic">
                         ${article.images.map(img => `<img src="${img}" alt="preview">`).join('')}
                     </a>
 
@@ -188,12 +188,12 @@ async function loadAndRenderNews() {
                     <div class="news-text">
                         <time class="news-date">${news.displayDate}</time>
                         <h3 class="news-title">
-                            <a href="news.html?id=${news.id}" class="news-link">${news.title}</a>
+                            <a href="forum-news-detail.html" class="news-link">${news.title}</a>
                         </h3>
                         <div class="news-describe">${news.desc}</div>
                         <div class="news-space"></div>
                     </div>
-                    <a href="news.html?id=${news.id}" class="news-img-link">
+                    <a href="forum-news-detail.html" class="news-img-link">
                         <img src="${news.image}" alt="${news.title}">
                     </a>
                 </article>
@@ -233,7 +233,8 @@ async function loadAndRenderAnnouncements() {
             // 只取前三筆
             const recentItems = items.slice(0, 3);
             
-            const titleHTML = container.querySelector('.announcement-title').outerHTML;
+            const titleElement = container.querySelector('.announcement-title');
+            const titleHTML = titleElement ? titleElement.outerHTML : '';
             
             const articlesHTML = recentItems.map(item => `
                 <article class="announcement-card">
@@ -242,7 +243,7 @@ async function loadAndRenderAnnouncements() {
                     </div>
                     <div class="announcement-text">
                         <div class="announcement-describe">
-                            <a href="announcement.html?id=${item.id}" class="announcement-link">${item.desc}</a>
+                            <a href="forum-announcement-detail.html" class="announcement-link">${item.desc}</a>
                         </div>
                         <time class="announcement-date">${item.date}</time>
                     </div>
