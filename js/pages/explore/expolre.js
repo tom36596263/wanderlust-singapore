@@ -266,40 +266,69 @@ function initDragEvents(card) {
     let startX = 0;
     let currentX = 0;
     
-    card.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        startX = e.clientX;
-        card.style.transition = 'none';
-    });
+    function getEventX(e) {
+        return e.touches ? e.touches[0].clientX : e.clientX;
+    }
 
-    window.addEventListener('mousemove', (e) => {
+    function startDrag(e) {
+        if (e.type === 'mousedown' && e.button !== 0) return;
+        e.preventDefault(); 
+        
+        isDragging = true;
+        startX = getEventX(e);
+        card.style.transition = 'none';
+        
+        if (e.type === 'touchstart') {
+            window.addEventListener('touchmove', dragMove, { passive: false });
+            window.addEventListener('touchend', endDrag);
+        } else {
+            window.addEventListener('mousemove', dragMove);
+            window.addEventListener('mouseup', endDrag);
+        }
+    }
+    
+    function dragMove(e) {
         if (!isDragging) return;
-        const x = e.clientX - startX;
+        
+        if (e.type === 'touchmove') {
+            e.preventDefault(); 
+        }
+
+        const x = getEventX(e) - startX;
         currentX = x;
         const rotate = x * 0.1; 
         card.style.transform = `translateX(${x}px) rotate(${rotate}deg)`;
-    });
-
-    window.addEventListener('mouseup', endDrag);
+    }
     
     function endDrag() {
         if (!isDragging) return;
         isDragging = false;
         
+        window.removeEventListener('mousemove', dragMove);
+        window.removeEventListener('mouseup', endDrag);
+        window.removeEventListener('touchmove', dragMove);
+        window.removeEventListener('touchend', endDrag);
+
+
         const threshold = 100;
         
         if (currentX > threshold) {
             handleSwipeComplete(card, 'right');
         } else if (currentX < -threshold) {
-            handleSwipeComplete(card, 'left');
+            handleSwipeComplete(card, 'left'); 
         } else {
             card.classList.add('is-animating');
             card.style.transform = `scale(1) translateY(0px)`;
+            setTimeout(() => {
+                card.classList.remove('is-animating');
+            }, 400); 
         }
         
-        window.removeEventListener('mousemove', null);
-        window.removeEventListener('mouseup', endDrag);
+        currentX = 0;
     }
+
+    card.addEventListener('mousedown', startDrag);
+    card.addEventListener('touchstart', startDrag);
 }
 
 function handleSwipeComplete(card, direction) {
