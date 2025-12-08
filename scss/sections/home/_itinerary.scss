@@ -1,0 +1,447 @@
+@use '../../base/variables' as vars;
+
+.itinerary-section {
+    font-family: vars.$font-family-base;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .section-header {
+        margin-bottom: 20px;
+
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            color: vars.$charcoal;
+        }
+
+        .description {
+            font-size: 0.875rem;
+            color: vars.$medium-green;
+            margin: 0;
+        }
+    }
+
+    .itinerary-banner {
+        position: relative;
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto 40px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 2px solid vars.$deep-green;
+        background-color: vars.$black;
+
+        .banner-pic {
+            width: 100%;
+            height: 0;
+            padding-bottom: 52%;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                opacity: 0;
+                transition: opacity 1s ease-in-out;
+                z-index: 1;
+
+                &.active {
+                    opacity: 0.7;
+                    z-index: 2;
+                }
+            }
+        }
+
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%;
+            color: vars.$white;
+            z-index: 10;
+
+            .banner-title {
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 15px;
+                letter-spacing: 2px;
+                text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
+                @media (min-width: 768px) {
+                    font-size: 3rem;
+                }
+            }
+
+            .banner-describe {
+                font-size: 0.875rem;
+                margin-bottom: 25px;
+                line-height: 1.5;
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+
+                @media (min-width: 768px) {
+                    font-size: 1rem;
+                }
+            }
+
+            .banner-button {
+                display: inline-block;
+                background-color: vars.$bt-bgc;
+                color: vars.$black;
+                padding: 12px 30px;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: 500;
+                transition: background 0.3s;
+                position: relative;
+                z-index: 1;
+
+                &:hover {
+                    background-color: darken(vars.$bt-bgc, 10%);
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    z-index: -1;
+                    animation: pulse-ring 2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    background-color: rgba(0, 0, 0, 0.2);
+                    z-index: -1;
+                    animation: pulse-ring 2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+                    animation-delay: 0.5s;
+                }
+            }
+        }
+    }
+
+    @keyframes pulse-ring {
+        0% {
+            width: 100%;
+            height: 100%;
+            opacity: 0.8;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            width: 140%;
+            height: 180%;
+            opacity: 0;
+        }
+    }
+
+    .itinerary-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .section-header {
+            margin-bottom: 20px;
+            
+            .section-title {
+                font-size: 1.5rem;
+                color: vars.$charcoal;
+                font-weight: bold;
+                margin: 0;
+            }
+        }
+
+        .itinerary-grid {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding-bottom: 20px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+
+            &::-webkit-scrollbar {
+                height: 8px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background: #f1f1f1;
+                border-radius: 4px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background: vars.$medium-green;
+                border-radius: 4px;
+            }
+
+            &::-webkit-scrollbar-thumb:hover {
+                background: vars.$deep-green;
+            }
+
+            .itinerary-card {
+                flex: 0 0 85%;
+                background-color: vars.$white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                display: flex;
+                flex-direction: column;
+                scroll-snap-align: start;
+                cursor: pointer;
+
+                @media (min-width: 600px) {
+                    flex: 0 0 calc((100% - 20px) / 2);
+                }
+
+                @media (min-width: 1024px) {
+                    flex: 0 0 calc((100% - 60px) / 4);
+                }
+
+                &:hover {
+                    .card-image img {
+                        transform: scale(1.1);
+                    }
+                    
+                    .card-title {
+                        color: vars.$deep-green;
+                    }
+                }
+
+                .card-image {
+                    width: 100%;
+                    height: 160px;
+                    overflow: hidden;
+                    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform 0.5s ease;
+                    }
+                }
+
+                .card-content {
+                    padding: 15px;
+                    flex-grow: 1;
+                    display: flex;
+                    flex-direction: column;
+
+                    .card-header {
+                        margin-bottom: 10px;
+
+                        .card-title {
+                            font-size: 1.125rem;
+                            font-weight: bold;
+                            color: vars.$black;
+                            margin: 0 0 5px 0;
+                            transition: color 0.3s ease;
+                        }
+
+                        .card-duration {
+                            font-size: 0.875rem;
+                            color: vars.$gray;
+                        }
+                    }
+
+                    .card-description {
+                        font-size: 0.875rem;
+                        color: vars.$deep-green;
+                        line-height: 1.5;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .itinerary-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+
+        &.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(2px);
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: vars.$white;
+            width: 90%;
+            max-width: 500px;
+            max-height: 85vh;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            z-index: 1001;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+
+            .itinerary-modal.show & {
+                transform: translateY(0);
+            }
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: vars.$white;
+            font-size: 1.5rem;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 10;
+            transition: background 0.3s;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.8);
+            }
+        }
+
+        .modal-header {
+            width: 100%;
+            height: 200px;
+            flex-shrink: 0;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+        }
+
+        .modal-body {
+            padding: 20px;
+            overflow-y: hidden;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+
+            .modal-meta {
+                margin-bottom: 15px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 10px;
+
+                h3 {
+                    margin: 0 0 5px 0;
+                    font-size: 1.5rem;
+                    color: vars.$black;
+                }
+
+                span {
+                    font-size: 0.875rem;
+                    color: vars.$medium-green;
+                    background-color: vars.$mint-light;
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                }
+            }
+
+            .modal-scroll-area {
+                overflow-y: auto;
+                padding-right: 5px;
+                
+                &::-webkit-scrollbar {
+                    width: 6px;
+                }
+                
+                &::-webkit-scrollbar-thumb {
+                    background-color: #ccc;
+                    border-radius: 3px;
+                }
+
+                p {
+                    font-size: 1rem;
+                    line-height: 1.6;
+                    color: #555;
+                    margin: 0 0 15px 0;
+                }
+
+                .modal-extra-info {
+                    font-size: 0.9rem;
+                    color: #666;
+                    background-color: #f9f9f9;
+                    padding: 15px;
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        .modal-footer {
+            padding: 15px 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            background-color: vars.$white;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+
+            .modal-action-btn {
+                display: block;
+                width: 100%;
+                padding: 12px 0;
+                background-color: vars.$deep-green;
+                color: vars.$white;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: bold;
+                transition: background 0.3s;
+
+                &:hover {
+                    background-color: darken(vars.$deep-green, 5%);
+                }
+            }
+        }
+    }
+}

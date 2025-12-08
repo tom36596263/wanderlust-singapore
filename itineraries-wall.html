@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wamderlust Singapore - 行程懶人包</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/itineraries-wall.css">
+</head>
+<body>
+    <!-- nav -->
+    <header class="nav-bg">
+        <nav class="nav">
+
+            <button id="mobile-menu-btn" class="hamburger-btn material-symbols-outlined">
+                menu
+            </button>
+
+            <ul class="nav-list" id="main-nav-list">
+
+                <li class="mobile-close-box">
+                    <button id="close-mobile-menu" class="material-symbols-outlined">
+                        close
+                    </button>
+                </li>
+
+                <li>
+                    <a href="index.html" class="nav-logo">
+                        <img src="assets/images/layout/logo.svg" alt="Logo of Wanderlust Singapore">
+                        <span class="logo-text">Wanderlust Singapore</span>
+                    </a>
+                </li>
+
+                <li class="mobile-function-area">
+
+                    <form class="m-search-box" action="search_result.html" method="get">
+                        <input type="text" name="q" placeholder="搜尋景點、美食...">
+                        <button type="submit" class="material-symbols-outlined">search</button>
+                    </form>
+
+                    <div class="m-lang-box">
+                        <button class="lang-btn active">繁體中文</button>
+                        <span class="divider">|</span>
+                        <button class="lang-btn">English</button>
+                    </div>
+
+                </li>
+
+                <li class="forum">
+                    <a href="forum.html">
+                        論壇
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                </li>
+
+                <li class="explore">
+                    <a href="explore.html">
+                        探索
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                    <div class="explore-submenu">
+                        <ul class="navigation-list">
+                            <li data-target="image-1"><a href="explore.html">景點牆</a></li>
+                            <li data-target="image-2"><a href="#">花園城市</a></li>
+                            <li data-target="image-3"><a href="#">繽紛南洋文化</a></li>
+                            <li data-target="image-4"><a href="#">清新熱帶</a></li>
+                            <li data-target="image-5"><a href="#">街頭美食</a></li>
+                        </ul>
+
+                        <div class="image-gallery">
+                            <img id="image-1" src="assets/images/layout/nav-attraction-wall.png">
+                            <img id="image-2" src="assets/images/layout/nav-city-garden.png">
+                            <img id="image-3" src="assets/images/layout/nav-Southeast-Asian-culture.png">
+                            <img id="image-4" src="assets/images/layout/nav-clean-tropical-city.png">
+                            <img id="image-5" src="assets/images/layout/nav-street-food.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="find-buddy"><a href="#">找旅伴</a></li>
+
+                <li class="itinerary">
+                    <a href="itinerary.html">
+                        找行程
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                    <ul class="itinerary-submenu">
+                        <li><a href="itinerary.html">行程規劃</a></li>
+                        <li><a href="itineraries-wall.html">行程懶人包</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="icon-box">
+                <form class="search-wrapper" action="search_result.html" method="get">
+                    <button type="submit" class="search-btn material-symbols-outlined">
+                        search
+                    </button>
+                    <input type="text" class="search-txt" name="q" placeholder="搜尋...">
+                </form>
+
+                <button class="lang-wrapper">
+                    <span class="globe-icon material-symbols-outlined">
+                        globe
+                    </span>
+                    <div class="lang-box">
+                        <span class="lang-zh">中</span>
+                        <span class="lang-en">EN</span>
+                    </div>
+                </button>
+
+                <a href="javascript:void(0)" id="avatar-btn" class="avatar-wrapper">
+                    <span id="guest-icon" class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    <img id="user-avatar" class="dp-none" src="assets/images/layout/nav-avatar.svg" alt="User Avatar">
+                </a>
+            </div>
+
+        </nav>
+    </header>
+    <aside id="user-side-menu" class="user-menu">
+        <div class="menu-header">
+            <button id="close-menu-btn" class="close-btn material-symbols-outlined">
+                close
+            </button>
+        </div>
+
+        <div class="menu-content">
+
+            <div class="acc-item">
+                <div class="acc-header">
+                    <div class="title-box">
+                        <span class="material-symbols-outlined">notifications</span>
+                        <span>通知</span>
+                    </div>
+                    <span class="arrow material-symbols-outlined">expand_more</span>
+                </div>
+
+                <div class="acc-body">
+                    <div class="switcher-box">
+                        <div class="switcher-nav">
+                            <button class="tab-btn active" data-target="tab-buddy">旅伴</button>
+                            <button class="tab-btn" data-target="tab-article">文章</button>
+                            <button class="tab-btn" data-target="tab-system">系統</button>
+                        </div>
+
+                        <div id="tab-buddy" class="tab-panel active">
+                            <ul class="notify-list">
+                                <li>Dave 傳送了交友邀請給你。</li>
+                                <li>Alice 回覆了你的留言。</li>
+                            </ul>
+                        </div>
+
+                        <div id="tab-article" class="tab-panel">
+                            <ul class="notify-list">
+                                <li>你的文章《新加坡美食》已被批准。</li>
+                                <li>有人收藏了你的文章。</li>
+                            </ul>
+                        </div>
+
+                        <div id="tab-system" class="tab-panel">
+                            <ul class="notify-list">
+                                <li>歡迎加入 Wanderlust Singapore!</li>
+                                <li>系統將於今晚維護。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acc-item">
+                <div class="acc-header">
+                    <div class="title-box">
+                        <span class="material-symbols-outlined">person</span>
+                        <span>個人主頁</span>
+                    </div>
+                    <span class="arrow material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="acc-body">
+                    <ul class="profile-links">
+                        <li><a href="#">我的文章</a></li>
+                        <li><a href="#">我的行程</a></li>
+                        <li><a href="#">我的旅伴</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#" class="simple-link">
+                <span class="material-symbols-outlined">manage_accounts</span>
+                帳號中心
+            </a>
+
+            <button id="auth-btn" class="simple-link"
+                style="width: 100%; border: none; background: transparent; cursor: pointer;">
+                <span id="auth-icon" class="material-symbols-outlined">login</span>
+                <span id="auth-text">登入</span>
+            </button>
+
+        </div>
+    </aside>
+    <div id="login-modal" class="login-modal-overlay">
+        <div class="login-box">
+            <button id="close-login-btn" class="close-btn material-symbols-outlined">close</button>
+
+            <h2>歡迎回來</h2>
+            <p>請輸入您的帳號密碼</p>
+
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="email">電子信箱</label>
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">密碼</label>
+                    <input type="password" id="password" placeholder="請輸入密碼" required>
+                </div>
+
+                <button type="submit" class="submit-btn">登入</button>
+            </form>
+
+            <p class="error-msg" id="login-error-msg"></p>
+        </div>
+    </div>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <!-- itinerary -->
+    <div class="page-wrapper">
+        <div class="layout-container">
+            
+            <section class="hero-slider-section">
+                <div id="hero-track" class="hero-track"></div>
+                <div class="hero-overlay">
+                    <div class="hero-controls">
+                        <button id="prev-slide" class="control-btn"><span class="material-symbols-outlined">arrow_back</span></button>
+                        <button id="next-slide" class="control-btn"><span class="material-symbols-outlined">arrow_forward</span></button>
+                    </div>
+                </div>
+            </section>
+
+            <main id="card-container" class="card-container">
+                <div class="card-grid">
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?q=80&w=800&auto=format&fit=crop" alt="Merlion Park">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">Landmark</span>
+                            <h3 class="card-title">Merlion Park</h3>
+                            <p class="card-desc">The iconic symbol of Singapore, featuring the mythical Merlion statue spouting water into the bay.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.8</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Marina Bay</div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1542888200-c9a77cfd025e?q=80&w=800&auto=format&fit=crop" alt="Gardens by the Bay">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">Nature</span>
+                            <h3 class="card-title">Gardens by the Bay</h3>
+                            <p class="card-desc">A futuristic nature park featuring the famous Supertree Grove and the world's largest glass greenhouse.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.9</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Marina Gardens</div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=800&auto=format&fit=crop" alt="Marina Bay Sands">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">Luxury</span>
+                            <h3 class="card-title">Marina Bay Sands</h3>
+                            <p class="card-desc">An integrated resort fronting Marina Bay in Singapore, featuring a rooftop infinity pool.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.7</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Bayfront</div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1552416399-522f777e5657?q=80&w=800&auto=format&fit=crop" alt="Sentosa Island">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">Adventure</span>
+                            <h3 class="card-title">Sentosa Island</h3>
+                            <p class="card-desc">The state of fun, featuring Universal Studios, beaches, and exciting attractions.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.6</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Sentosa</div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1605218427306-635ba243971c?q=80&w=800&auto=format&fit=crop" alt="Chinatown">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">Culture</span>
+                            <h3 class="card-title">Chinatown</h3>
+                            <p class="card-desc">A maze of narrow roads, historic temples, and traditional shophouses selling souvenirs.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.5</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Outram</div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1509062365287-9b7754964645?q=80&w=800&auto=format&fit=crop" alt="Singapore Flyer">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">View</span>
+                            <h3 class="card-title">Singapore Flyer</h3>
+                            <p class="card-desc">A giant observation wheel offering panoramic views of Marina Bay and the city skyline.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.4</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Raffles Ave</div>
+                            </div>
+                        </div>
+                    </article>
+    
+                     <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1569123849103-62327a315e24?q=80&w=800&auto=format&fit=crop" alt="Little India">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">Culture</span>
+                            <h3 class="card-title">Little India</h3>
+                            <p class="card-desc">A buzzing historic district that shows off the best of Singapore's Indian community.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.5</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Serangoon</div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1565963672773-4554a9934662?q=80&w=800&auto=format&fit=crop" alt="Botanic Gardens">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">Nature</span>
+                            <h3 class="card-title">Botanic Gardens</h3>
+                            <p class="card-desc">The only tropical garden on the UNESCO's World Heritage List, founded in 1859.</p>
+                            <div class="card-footer">
+                                <div class="rating"><i class="fas fa-star"></i> <span>4.9</span></div>
+                                <div class="location"><i class="fas fa-map-marker-alt"></i> Tanglin</div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </main>
+
+        </div>
+    </div>
+
+    <div id="itinerary-modal" class="itinerary-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button id="close-modal" class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <img id="modal-img" src="" alt="">
+            </div>
+            <div class="modal-body">
+                <div class="modal-meta">
+                    <h3 id="modal-title"></h3>
+                    <span id="modal-duration"></span>
+                </div>
+                <div class="modal-scroll-area">
+                    <p id="modal-desc"></p>
+                    <div id="modal-details" class="modal-extra-info"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="start-planning-btn" class="modal-action-btn">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem; vertical-align: bottom; margin-right: 4px;">edit_calendar</span>
+                    開始規劃此行程
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+     <footer class="footer">
+
+        <div class="marquee-background">
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="links-footer">
+
+            <div class="big-marquee-layer">
+                <div class="marquee-row scroll-big">
+                    <div class="marquee-wrapper">
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="first-row m-auto w-66per">
+                <a href="index.html" class="link link-home">首頁</a>
+                <a href="forum.html" class="link link-forum">論壇</a>
+                <a href="explore.html" class="link link-explore">探索</a>
+            </div>
+            <div class="second-row m-auto w-66per">
+                <a href="#" class="link link-traveler">找旅伴</a>
+                <a href="itinerary.html" class="link link-itinerary">找行程</a>
+                <a href="#" class="link link-contact">關於我們</a>
+                <div class="link link-social">
+                    <a href="#"><img src="assets/images/layout/logo-facebook.svg" alt="FB"></a>
+                    <a href="#"><img src="assets/images/layout/logo-twitter.svg" alt="X"></a>
+                    <a href="#"><img src="assets/images/layout/logo-instagram.svg" alt="IG"></a>
+                </div>
+            </div>
+            <div class="third-row m-auto w-66per">
+                <a href="index.html" class="link logo">
+                    <img src="assets/images/layout/logo-deep-green.svg" alt="logo">
+                    <div class="brand-name">Wanderlust Singapore</div>
+                </a>
+                <div class="link copyright">© Copyright 2025. All Right Reserved</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/layout/nav.js"></script>
+    <script src="js/layout/footer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="js/pages/itinerary/itineraries-wall.js"></script>
+</body>
+</html>

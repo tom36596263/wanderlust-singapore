@@ -1,0 +1,1352 @@
+[
+    {
+        "id": 101,
+        "attractionId": 1,
+        "user": "Sophia Lee",
+        "avatar": "https://placehold.co/50x50/FF8A80/ffffff?text=SL",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "晚上的天空樹燈光秀真的太美了，一定要躺在地上看！"
+    },
+    {
+        "id": 102,
+        "attractionId": 1,
+        "user": "Kenji Sato",
+        "avatar": "https://placehold.co/50x50/82B1FF/ffffff?text=KS",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "雲霧林（Cloud Forest）非常涼爽，瀑布很壯觀，推薦中午來避暑。"
+    },
+    {
+        "id": 103,
+        "attractionId": 1,
+        "user": "Maria G",
+        "avatar": "https://placehold.co/50x50/A1887F/ffffff?text=MG",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "花穹的花很漂亮，但人真的好多，拍照要找角度。"
+    },
+    {
+        "id": 201,
+        "attractionId": 2,
+        "user": "John Doe",
+        "avatar": "https://placehold.co/50x50/90CAF9/ffffff?text=JD",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "終於拍到接財水的照片了！雖然天氣很熱，但景色無敵。"
+    },
+    {
+        "id": 202,
+        "attractionId": 2,
+        "user": "Alice Wang",
+        "avatar": "https://placehold.co/50x50/F48FB1/ffffff?text=AW",
+        "time": "3 hours ago",
+        "rating": 4,
+        "content": "晚上來看金沙酒店的雷射秀視野很好，風很涼快。"
+    },
+    {
+        "id": 203,
+        "attractionId": 2,
+        "user": "David Chen",
+        "avatar": "https://placehold.co/50x50/CE93D8/ffffff?text=DC",
+        "time": "10 hours ago",
+        "rating": 5,
+        "content": "必來的打卡點，旁邊有賣冰淇淋三明治，推薦吃吃看。"
+    },
+    {
+        "id": 301,
+        "attractionId": 3,
+        "user": "Tom Wilson",
+        "avatar": "https://placehold.co/50x50/B39DDB/ffffff?text=TW",
+        "time": "30 mins ago",
+        "rating": 5,
+        "content": "剛玩完變形金剛，太刺激了！一定要買 Express Pass，省超多時間。"
+    },
+    {
+        "id": 302,
+        "attractionId": 3,
+        "user": "Sarah L",
+        "avatar": "https://placehold.co/50x50/9FA8DA/ffffff?text=SL",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "木乃伊復仇記嚇死我了，但是好好玩！工作人員都很熱情。"
+    },
+    {
+        "id": 303,
+        "attractionId": 3,
+        "user": "Mike T",
+        "avatar": "https://placehold.co/50x50/80CBC4/ffffff?text=MT",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "雖然票價不便宜，但設施維護得很好，遊行也很精彩。"
+    },
+    {
+        "id": 401,
+        "attractionId": 4,
+        "user": "Jessica Lin",
+        "avatar": "https://placehold.co/50x50/E6EE9C/ffffff?text=JL",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "烏節路太好逛了，每一間百貨都冷氣超強，逛起來很舒服。"
+    },
+    {
+        "id": 402,
+        "attractionId": 4,
+        "user": "Kevin Wu",
+        "avatar": "https://placehold.co/50x50/FFCC80/ffffff?text=KW",
+        "time": "6 hours ago",
+        "rating": 4,
+        "content": "人行道很寬敞，街頭藝人表演很有水準。東西有點貴就是了。"
+    },
+    {
+        "id": 403,
+        "attractionId": 4,
+        "user": "Emily R",
+        "avatar": "https://placehold.co/50x50/FFAB91/ffffff?text=ER",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "一定要去 Library@Orchard 拍照，設計感十足！"
+    },
+    {
+        "id": 501,
+        "attractionId": 5,
+        "user": "Siti A",
+        "avatar": "https://placehold.co/50x50/BCAAA4/ffffff?text=SA",
+        "time": "3 hours ago",
+        "rating": 4,
+        "content": "買紀念品最便宜的地方，記得要跟老闆殺價！"
+    },
+    {
+        "id": 502,
+        "attractionId": 5,
+        "user": "Ben Tan",
+        "avatar": "https://placehold.co/50x50/81D4FA/ffffff?text=BT",
+        "time": "8 hours ago",
+        "rating": 5,
+        "content": "牛車水美食街的炒粿條很好吃，很有鍋氣。"
+    },
+    {
+        "id": 503,
+        "attractionId": 5,
+        "user": "Linda K",
+        "avatar": "https://placehold.co/50x50/FFCCBC/ffffff?text=LK",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "建築物很有特色，但是週末人真的太多了，有點擁擠。"
+    },
+    {
+        "id": 601,
+        "attractionId": 6,
+        "user": "Richie Rich",
+        "avatar": "https://placehold.co/50x50/C5E1A5/ffffff?text=RR",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "無邊際泳池的景色真的無敵，這輩子一定要住一次！"
+    },
+    {
+        "id": 602,
+        "attractionId": 6,
+        "user": "Travel Bug",
+        "avatar": "https://placehold.co/50x50/F8BBD0/ffffff?text=TB",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "賭場很氣派，進去參觀免費（外國人記得帶護照）。"
+    },
+    {
+        "id": 603,
+        "attractionId": 6,
+        "user": "Sam L",
+        "avatar": "https://placehold.co/50x50/D1C4E9/ffffff?text=SL",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "商場很大，有室內運河可以搭船，但精品店買不起哈哈。"
+    },
+    {
+        "id": 701,
+        "attractionId": 7,
+        "user": "Foodie TW",
+        "avatar": "https://placehold.co/50x50/B2DFDB/ffffff?text=FT",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "雞肉超級嫩！那個辣椒醬真的絕了。排隊排了20分鐘但值得。"
+    },
+    {
+        "id": 702,
+        "attractionId": 7,
+        "user": "Jason Lim",
+        "avatar": "https://placehold.co/50x50/FFCDD2/ffffff?text=JL",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "飯很香，單吃就有味道。建議點中份的才吃得飽。"
+    },
+    {
+        "id": 703,
+        "attractionId": 7,
+        "user": "May C",
+        "avatar": "https://placehold.co/50x50/D7CCC8/ffffff?text=MC",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "好吃是好吃，但環境比較熱，要自己找位子。"
+    },
+    {
+        "id": 801,
+        "attractionId": 8,
+        "user": "Art Fan",
+        "avatar": "https://placehold.co/50x50/A5D6A7/ffffff?text=AF",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "建築本身就是藝術品，光影很美，隨便拍都好看。"
+    },
+    {
+        "id": 802,
+        "attractionId": 8,
+        "user": "Peter P",
+        "avatar": "https://placehold.co/50x50/90CAF9/ffffff?text=PP",
+        "time": "7 hours ago",
+        "rating": 5,
+        "content": "展覽內容很豐富，可以逛一下午。頂樓的酒吧風景很棒。"
+    },
+    {
+        "id": 803,
+        "attractionId": 8,
+        "user": "Clara S",
+        "avatar": "https://placehold.co/50x50/FFE082/ffffff?text=CS",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "冷氣超強，記得帶外套！對於了解東南亞藝術很有幫助。"
+    },
+    {
+        "id": 901,
+        "attractionId": 9,
+        "user": "Night Owl",
+        "avatar": "https://placehold.co/50x50/EF9A9A/ffffff?text=NO",
+        "time": "10 hours ago",
+        "rating": 4,
+        "content": "遊園車導覽很有趣，看到馬來貘在走路！"
+    },
+    {
+        "id": 902,
+        "attractionId": 9,
+        "user": "Leo Z",
+        "avatar": "https://placehold.co/50x50/CE93D8/ffffff?text=LZ",
+        "time": "12 hours ago",
+        "rating": 5,
+        "content": "動物表演秀很精彩，一定要提早去排隊佔位子。"
+    },
+    {
+        "id": 903,
+        "attractionId": 9,
+        "user": "Zoe Y",
+        "avatar": "https://placehold.co/50x50/81C784/ffffff?text=ZY",
+        "time": "1 day ago",
+        "rating": 3,
+        "content": "有些地方太暗了什麼都看不到，拍照很困難。"
+    },
+    {
+        "id": 1001,
+        "attractionId": 10,
+        "user": "Priya K",
+        "avatar": "https://placehold.co/50x50/E1BEE7/ffffff?text=PK",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "竹腳中心的印度煎餅（Prata）必吃！配拉茶剛剛好。"
+    },
+    {
+        "id": 1002,
+        "attractionId": 10,
+        "user": "Mark D",
+        "avatar": "https://placehold.co/50x50/BCAAA4/ffffff?text=MD",
+        "time": "6 hours ago",
+        "rating": 4,
+        "content": "很有活力的區域，陳東齡故居色彩很繽紛，很適合拍照。"
+    },
+    {
+        "id": 1003,
+        "attractionId": 10,
+        "user": "Gina T",
+        "avatar": "https://placehold.co/50x50/FFAB91/ffffff?text=GT",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "香料味很重，很有異國風情。慕達發購物中心真的什麼都賣！"
+    },
+    {
+        "id": 1101,
+        "attractionId": 11,
+        "user": "Alex C",
+        "avatar": "https://placehold.co/50x50/AED581/ffffff?text=AC",
+        "time": "45 mins ago",
+        "rating": 5,
+        "content": "這真的是機場嗎？瀑布太壯觀了！為了這個我願意提早三小時來機場。"
+    },
+    {
+        "id": 1102,
+        "attractionId": 11,
+        "user": "Bella S",
+        "avatar": "https://placehold.co/50x50/4DD0E1/ffffff?text=BS",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "樓上的星空花園很好玩，網狀步道有點刺激。Shake Shack 漢堡好吃！"
+    },
+    {
+        "id": 1103,
+        "attractionId": 11,
+        "user": "Chris P",
+        "avatar": "https://placehold.co/50x50/FFF176/ffffff?text=CP",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "晚上的瀑布燈光秀很美，購物環境也是一流的。"
+    },
+    {
+        "id": 1201,
+        "attractionId": 12,
+        "user": "Ocean Lover",
+        "avatar": "https://placehold.co/50x50/9575CD/ffffff?text=OL",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "巨大的觀景窗看鬼蝠魟游來游去真的太療癒了，可以坐著看好久。"
+    },
+    {
+        "id": 1202,
+        "attractionId": 12,
+        "user": "Mommy J",
+        "avatar": "https://placehold.co/50x50/4DB6AC/ffffff?text=MJ",
+        "time": "5 hours ago",
+        "rating": 4,
+        "content": "小朋友超愛這裡，觸摸池很有教育意義。就是冷氣有點強。"
+    },
+    {
+        "id": 1203,
+        "attractionId": 12,
+        "user": "Ryan G",
+        "avatar": "https://placehold.co/50x50/FF8A65/ffffff?text=RG",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "鯊魚隧道很震撼，好像被鯊魚包圍一樣。動線設計得不錯。"
+    },
+    {
+        "id": 1301,
+        "attractionId": 13,
+        "user": "Beer Guy",
+        "avatar": "https://placehold.co/50x50/A1887F/ffffff?text=BG",
+        "time": "1 hour ago",
+        "rating": 4,
+        "content": "晚上的沙爹街氣氛超讚！在大樓底下吃燒烤喝啤酒很特別。"
+    },
+    {
+        "id": 1302,
+        "attractionId": 13,
+        "user": "Helen W",
+        "avatar": "https://placehold.co/50x50/90CAF9/ffffff?text=HW",
+        "time": "4 hours ago",
+        "rating": 4,
+        "content": "沙爹稍微貴了一點，但是味道不錯，尤其是醬料。"
+    },
+    {
+        "id": 1303,
+        "attractionId": 13,
+        "user": "Tony K",
+        "avatar": "https://placehold.co/50x50/F48FB1/ffffff?text=TK",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "建築很美，魔鬼魚也很好吃，一定要點！"
+    },
+    {
+        "id": 1401,
+        "attractionId": 14,
+        "user": "Green Life",
+        "avatar": "https://placehold.co/50x50/80CBC4/ffffff?text=GL",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "非常適合晨跑，空氣很好。胡姬花園的花種類多到看不完。"
+    },
+    {
+        "id": 1402,
+        "attractionId": 14,
+        "user": "Grandma Su",
+        "avatar": "https://placehold.co/50x50/BCAAA4/ffffff?text=GS",
+        "time": "6 hours ago",
+        "rating": 5,
+        "content": "帶長輩來散步很適合，路很平坦，樹蔭也多。"
+    },
+    {
+        "id": 1403,
+        "attractionId": 14,
+        "user": "Lucas M",
+        "avatar": "https://placehold.co/50x50/FFAB91/ffffff?text=LM",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "很大很美，但記得要噴防蚊液，蚊子有點多。"
+    },
+    {
+        "id": 1501,
+        "attractionId": 15,
+        "user": "Hipster A",
+        "avatar": "https://placehold.co/50x50/CE93D8/ffffff?text=HA",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "每一面牆都是藝術，超好拍！買了好多可愛的小飾品。"
+    },
+    {
+        "id": 1502,
+        "attractionId": 15,
+        "user": "Coffee Addict",
+        "avatar": "https://placehold.co/50x50/B0BEC5/ffffff?text=CA",
+        "time": "7 hours ago",
+        "rating": 4,
+        "content": "自拍咖啡很有趣，味道也還不錯。巷子有點窄，人多會擠。"
+    },
+    {
+        "id": 1503,
+        "attractionId": 15,
+        "user": "Jenny L",
+        "avatar": "https://placehold.co/50x50/FFCC80/ffffff?text=JL",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "晚上的氛圍完全不同，酒吧很熱鬧，很適合跟朋友聚會。"
+    },
+    {
+        "id": 1601,
+        "attractionId": 16,
+        "user": "Party Boy",
+        "avatar": "https://placehold.co/50x50/9FA8DA/ffffff?text=PB",
+        "time": "10 hours ago",
+        "rating": 5,
+        "content": "新加坡夜生活的中心！氣氛嗨到不行，坐在河邊喝酒很爽。"
+    },
+    {
+        "id": 1602,
+        "attractionId": 16,
+        "user": "Romantic Couple",
+        "avatar": "https://placehold.co/50x50/F48FB1/ffffff?text=RC",
+        "time": "12 hours ago",
+        "rating": 4,
+        "content": "搭船遊新加坡河看夜景真的很浪漫，解說也很詳細。"
+    },
+    {
+        "id": 1603,
+        "attractionId": 16,
+        "user": "Steve Rogers",
+        "avatar": "https://placehold.co/50x50/81D4FA/ffffff?text=SR",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "餐廳價格偏貴，但珍寶海鮮的辣椒螃蟹真的好吃。"
+    },
+    {
+        "id": 1701,
+        "attractionId": 17,
+        "user": "Yummy Yummy",
+        "avatar": "https://placehold.co/50x50/FF8A80/ffffff?text=YY",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "胡椒味很重很過癮！排骨燉得剛剛好，肉一咬就下來了。"
+    },
+    {
+        "id": 1702,
+        "attractionId": 17,
+        "user": "Soup Master",
+        "avatar": "https://placehold.co/50x50/A1887F/ffffff?text=SM",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "無限續湯真的太佛心了，服務員會一直拿著水壺來加湯，喝了三碗！"
+    },
+    {
+        "id": 1703,
+        "attractionId": 17,
+        "user": "Traveler K",
+        "avatar": "https://placehold.co/50x50/AED581/ffffff?text=TK",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "油條一定要點，吸滿湯汁超好吃。排隊人龍很長但動線蠻快的。"
+    },
+    {
+        "id": 1801,
+        "attractionId": 18,
+        "user": "Design Geek",
+        "avatar": "https://placehold.co/50x50/E1BEE7/ffffff?text=DG",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "很有啟發性的博物館，可以看到很多獲獎的設計產品。"
+    },
+    {
+        "id": 1802,
+        "attractionId": 18,
+        "user": "Shop Walker",
+        "avatar": "https://placehold.co/50x50/FFAB91/ffffff?text=SW",
+        "time": "7 hours ago",
+        "rating": 4,
+        "content": "紅色的建築很顯眼。裡面的商店有很多特別的設計小物，很適合買禮物。"
+    },
+    {
+        "id": 1803,
+        "attractionId": 18,
+        "user": "Anna B",
+        "avatar": "https://placehold.co/50x50/80DEEA/ffffff?text=AB",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "展覽空間不大，但內容精緻，大約一小時可以逛完。"
+    },
+    {
+        "id": 1901,
+        "attractionId": 19,
+        "user": "Culture Vulture",
+        "avatar": "https://placehold.co/50x50/BCAAA4/ffffff?text=CV",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "蘇丹回教堂的金頂真的很壯觀，附近的阿拉伯街很好逛，有很多香水店。"
+    },
+    {
+        "id": 1902,
+        "attractionId": 19,
+        "user": "Foodie X",
+        "avatar": "https://placehold.co/50x50/FFCC80/ffffff?text=FX",
+        "time": "6 hours ago",
+        "rating": 5,
+        "content": "Zam Zam 的煎餅超大份！吃完再去哈芝巷逛逛剛剛好。"
+    },
+    {
+        "id": 1903,
+        "attractionId": 19,
+        "user": "Lisa M",
+        "avatar": "https://placehold.co/50x50/F48FB1/ffffff?text=LM",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "很有異國情調，拍照很美。不過中午真的非常熱，要注意防曬。"
+    },
+    {
+        "id": 2001,
+        "attractionId": 20,
+        "user": "Hiking Fan",
+        "avatar": "https://placehold.co/50x50/81C784/ffffff?text=HF",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "樹梢吊橋風景無敵，可以看到整個森林。空氣非常清新。"
+    },
+    {
+        "id": 2002,
+        "attractionId": 20,
+        "user": "Monkey See",
+        "avatar": "https://placehold.co/50x50/A1887F/ffffff?text=MS",
+        "time": "5 hours ago",
+        "rating": 4,
+        "content": "猴子真的很多，千萬不要手拿食物，會被搶！除此之外很棒的健行地點。"
+    },
+    {
+        "id": 2003,
+        "attractionId": 20,
+        "user": "Active Dad",
+        "avatar": "https://placehold.co/50x50/90CAF9/ffffff?text=AD",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "走完整圈大概要3-4小時，運動量很足。記得帶足夠的水。"
+    },
+    {
+        "id": 2101,
+        "attractionId": 21,
+        "user": "Tech Art",
+        "avatar": "https://placehold.co/50x50/9575CD/ffffff?text=TA",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "Future World 展覽太夢幻了！光影效果一流，水晶宇宙那區一定要拍照。"
+    },
+    {
+        "id": 2102,
+        "attractionId": 21,
+        "user": "Kids Mom",
+        "avatar": "https://placehold.co/50x50/F06292/ffffff?text=KM",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "小朋友畫的海洋生物游進牆壁裡，他們玩得超開心，不想走。"
+    },
+    {
+        "id": 2103,
+        "attractionId": 21,
+        "user": "Photo King",
+        "avatar": "https://placehold.co/50x50/4DB6AC/ffffff?text=PK",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "建築外型像蓮花很特別。展覽互動性很高，不只是看而已。"
+    },
+    {
+        "id": 2201,
+        "attractionId": 22,
+        "user": "Morning Call",
+        "avatar": "https://placehold.co/50x50/FFD54F/ffffff?text=MC",
+        "time": "30 mins ago",
+        "rating": 5,
+        "content": "這才是新加坡早餐！吐司酥脆到不行，咖椰醬甜而不膩。"
+    },
+    {
+        "id": 2202,
+        "attractionId": 22,
+        "user": "Egg Lover",
+        "avatar": "https://placehold.co/50x50/FF8A65/ffffff?text=EL",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "半熟蛋加醬油胡椒粉，直接喝或者沾吐司都超好吃！"
+    },
+    {
+        "id": 2203,
+        "attractionId": 22,
+        "user": "Coffee Fan",
+        "avatar": "https://placehold.co/50x50/7986CB/ffffff?text=CF",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "咖啡很濃郁，早上來一杯精神都來了。買了咖椰醬當伴手禮。"
+    },
+    {
+        "id": 2301,
+        "attractionId": 23,
+        "user": "Shopperaholic",
+        "avatar": "https://placehold.co/50x50/E57373/ffffff?text=SA",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "商場超級大，什麼牌子都有。頂樓可以直接看到聖淘沙，視野很好。"
+    },
+    {
+        "id": 2302,
+        "attractionId": 23,
+        "user": "Family Fun",
+        "avatar": "https://placehold.co/50x50/81C784/ffffff?text=FF",
+        "time": "6 hours ago",
+        "rating": 4,
+        "content": "樓上的戶外遊樂區小孩很愛，還有圖書館風景也超美。"
+    },
+    {
+        "id": 2303,
+        "attractionId": 23,
+        "user": "Tourist Guide",
+        "avatar": "https://placehold.co/50x50/64B5F6/ffffff?text=TG",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "去聖淘沙前必經之地，吃飯選擇很多，可以在這吃飽再進島。"
+    },
+    {
+        "id": 2401,
+        "attractionId": 24,
+        "user": "Romantic Guy",
+        "avatar": "https://placehold.co/50x50/BA68C8/ffffff?text=RG",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "晚上的氣氛絕佳，白色的教堂打燈後非常浪漫，約會首選。"
+    },
+    {
+        "id": 2402,
+        "attractionId": 24,
+        "user": "Movie Fan",
+        "avatar": "https://placehold.co/50x50/4DD0E1/ffffff?text=MF",
+        "time": "8 hours ago",
+        "rating": 5,
+        "content": "瘋狂亞洲富豪的拍攝地！真的跟電影裡一樣美，很多酒吧可以小酌。"
+    },
+    {
+        "id": 2403,
+        "attractionId": 24,
+        "user": "Chill Pill",
+        "avatar": "https://placehold.co/50x50/FFB74D/ffffff?text=CP",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "環境很舒服，雖然餐廳價格偏高，但偶爾享受一下很值得。"
+    },
+    {
+        "id": 2501,
+        "attractionId": 25,
+        "user": "High Flyer",
+        "avatar": "https://placehold.co/50x50/90CAF9/ffffff?text=HF",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "車廂很大很穩，一點都不晃。夜景真的無敵，可以看到金沙和整個海灣。"
+    },
+    {
+        "id": 2502,
+        "attractionId": 25,
+        "user": "Sunset Lover",
+        "avatar": "https://placehold.co/50x50/F06292/ffffff?text=SL",
+        "time": "6 hours ago",
+        "rating": 5,
+        "content": "推薦傍晚去搭，可以看到日落和夜景兩種景色，超值！"
+    },
+    {
+        "id": 2503,
+        "attractionId": 25,
+        "user": "Tom K",
+        "avatar": "https://placehold.co/50x50/AED581/ffffff?text=TK",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "票價稍貴，但真的很壯觀。樓下的路邊攤美食街氣氛復古不錯。"
+    },
+    {
+        "id": 2601,
+        "attractionId": 26,
+        "user": "Panda Fan",
+        "avatar": "https://placehold.co/50x50/E0E0E0/ffffff?text=PF",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "凱凱和嘉嘉太可愛了！大熊貓館冷氣很涼很舒服。"
+    },
+    {
+        "id": 2602,
+        "attractionId": 26,
+        "user": "Boat Ride",
+        "avatar": "https://placehold.co/50x50/4DB6AC/ffffff?text=BR",
+        "time": "7 hours ago",
+        "rating": 4,
+        "content": "亞馬遜河遊船蠻有趣的，有看到美洲豹！大部分步道有遮陽，不怕下雨。"
+    },
+    {
+        "id": 2603,
+        "attractionId": 26,
+        "user": "Nature Boy",
+        "avatar": "https://placehold.co/50x50/7986CB/ffffff?text=NB",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "海牛館的水族箱超級大，看海牛游泳很療癒。很適合帶小孩來。"
+    },
+    {
+        "id": 2701,
+        "attractionId": 27,
+        "user": "History Girl",
+        "avatar": "https://placehold.co/50x50/D1C4E9/ffffff?text=HG",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "展品非常精緻，娘惹珠寶和刺繡讓人驚嘆。對了解土生華人文化很有幫助。"
+    },
+    {
+        "id": 2702,
+        "attractionId": 27,
+        "user": "Antique Lover",
+        "avatar": "https://placehold.co/50x50/BCAAA4/ffffff?text=AL",
+        "time": "9 hours ago",
+        "rating": 4,
+        "content": "博物館不大但很有質感，導覽解說很詳細。建築本身也很美。"
+    },
+    {
+        "id": 2703,
+        "attractionId": 27,
+        "user": "Traveler M",
+        "avatar": "https://placehold.co/50x50/FFCC80/ffffff?text=TM",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "位置很方便，就在市中心。喜歡傳統文化的人一定要來。"
+    },
+    {
+        "id": 2801,
+        "attractionId": 28,
+        "user": "Seafood King",
+        "avatar": "https://placehold.co/50x50/FF8A65/ffffff?text=SK",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "辣椒螃蟹名不虛傳！醬汁甜辣適中，炸饅頭沾醬汁是極品。"
+    },
+    {
+        "id": 2802,
+        "attractionId": 28,
+        "user": "Crab Queen",
+        "avatar": "https://placehold.co/50x50/81D4FA/ffffff?text=CQ",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "雖然價格不便宜，但螃蟹很大隻很新鮮。一定要先訂位，不然排很久。"
+    },
+    {
+        "id": 2803,
+        "attractionId": 28,
+        "user": "Yummy T",
+        "avatar": "https://placehold.co/50x50/A5D6A7/ffffff?text=YT",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "麥片蝦也很推薦，酥酥脆脆的連殼都能吃。坐在河邊吃氣氛很好。"
+    },
+    {
+        "id": 2901,
+        "attractionId": 29,
+        "user": "Nature Walk",
+        "avatar": "https://placehold.co/50x50/C5E1A5/ffffff?text=NW",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "好像回到幾十年前的新加坡，非常純樸。騎腳踏車環島很舒服。"
+    },
+    {
+        "id": 2902,
+        "attractionId": 29,
+        "user": "Bike Rider",
+        "avatar": "https://placehold.co/50x50/FFAB91/ffffff?text=BR",
+        "time": "7 hours ago",
+        "rating": 5,
+        "content": "Chek Jawa 濕地生態很豐富，看到很多螃蟹和彈塗魚。記得防蚊液要噴好噴滿。"
+    },
+    {
+        "id": 2903,
+        "attractionId": 29,
+        "user": "Island Boy",
+        "avatar": "https://placehold.co/50x50/80CBC4/ffffff?text=IB",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "搭小船過去很有趣。島上的海鮮餐廳雖然簡單但很新鮮好吃。"
+    },
+    {
+        "id": 3001,
+        "attractionId": 30,
+        "user": "Tech Geek",
+        "avatar": "https://placehold.co/50x50/90CAF9/ffffff?text=TG",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "這商場太酷了，居然可以把腳踏車騎進來！很有未來感。"
+    },
+    {
+        "id": 3002,
+        "attractionId": 30,
+        "user": "Climber J",
+        "avatar": "https://placehold.co/50x50/FFCCBC/ffffff?text=CJ",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "中庭的攀岩牆很高，看別人爬很刺激。有很多賣相機和無人機的店。"
+    },
+    {
+        "id": 3003,
+        "attractionId": 30,
+        "user": "Green Life",
+        "avatar": "https://placehold.co/50x50/A1887F/ffffff?text=GL",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "頂樓的城市農場視野不錯，種了很多香草。美食街選擇也很多。"
+    },
+    {
+        "id": 3101,
+        "attractionId": 31,
+        "user": "Bird Lover",
+        "avatar": "https://placehold.co/50x50/FFF59D/ffffff?text=BL",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "新的飛禽公園真的太棒了！鳥舍非常巨大，鸚鵡就在頭頂飛，很震撼。"
+    },
+    {
+        "id": 3102,
+        "attractionId": 31,
+        "user": "Penguin Fan",
+        "avatar": "https://placehold.co/50x50/81D4FA/ffffff?text=PF",
+        "time": "6 hours ago",
+        "rating": 5,
+        "content": "企鵝館冷氣超強很舒服，水下視角看企鵝游泳好可愛，可以看很久。"
+    },
+    {
+        "id": 3103,
+        "attractionId": 31,
+        "user": "Family Day",
+        "avatar": "https://placehold.co/50x50/EF9A9A/ffffff?text=FD",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "餵食鸚鵡的體驗很有趣，小朋友很喜歡。園區很大，建議穿好走的鞋。"
+    },
+    {
+        "id": 3201,
+        "attractionId": 32,
+        "user": "Art Walker",
+        "avatar": "https://placehold.co/50x50/B39DDB/ffffff?text=AW",
+        "time": "3 hours ago",
+        "rating": 4,
+        "content": "環境非常清幽，黑白屋建築很有味道。畫廊的展覽品質都很高。"
+    },
+    {
+        "id": 3202,
+        "attractionId": 32,
+        "user": "Quiet Place",
+        "avatar": "https://placehold.co/50x50/CFD8DC/ffffff?text=QP",
+        "time": "8 hours ago",
+        "rating": 5,
+        "content": "遠離市區喧囂的好地方，看完展覽吃個冰淇淋很愜意。"
+    },
+    {
+        "id": 3203,
+        "attractionId": 32,
+        "user": "Design Student",
+        "avatar": "https://placehold.co/50x50/FFCC80/ffffff?text=DS",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "很多當代藝術作品，很有啟發性。蚊子有點多要注意。"
+    },
+    {
+        "id": 3301,
+        "attractionId": 33,
+        "user": "Cyclist Pro",
+        "avatar": "https://placehold.co/50x50/A5D6A7/ffffff?text=CP",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "騎腳踏車吹海風最舒服了！自行車道規劃得很好，一路騎了10公里。"
+    },
+    {
+        "id": 3302,
+        "attractionId": 33,
+        "user": "Picnic Mom",
+        "avatar": "https://placehold.co/50x50/F48FB1/ffffff?text=PM",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "新的兒童遊樂場很高很好玩，小孩放電首選。週末很多人來野餐。"
+    },
+    {
+        "id": 3303,
+        "attractionId": 33,
+        "user": "Foodie Sea",
+        "avatar": "https://placehold.co/50x50/FFAB91/ffffff?text=FS",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "運動完去東海岸海鮮中心吃晚餐，海鮮很新鮮，氣氛很熱鬧。"
+    },
+    {
+        "id": 3401,
+        "attractionId": 34,
+        "user": "Night Shopping",
+        "avatar": "https://placehold.co/50x50/CE93D8/ffffff?text=NS",
+        "time": "2 hours ago",
+        "rating": 4,
+        "content": "真的是什麼都賣的神奇地方！半夜來逛也不怕沒東西買，香料和巧克力很便宜。"
+    },
+    {
+        "id": 3402,
+        "attractionId": 34,
+        "user": "Gold Digger",
+        "avatar": "https://placehold.co/50x50/FFD54F/ffffff?text=GD",
+        "time": "6 hours ago",
+        "rating": 4,
+        "content": "金飾真的好多，眼花撩亂。走道有點窄，人多的時候要小心包包。"
+    },
+    {
+        "id": 3403,
+        "attractionId": 34,
+        "user": "Snack Lover",
+        "avatar": "https://placehold.co/50x50/80DEEA/ffffff?text=SL",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "買了一堆印度零食和拉茶包，價格超級划算，伴手禮一次買齊。"
+    },
+    {
+        "id": 3501,
+        "attractionId": 35,
+        "user": "Temple Visit",
+        "avatar": "https://placehold.co/50x50/BCAAA4/ffffff?text=TV",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "金碧輝煌的寺廟，非常莊嚴。頂樓的蘭花園很寧靜，值得上去走走。"
+    },
+    {
+        "id": 3502,
+        "attractionId": 35,
+        "user": "Photo Maker",
+        "avatar": "https://placehold.co/50x50/9FA8DA/ffffff?text=PM",
+        "time": "7 hours ago",
+        "rating": 5,
+        "content": "建築細節很美，百龍殿很震撼。冷氣很涼（重點）。"
+    },
+    {
+        "id": 3503,
+        "attractionId": 35,
+        "user": "Peace Mind",
+        "avatar": "https://placehold.co/50x50/E6EE9C/ffffff?text=PM",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "位於牛車水中心，逛累了進來參拜順便休息一下很不錯。"
+    },
+    {
+        "id": 3601,
+        "attractionId": 36,
+        "user": "Spicy Food",
+        "avatar": "https://placehold.co/50x50/FF8A65/ffffff?text=SF",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "不用筷子直接用湯匙吃真的很特別！湯頭椰奶味很濃，加辣更好吃。"
+    },
+    {
+        "id": 3602,
+        "attractionId": 36,
+        "user": "Laksa King",
+        "avatar": "https://placehold.co/50x50/4DB6AC/ffffff?text=LK",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "烏打（Otah）一定要點，配叻沙剛剛好。雖然店面不大但翻桌很快。"
+    },
+    {
+        "id": 3603,
+        "attractionId": 36,
+        "user": "Yum Yum",
+        "avatar": "https://placehold.co/50x50/FFCCBC/ffffff?text=YY",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "味道很道地，充滿鮮味。喝完酸柑水很解膩。"
+    },
+    {
+        "id": 3701,
+        "attractionId": 37,
+        "user": "Music Lover",
+        "avatar": "https://placehold.co/50x50/9575CD/ffffff?text=ML",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "坐在戶外劇場聽免費音樂會，吹著海風看夜景，真的太享受了。"
+    },
+    {
+        "id": 3702,
+        "attractionId": 37,
+        "user": "Arty Farty",
+        "avatar": "https://placehold.co/50x50/4DD0E1/ffffff?text=AF",
+        "time": "6 hours ago",
+        "rating": 5,
+        "content": "大榴槤造型真的很有趣。裡面的圖書館很有氣質，藏書很豐富。"
+    },
+    {
+        "id": 3703,
+        "attractionId": 37,
+        "user": "View Point",
+        "avatar": "https://placehold.co/50x50/AED581/ffffff?text=VP",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "頂樓露台很少人知道，看魚尾獅和金沙的角度超好，秘密景點！"
+    },
+    {
+        "id": 3801,
+        "attractionId": 38,
+        "user": "Beach Boy",
+        "avatar": "https://placehold.co/50x50/81D4FA/ffffff?text=BB",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "西樂索海灘很有活力，很多人在打排球。沙子很細，很適合曬太陽。"
+    },
+    {
+        "id": 3802,
+        "attractionId": 38,
+        "user": "Sunset Chaser",
+        "avatar": "https://placehold.co/50x50/FFAB91/ffffff?text=SC",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "走過吊橋去亞洲大陸極南點打卡，夕陽超美！"
+    },
+    {
+        "id": 3803,
+        "attractionId": 38,
+        "user": "Family Time",
+        "avatar": "https://placehold.co/50x50/D1C4E9/ffffff?text=FT",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "巴拉灣海灘很適合小朋友，還有免費的水上遊樂區，設施很完善。"
+    },
+    {
+        "id": 3901,
+        "attractionId": 39,
+        "user": "Insta Famous",
+        "avatar": "https://placehold.co/50x50/F8BBD0/ffffff?text=IF",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "神秘螺旋階梯真的太好拍了！建議廣角鏡頭由下往上拍，非常有氛圍。"
+    },
+    {
+        "id": 3902,
+        "attractionId": 39,
+        "user": "History Walk",
+        "avatar": "https://placehold.co/50x50/A1887F/ffffff?text=HW",
+        "time": "6 hours ago",
+        "rating": 4,
+        "content": "公園很大，古樹參天。桑尼拉烏他瑪花園很漂亮，很有爪哇風情。"
+    },
+    {
+        "id": 3903,
+        "attractionId": 39,
+        "user": "Morning Jog",
+        "avatar": "https://placehold.co/50x50/80CBC4/ffffff?text=MJ",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "就在市中心的小山丘，鬧中取靜。早上來空氣很好。"
+    },
+    {
+        "id": 4001,
+        "attractionId": 40,
+        "user": "Crazy Rich",
+        "avatar": "https://placehold.co/50x50/FFD54F/ffffff?text=CR",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "電影拍攝場景朝聖！燒烤魔鬼魚真的太好吃了，一定要配啤酒。"
+    },
+    {
+        "id": 4002,
+        "attractionId": 40,
+        "user": "Satay Fan",
+        "avatar": "https://placehold.co/50x50/FF8A65/ffffff?text=SF",
+        "time": "4 hours ago",
+        "rating": 4,
+        "content": "沙爹烤得很香，醬料很濃郁。雖然價格比鄰里小販貴一點，但品質不錯。"
+    },
+    {
+        "id": 4003,
+        "attractionId": 40,
+        "user": "Late Supper",
+        "avatar": "https://placehold.co/50x50/90CAF9/ffffff?text=LS",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "開到很晚，宵夜首選。環境比一般熟食中心乾淨通風。"
+    },
+    {
+        "id": 4101,
+        "attractionId": 41,
+        "user": "Bargain Hunter",
+        "avatar": "https://placehold.co/50x50/EF5350/ffffff?text=BH",
+        "time": "2 hours ago",
+        "rating": 4,
+        "content": "好像迷宮一樣，衣服真的超級便宜！現打果汁一杯只要一塊錢，超划算。"
+    },
+    {
+        "id": 4102,
+        "attractionId": 41,
+        "user": "Street Foodie",
+        "avatar": "https://placehold.co/50x50/AB47BC/ffffff?text=SF",
+        "time": "5 hours ago",
+        "rating": 4,
+        "content": "很多炸物小吃，一邊走一邊吃很過癮。二樓有些韓風小店還不錯逛。"
+    },
+    {
+        "id": 4103,
+        "attractionId": 41,
+        "user": "Tourist T",
+        "avatar": "https://placehold.co/50x50/5C6BC0/ffffff?text=TT",
+        "time": "1 day ago",
+        "rating": 3,
+        "content": "人真的非常多，走道很擠。買紀念品的好地方，比機場便宜很多。"
+    },
+    {
+        "id": 4201,
+        "attractionId": 42,
+        "user": "Animal Lover",
+        "avatar": "https://placehold.co/50x50/66BB6A/ffffff?text=AL",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "跟紅毛猩猩一起吃早餐太難忘了！動物都沒有籠子關著，感覺很自由。"
+    },
+    {
+        "id": 4202,
+        "attractionId": 42,
+        "user": "Family Trip",
+        "avatar": "https://placehold.co/50x50/FFA726/ffffff?text=FT",
+        "time": "7 hours ago",
+        "rating": 5,
+        "content": "雨林兒童樂園小孩玩瘋了，記得帶泳衣。脆弱森林可以超近距離看到狐猴！"
+    },
+    {
+        "id": 4203,
+        "attractionId": 42,
+        "user": "Elephant Fan",
+        "avatar": "https://placehold.co/50x50/8D6E63/ffffff?text=EF",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "大象表演很有教育意義，不是那種強迫表演。園區很大，建議搭遊園車。"
+    },
+    {
+        "id": 4301,
+        "attractionId": 43,
+        "user": "Culture Geek",
+        "avatar": "https://placehold.co/50x50/78909C/ffffff?text=CG",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "藍色的房子太美了！裡面保留了百年前的家具和裝潢，導覽解說非常精彩。"
+    },
+    {
+        "id": 4302,
+        "attractionId": 43,
+        "user": "Heritage Walk",
+        "avatar": "https://placehold.co/50x50/26A69A/ffffff?text=HW",
+        "time": "9 hours ago",
+        "rating": 4,
+        "content": "一定要預約才能參觀喔！非常值得，可以深入了解峇峇娘惹的生活。"
+    },
+    {
+        "id": 4303,
+        "attractionId": 43,
+        "user": "Photo lover",
+        "avatar": "https://placehold.co/50x50/EC407A/ffffff?text=PL",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "每一個角落都充滿細節，天井的設計很有智慧。很私房的景點。"
+    },
+    {
+        "id": 4401,
+        "attractionId": 44,
+        "user": "Speed Racer",
+        "avatar": "https://placehold.co/50x50/FF7043/ffffff?text=SR",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "玩一次絕對不夠！滑下來超級快超級爽，我玩了三次才過癮。"
+    },
+    {
+        "id": 4402,
+        "attractionId": 44,
+        "user": "View Finder",
+        "avatar": "https://placehold.co/50x50/42A5F5/ffffff?text=VF",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "上山的吊椅風景很美，腳懸空有點刺激。晚上的賽道有燈光更酷。"
+    },
+    {
+        "id": 4403,
+        "attractionId": 44,
+        "user": "Kids Play",
+        "avatar": "https://placehold.co/50x50/9CCC65/ffffff?text=KP",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "小朋友也可以跟大人一起坐，操作很簡單安全，全家都很喜歡。"
+    },
+    {
+        "id": 4501,
+        "attractionId": 45,
+        "user": "Pepper King",
+        "avatar": "https://placehold.co/50x50/BDBDBD/ffffff?text=PK",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "這家的胡椒味是最重的，喝下去喉嚨會熱熱的，超級過癮！"
+    },
+    {
+        "id": 4502,
+        "attractionId": 45,
+        "user": "Tea Time",
+        "avatar": "https://placehold.co/50x50/FFCA28/ffffff?text=TT",
+        "time": "4 hours ago",
+        "rating": 4,
+        "content": "功夫茶一定要點，配肉骨茶很解膩。油條稍微硬了一點，要泡久一點。"
+    },
+    {
+        "id": 4503,
+        "attractionId": 45,
+        "user": "Local Foodie",
+        "avatar": "https://placehold.co/50x50/5C6BC0/ffffff?text=LF",
+        "time": "1 day ago",
+        "rating": 5,
+        "content": "老字號的味道就是不一樣，排骨肉質很好。滷大腸也很入味。"
+    },
+    {
+        "id": 4601,
+        "attractionId": 46,
+        "user": "Museum Fan",
+        "avatar": "https://placehold.co/50x50/8D6E63/ffffff?text=MF",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "森林的故事那個裝置藝術太美了，一定要走那個旋轉坡道。展覽互動性很高。"
+    },
+    {
+        "id": 4602,
+        "attractionId": 46,
+        "user": "Building Love",
+        "avatar": "https://placehold.co/50x50/78909C/ffffff?text=BL",
+        "time": "8 hours ago",
+        "rating": 5,
+        "content": "白色的圓頂建築超美，很像在歐洲。了解新加坡歷史最好的地方。"
+    },
+    {
+        "id": 4603,
+        "attractionId": 46,
+        "user": "Chill Day",
+        "avatar": "https://placehold.co/50x50/26A69A/ffffff?text=CD",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "冷氣很涼，下午來避暑順便看展很剛好。有些復古的展示很有趣。"
+    },
+    {
+        "id": 4701,
+        "attractionId": 47,
+        "user": "Scary Fun",
+        "avatar": "https://placehold.co/50x50/EC407A/ffffff?text=SF",
+        "time": "2 hours ago",
+        "rating": 4,
+        "content": "十殿閻羅真的有點可怕，但是很特別的體驗。雕像都很...獨特。"
+    },
+    {
+        "id": 4702,
+        "attractionId": 47,
+        "user": "Mythology Fan",
+        "avatar": "https://placehold.co/50x50/FF7043/ffffff?text=MF",
+        "time": "6 hours ago",
+        "rating": 5,
+        "content": "很有趣的主題公園，滿滿的中國神話故事。地獄博物館值得花錢進去看。"
+    },
+    {
+        "id": 4703,
+        "attractionId": 47,
+        "user": "Weird Trip",
+        "avatar": "https://placehold.co/50x50/42A5F5/ffffff?text=WT",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "全世界應該找不到第二個這種地方了，風格非常強烈，很適合獵奇。"
+    },
+    {
+        "id": 4801,
+        "attractionId": 48,
+        "user": "Design Lover",
+        "avatar": "https://placehold.co/50x50/9CCC65/ffffff?text=DL",
+        "time": "3 hours ago",
+        "rating": 5,
+        "content": "很好逛！很多新加坡在地設計師的品牌，衣服和飾品都很有質感，不會撞衫。"
+    },
+    {
+        "id": 4802,
+        "attractionId": 48,
+        "user": "Rooftop Chill",
+        "avatar": "https://placehold.co/50x50/BDBDBD/ffffff?text=RC",
+        "time": "7 hours ago",
+        "rating": 5,
+        "content": "逛累了可以買杯咖啡去頂樓階梯坐坐，看烏節路的人來人往很愜意。"
+    },
+    {
+        "id": 4803,
+        "attractionId": 48,
+        "user": "Gift Shop",
+        "avatar": "https://placehold.co/50x50/FFCA28/ffffff?text=GS",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "想買特別的伴手禮來這裡就對了，不像一般的觀光紀念品那麼俗氣。"
+    },
+    {
+        "id": 4901,
+        "attractionId": 49,
+        "user": "Hiker Pro",
+        "avatar": "https://placehold.co/50x50/5C6BC0/ffffff?text=HP",
+        "time": "2 hours ago",
+        "rating": 5,
+        "content": "波浪橋（Henderson Waves）真的很美，尤其是黃昏的時候。步道規劃得很好走。"
+    },
+    {
+        "id": 4902,
+        "attractionId": 49,
+        "user": "Nature Walk",
+        "avatar": "https://placehold.co/50x50/8D6E63/ffffff?text=NW",
+        "time": "5 hours ago",
+        "rating": 5,
+        "content": "走在樹冠層的高度感覺很棒，空氣很好。從花柏山一路走到亞歷山大拱橋風景很多變。"
+    },
+    {
+        "id": 4903,
+        "attractionId": 49,
+        "user": "Photo Spot",
+        "avatar": "https://placehold.co/50x50/78909C/ffffff?text=PS",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "雖然有點長，但風景值得。記得帶水和防蚊液。"
+    },
+    {
+        "id": 5001,
+        "attractionId": 50,
+        "user": "Big Eater",
+        "avatar": "https://placehold.co/50x50/26A69A/ffffff?text=BE",
+        "time": "1 hour ago",
+        "rating": 5,
+        "content": "鹿肉煎餅（Murtabak）份量真的太大了！兩個人吃一份小的剛剛好，外皮超酥脆。"
+    },
+    {
+        "id": 5002,
+        "attractionId": 50,
+        "user": "Teh Tarik",
+        "avatar": "https://placehold.co/50x50/EC407A/ffffff?text=TT",
+        "time": "4 hours ago",
+        "rating": 5,
+        "content": "拉茶很好喝，看師傅拉茶很療癒。坐在二樓可以看到對面的清真寺。"
+    },
+    {
+        "id": 5003,
+        "attractionId": 50,
+        "user": "Spicy Lover",
+        "avatar": "https://placehold.co/50x50/FF7043/ffffff?text=SL",
+        "time": "1 day ago",
+        "rating": 4,
+        "content": "百年老店氣氛很熱鬧，店員動作很快。羊肉咖哩也很入味好吃。"
+    }
+]

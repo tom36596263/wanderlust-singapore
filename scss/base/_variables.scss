@@ -1,0 +1,105 @@
+/* scss/base/_variables.scss */
+ 
+/* =========================================
+   1. 顏色變數定義
+   ========================================= */
+$deep-green: #479E82;
+$light-green: #E5F5F0;
+$light-blue: #2BCDEE;
+$white: #fff;
+$gray: #898989;
+$black: #000;
+$ht-color: #00BFAF;
+$bt-bgc: #05FAA8;
+
+/* --- Traveler 頁面新增配色 --- */
+$medium-green: #4D998C;
+/* 用於次要文字、邊框 */
+$neutral-bg: #E8F2F2;
+/* 用於搜尋框、按鈕背景 */
+$mint-light: #D0EFEC;
+/* 用於標籤背景 */
+$teal: #19C3B5;
+/* 用於標籤文字 */
+$charcoal: #333;
+/* 用於主要標題 */
+
+/* --- Footer 專用深森林系配色 --- */
+$forest-bg: #0E2822;
+$forest-text: #163e33;
+$mint-green: #CFE8E0;
+$logo-green: #1A4A1B;
+
+/* =========================================
+   2. 字體變數
+   ========================================= */
+$font-family-base: "Noto Sans TC", sans-serif;
+
+/* =========================================
+   3. Maps (對照表) - 供迴圈使用
+   ========================================= */
+$theme-colors: (
+    "deep-green": $deep-green,
+    "light-green": $light-green,
+    "light-blue": $light-blue,
+    "white": $white,
+    "gray": $gray,
+    "black": $black,
+    "medium-green": $medium-green,
+    "neutral-bg": $neutral-bg,
+    "mint-light": $mint-light,
+    "teal": $teal,
+    "charcoal": $charcoal,
+    "forest-bg": $forest-bg,
+    "mint-green": $mint-green,
+    "logo-green": $logo-green
+);
+
+$font-sizes: (
+    12: 0.75rem,
+    14: 0.875rem,
+    16: 1rem,
+    20: 1.25rem,
+    24: 1.5rem,
+    28: 1.75rem,
+    100: 6.25rem,
+    136: 8.5rem
+);
+
+$z-index-levels: (
+    1,
+    10,
+    50,
+    100,
+    999
+);
+
+$spacing-directions: (
+    "": "",
+    "-t": "-top",
+    "-r": "-right",
+    "-b": "-bottom",
+    "-l": "-left",
+    "-x": "X",
+    "-y": "Y"
+);
+
+$jc-map: (
+    "center": center,
+    "start": flex-start,
+    "end": flex-end,
+    "between": space-between,
+    "around": space-around,
+    "evenly": space-evenly,
+    "space-around": space-around,
+    "space-between": space-between,
+    "space-evenly": space-evenly
+);
+
+$ai-map: (
+    "center": center,
+    "start": flex-start,
+    "end": flex-end,
+    "stretch": stretch,
+    "baseline": baseline
+);

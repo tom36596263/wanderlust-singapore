@@ -1,0 +1,18 @@
+[
+    { "id": 1, "name": "Alice", "avatar": "https://placehold.co/60x60/479E82/ffffff?text=A", "date": "Aug 8 - Aug 15", "month": "Aug", "location": "Marina Bay", "intro": "喜歡研究各地歷史和美食，一起探索新加坡吧。", "tags": ["Foodie", "Photography", "History"] },
+    { "id": 2, "name": "Bob", "avatar": "https://placehold.co/60x60/457B9D/ffffff?text=B", "date": "Sep 1 - Sep 5", "month": "Sep", "location": "Sentosa", "intro": "熱愛海灘和陽光，想找人一起去環球影城！", "tags": ["Photography", "Shopping"] },
+    { "id": 3, "name": "Charlie", "avatar": "https://placehold.co/60x60/E76F51/ffffff?text=C", "date": "Aug 20 - Aug 25", "month": "Aug", "location": "Chinatown", "intro": "想找人一起吃螃蟹，還有逛牛車水夜市。", "tags": ["Foodie", "Shopping"] },
+    { "id": 4, "name": "Diana", "avatar": "https://placehold.co/60x60/264653/ffffff?text=D", "date": "Oct 10 - Oct 15", "month": "Oct", "location": "Marina Bay", "intro": "主要行程是參觀博物館和植物園，歡迎文青加入。", "tags": ["History", "Photography"] },
+    { "id": 5, "name": "Ethan", "avatar": "https://placehold.co/60x60/E9C46A/333333?text=E", "date": "Nov 5 - Nov 10", "month": "Nov", "location": "Little India", "intro": "第一次去小印度，想找人一起去廟宇參觀和吃道地咖哩。", "tags": ["History", "Photography", "Foodie"] },
+    { "id": 6, "name": "Fiona", "avatar": "https://placehold.co/60x60/F4A261/ffffff?text=F", "date": "Dec 20 - Dec 26", "month": "Dec", "location": "Orchard", "intro": "聖誕節去烏節路看燈飾，順便大採購！", "tags": ["Shopping", "Foodie"] },
+    { "id": 7, "name": "George", "avatar": "https://placehold.co/60x60/2A9D8F/ffffff?text=G", "date": "Sep 15 - Sep 18", "month": "Sep", "location": "Sentosa", "intro": "喜歡大自然，計畫去聖淘沙的海灘和自然步道健行。", "tags": ["Nature", "Photography"] },
+    { "id": 8, "name": "Hannah", "avatar": "https://placehold.co/60x60/E5989B/ffffff?text=H", "date": "Oct 25 - Oct 30", "month": "Oct", "location": "Bugis", "intro": "哈芝巷有很多壁畫和特色小店，想找人幫忙拍照。", "tags": ["Art", "Shopping"] },
+    { "id": 9, "name": "Ian", "avatar": "https://placehold.co/60x60/6D597A/ffffff?text=I", "date": "Aug 12 - Aug 18", "month": "Aug", "location": "Chinatown", "intro": "我是個吃貨，目標是吃遍牛車水的所有米其林小販。", "tags": ["Foodie"] },
+    { "id": 10, "name": "Jenny", "avatar": "https://placehold.co/60x60/B5838D/ffffff?text=J", "date": "Nov 15 - Nov 20", "month": "Nov", "location": "Marina Bay", "intro": "晚上想去濱海灣看超級樹燈光秀，有人要一起嗎？", "tags": ["Photography", "Art"] },
+    { "id": 11, "name": "Kevin", "avatar": "https://placehold.co/60x60/7F5539/ffffff?text=K", "date": "Dec 5 - Dec 12", "month": "Dec", "location": "Orchard", "intro": "計畫去新加坡過聖誕，想找人一起去環球影城和S.E.A.海洋館。", "tags": ["Shopping", "Nature"] },
+    { "id": 12, "name": "Laura", "avatar": "https://placehold.co/60x60/9C6644/ffffff?text=L", "date": "Sep 28 - Oct 5", "month": "Oct", "location": "Little India", "intro": "對印度文化很感興趣，想去小印度體驗屠妖節的氣氛。", "tags": ["History", "Art"] },
+    { "id": 13, "name": "Mike", "avatar": "https://placehold.co/60x60/BDB2FF/ffffff?text=M", "date": "Nov 22 - Nov 28", "month": "Nov", "location": "Bugis", "intro": "喜歡街頭藝術和潮流文化，Bugis 是我的首選。", "tags": ["Art", "Shopping", "Photography"] },
+    { "id": 14, "name": "Nina", "avatar": "https://placehold.co/60x60/FFC6FF/ffffff?text=N", "date": "Aug 30 - Sep 6", "month": "Sep", "location": "Marina Bay", "intro": "想去金沙酒店頂樓游泳池打卡，還有看水舞秀。", "tags": ["Photography", "Shopping"] },
+    { "id": 15, "name": "Oliver", "avatar": "https://placehold.co/60x60/A0C4FF/ffffff?text=O", "date": "Dec 28 - Jan 3", "month": "Dec", "location": "Sentosa", "intro": "準備去新加坡跨年！想在聖淘沙的海灘派對慶祝。", "tags": ["Nature", "Foodie"] },
+    { "id": 16, "name": "Paula", "avatar": "https://placehold.co/60x60/CAFFBF/ffffff?text=P", "date": "Oct 2 - Oct 8", "month": "Oct", "location": "Chinatown", "intro": "想去參觀佛牙寺，順便品嚐麥士威熟食中心的天天海南雞飯。", "tags": ["History", "Foodie"] }
+]

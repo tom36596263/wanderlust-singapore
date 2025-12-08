@@ -1,0 +1,789 @@
+@charset "UTF-8";
+/* scss/base/_variables.scss */
+/* =========================================
+   1. 顏色變數定義
+   ========================================= */
+/* --- Traveler 頁面新增配色 --- */
+/* 用於次要文字、邊框 */
+/* 用於搜尋框、按鈕背景 */
+/* 用於標籤背景 */
+/* 用於標籤文字 */
+/* 用於主要標題 */
+/* --- Footer 專用深森林系配色 --- */
+/* =========================================
+   2. 字體變數
+   ========================================= */
+/* =========================================
+   3. Maps (對照表) - 供迴圈使用
+   ========================================= */
+body {
+  display: block;
+  padding: 70px 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+}
+body .main-container {
+  width: 66%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+body .article-area {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+body .article-area .area-title {
+  background-color: #F9FAFB;
+  color: #479E82;
+  width: 100%;
+  height: 55px;
+  border: 1px solid #479E82;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+}
+body .article-area .image-slider-container {
+  width: 100%;
+  height: 430px;
+  position: relative;
+  overflow: hidden;
+  border-left: 1px solid #479E82;
+  border-right: 1px solid #479E82;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+@media (max-width: 768px) {
+  body .article-area .image-slider-container {
+    height: 250px;
+  }
+}
+body .article-area .image-slider-container .slider-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+body .article-area .image-slider-container .slider-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  flex-shrink: 0;
+}
+body .article-area .image-slider-container .slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #479E82;
+  transition: all 0.3s;
+  z-index: 2;
+}
+body .article-area .image-slider-container .slider-btn:hover {
+  background-color: #479E82;
+  color: #fff;
+}
+body .article-area .image-slider-container .slider-btn.prev-btn {
+  left: 20px;
+}
+body .article-area .image-slider-container .slider-btn.next-btn {
+  right: 20px;
+}
+body .article-area .article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5F5F0;
+  border-left: 1px solid #479E82;
+  border-right: 1px solid #479E82;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+body .article-area .article .article-title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 20px 10px;
+  box-sizing: border-box;
+  line-height: 1.4;
+  color: #333;
+}
+body .article-area .article .writer-info-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+body .article-area .article .writer-info-bar .writer-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 15px;
+}
+body .article-area .article .writer-info-bar .writer-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+body .article-area .article .article-text {
+  width: 100%;
+  padding: 10px 20px;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+  text-align: justify;
+}
+body .article-area .article .article-subtitle {
+  width: 100%;
+  padding: 15px 20px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #479E82;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+body .article-area .input-area {
+  width: 100%;
+  border-left: 1px solid #479E82;
+  border-right: 1px solid #479E82;
+  background-color: #E5F5F0;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+body .article-area .input-area .like-bar {
+  display: flex;
+  padding: 10px 20px;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+}
+body .article-area .input-area .like-bar .like-card {
+  display: flex;
+  align-items: center;
+  color: #479E82;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 5px;
+}
+body .article-area .input-area .like-bar .like-card .like-icon {
+  font-size: 20px;
+}
+body .article-area .input-area .like-bar .like-card:hover {
+  opacity: 0.8;
+}
+body .article-area .input-area .data-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 20px;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  border-bottom: 1px solid rgba(71, 158, 130, 0.2);
+  margin-bottom: 15px;
+}
+body .article-area .input-area .data-bar .data-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #479E82;
+  font-size: 14px;
+  gap: 5px;
+}
+body .article-area .input-area .data-bar .data-card .data-icon {
+  font-size: 18px;
+}
+body .article-area .input-area .input-comment {
+  width: 95%;
+  height: 100px;
+  border: 1px solid #479E82;
+  border-radius: 15px;
+  background-color: #F9FAFB;
+  margin: 0 auto 10px;
+  display: block;
+  padding: 15px;
+  color: #479E82;
+  box-sizing: border-box;
+  cursor: text;
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+}
+body .article-area .input-area .input-comment:focus {
+  outline: 1px solid #479E82;
+}
+body .article-area .input-area .tool-bar {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: #479E82;
+  align-items: center;
+}
+body .article-area .input-area .tool-bar .tool {
+  display: flex;
+  gap: 15px;
+}
+body .article-area .input-area .tool-bar .tool .tool-icon {
+  cursor: pointer;
+}
+body .article-area .input-area .tool-bar .tool .tool-icon:hover {
+  color: rgb(55.1877729258, 122.8122270742, 101.0480349345);
+}
+body .article-area .input-area .tool-bar .launch {
+  width: 80px;
+  height: 35px;
+  background-color: #479E82;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+body .article-area .input-area .tool-bar .launch:hover {
+  background-color: rgb(55.1877729258, 122.8122270742, 101.0480349345);
+}
+body .article-area .input-area .filter-bar {
+  width: 100%;
+  padding: 15px 20px 10px;
+  color: #479E82;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #479E82;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body .article-area .input-area .filter-bar .filter-icon {
+  margin-left: 5px;
+}
+body .article-area .comment-area {
+  width: 100%;
+  border-left: 1px solid #479E82;
+  border-right: 1px solid #479E82;
+  border-bottom: 1px solid #479E82;
+  border-radius: 0 0 15px 15px;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+body .article-area .comment-area .comment-group {
+  width: 100%;
+  display: block;
+  animation: fadeIn 0.5s ease-out;
+}
+body .article-area .comment-area .comment-card, body .article-area .comment-area .reply-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  position: relative;
+}
+body .article-area .comment-area .comment-card:last-child, body .article-area .comment-area .reply-card:last-child {
+  border-bottom: none;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar, body .article-area .comment-area .comment-card .reply-user-info-bar, body .article-area .comment-area .reply-card .comment-user-info-bar, body .article-area .comment-area .reply-card .reply-user-info-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 5px;
+  box-sizing: border-box;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-user-info, body .article-area .comment-area .comment-card .comment-user-info-bar .reply-user-info, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-user-info, body .article-area .comment-area .comment-card .reply-user-info-bar .reply-user-info, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-user-info, body .article-area .comment-area .reply-card .comment-user-info-bar .reply-user-info, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-user-info, body .article-area .comment-area .reply-card .reply-user-info-bar .reply-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-user-info img, body .article-area .comment-area .comment-card .comment-user-info-bar .reply-user-info img, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-user-info img, body .article-area .comment-area .comment-card .reply-user-info-bar .reply-user-info img, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-user-info img, body .article-area .comment-area .reply-card .comment-user-info-bar .reply-user-info img, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-user-info img, body .article-area .comment-area .reply-card .reply-user-info-bar .reply-user-info img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-user-info .comment-user-info-text, body .article-area .comment-area .comment-card .comment-user-info-bar .reply-user-info .comment-user-info-text, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-user-info .comment-user-info-text, body .article-area .comment-area .comment-card .reply-user-info-bar .reply-user-info .comment-user-info-text, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-user-info .comment-user-info-text, body .article-area .comment-area .reply-card .comment-user-info-bar .reply-user-info .comment-user-info-text, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-user-info .comment-user-info-text, body .article-area .comment-area .reply-card .reply-user-info-bar .reply-user-info .comment-user-info-text {
+  display: flex;
+  flex-direction: column;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-user-info .comment-user-info-text .comment-user-name, body .article-area .comment-area .comment-card .comment-user-info-bar .reply-user-info .comment-user-info-text .comment-user-name, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-user-info .comment-user-info-text .comment-user-name, body .article-area .comment-area .comment-card .reply-user-info-bar .reply-user-info .comment-user-info-text .comment-user-name, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-user-info .comment-user-info-text .comment-user-name, body .article-area .comment-area .reply-card .comment-user-info-bar .reply-user-info .comment-user-info-text .comment-user-name, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-user-info .comment-user-info-text .comment-user-name, body .article-area .comment-area .reply-card .reply-user-info-bar .reply-user-info .comment-user-info-text .comment-user-name {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-user-info .comment-user-info-text .comment-floor, body .article-area .comment-area .comment-card .comment-user-info-bar .reply-user-info .comment-user-info-text .comment-floor, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-user-info .comment-user-info-text .comment-floor, body .article-area .comment-area .comment-card .reply-user-info-bar .reply-user-info .comment-user-info-text .comment-floor, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-user-info .comment-user-info-text .comment-floor, body .article-area .comment-area .reply-card .comment-user-info-bar .reply-user-info .comment-user-info-text .comment-floor, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-user-info .comment-user-info-text .comment-floor, body .article-area .comment-area .reply-card .reply-user-info-bar .reply-user-info .comment-user-info-text .comment-floor {
+  font-size: 12px;
+  color: #999;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .reply-user-info img, body .article-area .comment-area .comment-card .reply-user-info-bar .reply-user-info img, body .article-area .comment-area .reply-card .comment-user-info-bar .reply-user-info img, body .article-area .comment-area .reply-card .reply-user-info-bar .reply-user-info img {
+  width: 30px;
+  height: 30px;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-menu-wrapper, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-menu-wrapper, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-menu-wrapper, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-menu-wrapper {
+  position: relative;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-menu-wrapper .comment-menu, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-menu-wrapper .comment-menu, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-menu-wrapper .comment-menu, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-menu-wrapper .comment-menu {
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 80px;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown.show, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown.show, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown.show, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown.show {
+  display: block;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown div, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown div, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown div, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown div {
+  padding: 8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #333;
+  white-space: nowrap;
+}
+body .article-area .comment-area .comment-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown div:hover, body .article-area .comment-area .comment-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown div:hover, body .article-area .comment-area .reply-card .comment-user-info-bar .comment-menu-wrapper .menu-dropdown div:hover, body .article-area .comment-area .reply-card .reply-user-info-bar .comment-menu-wrapper .menu-dropdown div:hover {
+  background-color: #f5f5f5;
+  color: #479E82;
+}
+body .article-area .comment-area .comment-card .comment-text, body .article-area .comment-area .comment-card .reply, body .article-area .comment-area .reply-card .comment-text, body .article-area .comment-area .reply-card .reply {
+  width: 100%;
+  padding: 5px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+}
+body .article-area .comment-area .comment-card .edit-mode-container, body .article-area .comment-area .reply-card .edit-mode-container {
+  width: 100%;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-textarea, body .article-area .comment-area .reply-card .edit-mode-container .edit-textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #479E82;
+  border-radius: 10px;
+  background-color: #F9FAFB;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-textarea:focus, body .article-area .comment-area .reply-card .edit-mode-container .edit-textarea:focus {
+  outline: 1px solid #479E82;
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-actions, body .article-area .comment-area .reply-card .edit-mode-container .edit-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-actions button, body .article-area .comment-area .reply-card .edit-mode-container .edit-actions button {
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-actions .save-btn, body .article-area .comment-area .reply-card .edit-mode-container .edit-actions .save-btn {
+  background-color: #479E82;
+  color: #fff;
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-actions .save-btn:hover, body .article-area .comment-area .reply-card .edit-mode-container .edit-actions .save-btn:hover {
+  background-color: rgb(55.1877729258, 122.8122270742, 101.0480349345);
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-actions .cancel-btn, body .article-area .comment-area .reply-card .edit-mode-container .edit-actions .cancel-btn {
+  background-color: #eee;
+  color: #666;
+}
+body .article-area .comment-area .comment-card .edit-mode-container .edit-actions .cancel-btn:hover, body .article-area .comment-area .reply-card .edit-mode-container .edit-actions .cancel-btn:hover {
+  background-color: #ddd;
+}
+body .article-area .comment-area .comment-card .comment-data-bar, body .article-area .comment-area .comment-card .reply-data-bar, body .article-area .comment-area .reply-card .comment-data-bar, body .article-area .comment-area .reply-card .reply-data-bar {
+  width: 100%;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #999;
+  box-sizing: border-box;
+}
+body .article-area .comment-area .comment-card .comment-data-bar .comment-data, body .article-area .comment-area .comment-card .comment-data-bar .reply-data, body .article-area .comment-area .comment-card .reply-data-bar .comment-data, body .article-area .comment-area .comment-card .reply-data-bar .reply-data, body .article-area .comment-area .reply-card .comment-data-bar .comment-data, body .article-area .comment-area .reply-card .comment-data-bar .reply-data, body .article-area .comment-area .reply-card .reply-data-bar .comment-data, body .article-area .comment-area .reply-card .reply-data-bar .reply-data {
+  display: flex;
+  gap: 15px;
+}
+body .article-area .comment-area .comment-card .comment-data-bar .comment-data .comment-data-card, body .article-area .comment-area .comment-card .comment-data-bar .comment-data .reply-data-card, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .comment-data-card, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .reply-data-card, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .comment-data-card, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .reply-data-card, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .comment-data-card, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .reply-data-card, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .comment-data-card, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .reply-data-card, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .comment-data-card, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .reply-data-card, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .comment-data-card, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .reply-data-card, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .comment-data-card, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .reply-data-card {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+body .article-area .comment-area .comment-card .comment-data-bar .comment-data .comment-data-card:hover, body .article-area .comment-area .comment-card .comment-data-bar .comment-data .reply-data-card:hover, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .comment-data-card:hover, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .reply-data-card:hover, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .comment-data-card:hover, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .reply-data-card:hover, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .comment-data-card:hover, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .reply-data-card:hover, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .comment-data-card:hover, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .reply-data-card:hover, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .comment-data-card:hover, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .reply-data-card:hover, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .comment-data-card:hover, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .reply-data-card:hover, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .comment-data-card:hover, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .reply-data-card:hover {
+  color: #479E82;
+}
+body .article-area .comment-area .comment-card .comment-data-bar .comment-data .comment-data-card .comment-data-icon, body .article-area .comment-area .comment-card .comment-data-bar .comment-data .comment-data-card .reply-data-icon, body .article-area .comment-area .comment-card .comment-data-bar .comment-data .reply-data-card .comment-data-icon, body .article-area .comment-area .comment-card .comment-data-bar .comment-data .reply-data-card .reply-data-icon, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .comment-data-card .comment-data-icon, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .comment-data-card .reply-data-icon, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .reply-data-card .comment-data-icon, body .article-area .comment-area .comment-card .comment-data-bar .reply-data .reply-data-card .reply-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .comment-data-card .comment-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .comment-data-card .reply-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .reply-data-card .comment-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .comment-data .reply-data-card .reply-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .comment-data-card .comment-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .comment-data-card .reply-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .reply-data-card .comment-data-icon, body .article-area .comment-area .comment-card .reply-data-bar .reply-data .reply-data-card .reply-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .comment-data-card .comment-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .comment-data-card .reply-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .reply-data-card .comment-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .comment-data .reply-data-card .reply-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .comment-data-card .comment-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .comment-data-card .reply-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .reply-data-card .comment-data-icon, body .article-area .comment-area .reply-card .comment-data-bar .reply-data .reply-data-card .reply-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .comment-data-card .comment-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .comment-data-card .reply-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .reply-data-card .comment-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .comment-data .reply-data-card .reply-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .comment-data-card .comment-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .comment-data-card .reply-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .reply-data-card .comment-data-icon, body .article-area .comment-area .reply-card .reply-data-bar .reply-data .reply-data-card .reply-data-icon {
+  font-size: 16px;
+}
+body .article-area .comment-area .reply-card {
+  padding: 10px 20px 10px 60px;
+  background-color: #fafafa;
+  border-top: 1px solid #f0f0f0;
+}
+body .article-area .comment-area .reply-form {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  box-sizing: border-box;
+  animation: fadeIn 0.3s ease-out;
+}
+body .article-area .comment-area .reply-form textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+  border: 1px solid #479E82;
+  border-radius: 15px;
+  background-color: #F9FAFB;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+  color: #333;
+  display: block;
+}
+body .article-area .comment-area .reply-form textarea:focus {
+  outline: 1px solid #479E82;
+}
+body .article-area .comment-area .reply-form textarea::-moz-placeholder {
+  color: #aaa;
+}
+body .article-area .comment-area .reply-form textarea::placeholder {
+  color: #aaa;
+}
+body .article-area .comment-area .reply-form .reply-tool-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+body .article-area .comment-area .reply-form .reply-tool-bar button {
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-size: 13px;
+  cursor: pointer;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+body .article-area .comment-area .reply-form .reply-tool-bar .submit-reply-btn {
+  background-color: #479E82;
+  color: #fff;
+}
+body .article-area .comment-area .reply-form .reply-tool-bar .submit-reply-btn:hover {
+  background-color: rgb(55.1877729258, 122.8122270742, 101.0480349345);
+}
+body .article-area .comment-area .reply-form .reply-tool-bar .cancel-reply-btn {
+  background-color: #eee;
+  color: #666;
+}
+body .article-area .comment-area .reply-form .reply-tool-bar .cancel-reply-btn:hover {
+  background-color: #ddd;
+}
+body .side-area {
+  width: 315px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 0px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body .side-area::-webkit-scrollbar {
+  display: none;
+}
+body .side-area .publish-area {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #E4F4F4;
+  border: 1px solid #479E82;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body .side-area .publish-area .publish-icon {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+body .side-area .publish-area .publish-icon .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #479E82;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+body .side-area .publish-area .publish-icon .text {
+  font-size: 12px;
+  color: #479E82;
+}
+body .side-area .recommended-user-area,
+body .side-area .topic-zone {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #F9FAFB;
+  border: 1px solid #479E82;
+  border-radius: 15px;
+  overflow: hidden;
+}
+body .side-area .recommended-user-area h3,
+body .side-area .topic-zone h3 {
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #479E82;
+  border-bottom: 1px solid #479E82;
+  background: #fff;
+}
+body .side-area .recommended-user-area ul,
+body .side-area .topic-zone ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body .side-area .recommended-user-area ul li,
+body .side-area .topic-zone ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+body .side-area .recommended-user-area ul li:last-child,
+body .side-area .topic-zone ul li:last-child {
+  border-bottom: none;
+}
+body .side-area .recommended-user-card .recommended-user-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body .side-area .recommended-user-card .recommended-user-bar .recommended-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+body .side-area .recommended-user-card .recommended-user-bar .recommended-user-info .recommended-user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .side-area .recommended-user-card .recommended-user-bar .follow-button {
+  width: 60px;
+  height: 25px;
+  background-color: #479E82;
+  color: #FFF;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+body .side-area .recommended-user-card .pic-area {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+body .side-area .recommended-user-card .pic-area img {
+  width: 32%;
+  border-radius: 5px;
+}
+body .side-area .recommended-user-card .follower-number-area {
+  text-align: center;
+  font-size: 12px;
+  color: #479E82;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+body .side-area .topic-card .topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .side-area .topic-card .topic .topic-tag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #479E82;
+  font-size: 14px;
+}
+body .side-area .topic-card .topic .topic-number {
+  font-size: 12px;
+  color: #888;
+}
+body .side-area .contact-area {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+body .side-area .contact-area .download {
+  background: #E4F4F4;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+body .side-area .contact-area .contact-us span {
+  display: block;
+  line-height: 1.6;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding: 60px 10px 80px 10px;
+  }
+  body .main-container {
+    width: 100%;
+    flex-direction: column;
+    max-width: none;
+  }
+  body .article-area {
+    width: 100%;
+    border: none;
+  }
+  body .article-area .area-title,
+  body .article-area .article,
+  body .article-area .input-area,
+  body .article-area .comment-area {
+    border: none;
+    border-radius: 0;
+  }
+  body .article-area .image-slider-container {
+    border: none;
+    height: 250px;
+  }
+  body .side-area {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #eee;
+    gap: 0;
+    max-height: none;
+    overflow-y: visible;
+    flex-direction: row;
+  }
+  body .side-area .recommended-user-area,
+  body .side-area .topic-zone,
+  body .side-area .contact-area {
+    display: none;
+  }
+  body .side-area .publish-area {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    align-items: center;
+  }
+  body .side-area .publish-area .publish-icon {
+    flex: 1;
+  }
+  body .side-area .publish-area .publish-icon .icon {
+    background: none;
+    color: #666;
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  body .side-area .publish-area .publish-icon .icon span {
+    font-size: 24px;
+  }
+  body .side-area .publish-area .publish-icon .text {
+    color: #666;
+    margin-top: 2px;
+  }
+  body .side-area .publish-area .publish-icon:active .icon,
+  body .side-area .publish-area .publish-icon:active .text {
+    color: #479E82;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=forum-article-detail.css.map */

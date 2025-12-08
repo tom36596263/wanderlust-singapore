@@ -1,0 +1,829 @@
+@charset "UTF-8";
+/* scss/base/_variables.scss */
+/* =========================================
+   1. 顏色變數定義
+   ========================================= */
+/* --- Traveler 頁面新增配色 --- */
+/* 用於次要文字、邊框 */
+/* 用於搜尋框、按鈕背景 */
+/* 用於標籤背景 */
+/* 用於標籤文字 */
+/* 用於主要標題 */
+/* --- Footer 專用深森林系配色 --- */
+/* =========================================
+   2. 字體變數
+   ========================================= */
+/* =========================================
+   3. Maps (對照表) - 供迴圈使用
+   ========================================= */
+body {
+  display: block;
+  padding: 70px 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body .main-container {
+  width: 66%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+body .article-area {
+  flex: 1;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 0;
+}
+body .article-area .forum-nav-bg {
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid #aaa;
+  display: flex;
+  align-items: center;
+  margin: 40px auto 20px;
+}
+body .article-area .forum-nav-bg .forum-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 480px;
+  margin: 0 auto;
+}
+body .article-area .forum-nav-bg .forum-nav .nav-item {
+  box-sizing: border-box;
+  font-size: 12px;
+  height: 25px;
+  color: #479E82;
+  border-bottom: 3px solid #E4F4F4;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+body .article-area .forum-nav-bg .forum-nav .nav-item:hover {
+  color: #2e6b58;
+}
+body .article-area .forum-nav-bg .forum-nav .nav-item.active {
+  color: #000;
+  border-bottom: 3px solid #aaa;
+}
+body .article-area .tab-content {
+  display: none;
+  width: 100%;
+  animation: fadeIn 0.5s ease-out;
+}
+body .article-area .tab-content.active {
+  display: block;
+}
+body .article-area .search-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+body .article-area .search-area .search-bar {
+  flex: 1;
+  height: 50px;
+  background-color: #E8F2F2;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+body .article-area .search-area .search-bar:last-child {
+  margin-right: 0;
+}
+body .article-area .search-area .search-bar:not(:last-child) {
+  margin-right: 15px;
+}
+body .article-area .search-area .search-bar .search-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: text;
+}
+body .article-area .search-area .search-bar .search-text .search-icon {
+  color: #479E82;
+  margin-right: 10px;
+}
+body .article-area .search-area .search-bar .search-text .search-describe {
+  color: #777;
+  font-size: 14px;
+}
+body .article-area .search-area .search-bar .search-menu-icon {
+  background: none;
+  border: none;
+  color: #479E82;
+  cursor: pointer;
+}
+body .article-area .search-area .search-filter {
+  width: 80px;
+  height: 50px;
+  background-color: #E4F4F4;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #479E82;
+  cursor: pointer;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+body .article-area .home-forum-corner .article-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #00BFAF;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  background: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  animation: fadeInUp 0.5s ease-out;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .user .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 12px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .user .user-info {
+  flex: 1;
+  overflow: hidden;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .user .user-info .username {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .user .user-info .user-describe {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .user .article-preview-follow {
+  background-color: #00BFAF;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .article-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+  color: #333;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .article-pic {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .article-pic img {
+  width: 32%;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .tag-bar {
+  display: flex;
+  margin-bottom: 10px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .tag-bar .tag-card {
+  display: flex;
+  align-items: center;
+  background-color: #F9FAFB;
+  border: 1px solid #479E82;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: inherit;
+  text-decoration: none;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .tag-bar .tag-card .tag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .tag-bar .tag-card .tag .tag-icon {
+  font-size: 16px;
+  color: #479E82;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .tag-bar .tag-card .tag .tag-text {
+  font-size: 12px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .tag-bar .tag-card .tag-number {
+  font-size: 10px;
+  color: #888;
+  margin-left: 5px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .article-data {
+  display: flex;
+  gap: 20px;
+  color: #888;
+  font-size: 13px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .article-data div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .article-data div span {
+  font-size: 16px;
+}
+body .article-area .home-forum-corner .article-list-container .article-preview .article-data .like {
+  margin-left: auto;
+}
+body .article-area .forum-news-events .forum-news-area {
+  width: 100%;
+  box-sizing: border-box;
+}
+body .article-area .forum-news-events .forum-news-area .news-area {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+body .article-area .forum-news-events .forum-news-area .news-card {
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid #479E82;
+  border-radius: 20px;
+  padding: 1.25rem;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  gap: 1rem;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-in-out forwards;
+}
+@media (min-width: 768px) {
+  body .article-area .forum-news-events .forum-news-area .news-card {
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+  }
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  body .article-area .forum-news-events .forum-news-area .news-card .news-text {
+    padding-right: 1.25rem;
+  }
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-text .news-date {
+  color: #479E82;
+  font-size: 0.875rem;
+  margin-bottom: 0.3125rem;
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-text .news-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-text .news-title .news-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-text .news-title .news-link:hover {
+  color: #479E82;
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-text .news-describe {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #333;
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-text .news-space {
+  flex-grow: 1;
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-img-link {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  body .article-area .forum-news-events .forum-news-area .news-card .news-img-link {
+    width: 320px;
+    height: 180px;
+    max-width: 40%;
+  }
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-img-link img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+@media (min-width: 768px) {
+  body .article-area .forum-news-events .forum-news-area .news-card .news-img-link img {
+    height: 100%;
+  }
+}
+body .article-area .forum-news-events .forum-news-area .news-card .news-img-link img:hover {
+  transform: scale(1.05);
+}
+body .article-area .forum-announcements-section .announcement-area {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 1.25rem 0 0.625rem;
+  padding: 0 0.625rem;
+  color: #479E82;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1rem;
+  width: 100%;
+  margin: 0.9375rem 0;
+  border-bottom: 1px solid #479E82;
+  padding-bottom: 0.9375rem;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card .announcement-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E8F2F2;
+  border-radius: 10px;
+  margin-right: 0.625rem;
+  flex-shrink: 0;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card .announcement-icon .icon {
+  color: #479E82;
+  font-size: 1.25rem;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card .announcement-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 40px;
+  width: 100%;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card .announcement-text .announcement-describe {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card .announcement-text .announcement-describe .announcement-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card .announcement-text .announcement-describe .announcement-link:hover {
+  color: #479E82;
+  text-decoration: underline;
+}
+body .article-area .forum-announcements-section .announcement-area .announcement-card .announcement-text .announcement-date {
+  color: #479E82;
+  font-size: 0.75rem;
+}
+body .side-area {
+  width: 315px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 0px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+body .side-area::-webkit-scrollbar {
+  display: none;
+}
+body .side-area .publish-area {
+  flex-shrink: 0;
+  width: 315px;
+  height: 135px;
+  background-color: #E4F4F4;
+  border: 1px solid #479E82;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body .side-area .publish-area .publish-icon {
+  width: 50px;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body .side-area .publish-area .publish-icon .icon {
+  color: #479E82;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .side-area .publish-area .publish-icon .text {
+  color: #479E82;
+}
+body .side-area .recommended-user-area {
+  flex-shrink: 0;
+  width: 315px;
+  height: 630px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .side-area .recommended-user-area .recommended-user-area-title {
+  background-color: #F9FAFB;
+  color: #479E82;
+  width: 315px;
+  height: 55px;
+  border: 1px solid #479E82;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body .side-area .recommended-user-area .recommended-user {
+  width: 315px;
+  height: 575px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #479E82;
+  border-right: 1px solid #479E82;
+  border-left: 1px solid #479E82;
+  border-radius: 0 0 15px 15px;
+  background-color: #E4F4F4;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card {
+  width: 295px;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #479E82;
+  border-radius: 15px;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .recommended-user-bar {
+  box-sizing: border-box;
+  width: 295px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 5px 0;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .recommended-user-bar .recommended-user-info {
+  width: 165px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .recommended-user-bar .recommended-user-info .recommended-user-avatar {
+  width: 30px;
+  height: 30px;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .recommended-user-bar .recommended-user-info .recommended-user-name {
+  font-weight: bold;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .recommended-user-bar .follow-button {
+  width: 60px;
+  height: 25px;
+  background-color: #479E82;
+  color: #FFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .pic-area {
+  width: 285px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .pic-area img {
+  width: 93px;
+  height: 66px;
+  border-radius: 10px;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .follower-number-area {
+  box-sizing: border-box;
+  width: 295px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .follower-number-area .follower-icon {
+  width: 25px;
+  height: 25px;
+  color: #479E82;
+}
+body .side-area .recommended-user-area .recommended-user .recommended-user-card .follower-number-area .follower-number {
+  color: #479E82;
+}
+body .side-area .topic-zone {
+  flex-shrink: 0;
+  width: 315px;
+  height: 290px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .side-area .topic-zone .topic-area-title {
+  background-color: #F9FAFB;
+  color: #479E82;
+  width: 315px;
+  height: 55px;
+  border: 1px solid #479E82;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body .side-area .topic-zone .topic-area {
+  width: 315px;
+  height: 235px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #479E82;
+  border-right: 1px solid #479E82;
+  border-left: 1px solid #479E82;
+  border-radius: 0 0 15px 15px;
+  background-color: #E4F4F4;
+}
+body .side-area .topic-zone .topic-area .topic-card {
+  width: 295px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #479E82;
+  border-radius: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body .side-area .topic-zone .topic-area .topic-card .topic-tag {
+  width: 110px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .side-area .topic-zone .topic-area .topic-card .topic-tag .topic-icon {
+  color: #479E82;
+}
+body .side-area .topic-zone .topic-area .topic-card .topic-number {
+  width: 110px;
+  height: 25px;
+  color: #777;
+}
+body .side-area .contact-area {
+  flex-shrink: 0;
+  width: 315px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .side-area .contact-area .download {
+  width: 315px;
+  height: 155px;
+  background-color: #E4F4F4;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .side-area .contact-area .contact-us {
+  width: 300px;
+  height: 155px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding: 60px 10px 80px 10px;
+  }
+  body .nav-bg .nav {
+    width: 95%;
+  }
+  body .nav-bg .nav .nav-logo {
+    width: auto;
+  }
+  body .nav-bg .nav .nav-logo .home {
+    display: none;
+  }
+  body .nav-bg .nav .nav-list {
+    display: none;
+  }
+  body .nav-bg .nav .nav-icon {
+    width: auto;
+    margin-left: auto;
+  }
+  body .main-container {
+    width: 100%;
+    flex-direction: column;
+    max-width: none;
+  }
+  body .article-area {
+    width: 100%;
+    border: none;
+  }
+  body .article-area .forum-nav-bg {
+    width: 100%;
+    top: 50px;
+    position: sticky;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+  body .article-area .forum-nav-bg .forum-nav {
+    width: 100%;
+  }
+  body .article-area .search-area {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  body .article-area .search-area .search-bar {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .article-area .search-area .search-filter {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  body .article-area .home-forum-corner .article-list-container {
+    padding: 0;
+  }
+  body .article-area .home-forum-corner .search-area {
+    padding: 0;
+  }
+  body .article-area .forum-news-events .forum-news-area {
+    padding: 0;
+  }
+  body .article-area .forum-news-events .forum-news-area .news-area {
+    padding: 0;
+  }
+  body .article-area .forum-announcements-section .announcement-area {
+    padding: 0;
+  }
+  body .article-area .article-preview {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 15px 0;
+    border-radius: 15px;
+  }
+  body .article-area .article-preview .user .article-preview-follow {
+    width: 70px;
+    font-size: 14px;
+  }
+  body .article-area .article-preview .article-pic img {
+    width: 32%;
+    height: 80px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body .article-area .article-preview .tag-bar {
+    flex-wrap: wrap;
+  }
+  body .side-area {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #eee;
+    gap: 0;
+    max-height: none;
+    overflow-y: visible;
+  }
+  body .side-area .recommended-user-area,
+  body .side-area .topic-zone,
+  body .side-area .contact-area {
+    display: none;
+  }
+  body .side-area .publish-area {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  body .side-area .publish-area .publish-icon {
+    height: 100%;
+    width: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+  }
+  body .side-area .publish-area .publish-icon .icon {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+  }
+  body .side-area .publish-area .publish-icon .icon span {
+    font-size: 24px;
+  }
+  body .side-area .publish-area .publish-icon .text {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=forum.css.map */

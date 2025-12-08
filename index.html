@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wamderlust Singapore - 首頁</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Stack+Sans+Notch:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+        .gap-between-section{
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <header class="nav-bg">
+        <nav class="nav">
+
+            <button id="mobile-menu-btn" class="hamburger-btn material-symbols-outlined">
+                menu
+            </button>
+
+            <ul class="nav-list" id="main-nav-list">
+
+                <li class="mobile-close-box">
+                    <button id="close-mobile-menu" class="material-symbols-outlined">
+                        close
+                    </button>
+                </li>
+
+                <li>
+                    <a href="index.html" class="nav-logo">
+                        <img src="assets/images/layout/logo.svg" alt="Logo of Wanderlust Singapore">
+                        <span class="logo-text">Wanderlust Singapore</span>
+                    </a>
+                </li>
+
+                <li class="mobile-function-area">
+
+                    <form class="m-search-box" action="search_result.html" method="get">
+                        <input type="text" name="q" placeholder="搜尋景點、美食...">
+                        <button type="submit" class="material-symbols-outlined">search</button>
+                    </form>
+
+                    <div class="m-lang-box">
+                        <button class="lang-btn active">繁體中文</button>
+                        <span class="divider">|</span>
+                        <button class="lang-btn">English</button>
+                    </div>
+
+                </li>
+
+                <li class="forum">
+                    <a href="forum.html">
+                        論壇
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                </li>
+
+                <li class="explore">
+                    <a href="explore.html">
+                        探索
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                    <div class="explore-submenu">
+                        <ul class="navigation-list">
+                            <li data-target="image-1"><a href="explore.html">景點牆</a></li>
+                            <li data-target="image-2"><a href="#">花園城市</a></li>
+                            <li data-target="image-3"><a href="#">繽紛南洋文化</a></li>
+                            <li data-target="image-4"><a href="#">清新熱帶</a></li>
+                            <li data-target="image-5"><a href="#">街頭美食</a></li>
+                        </ul>
+
+                        <div class="image-gallery">
+                            <img id="image-1" src="assets/images/layout/nav-attraction-wall.png">
+                            <img id="image-2" src="assets/images/layout/nav-city-garden.png">
+                            <img id="image-3" src="assets/images/layout/nav-Southeast-Asian-culture.png">
+                            <img id="image-4" src="assets/images/layout/nav-clean-tropical-city.png">
+                            <img id="image-5" src="assets/images/layout/nav-street-food.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="find-buddy"><a href="#">找旅伴</a></li>
+
+                <li class="itinerary">
+                    <a href="itinerary.html">
+                        找行程
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                    <ul class="itinerary-submenu">
+                        <li><a href="itinerary.html">行程規劃</a></li>
+                        <li><a href="itineraries-wall.html">行程懶人包</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="icon-box">
+                <form class="search-wrapper" action="search_result.html" method="get">
+                    <button type="submit" class="search-btn material-symbols-outlined">
+                        search
+                    </button>
+                    <input type="text" class="search-txt" name="q" placeholder="搜尋...">
+                </form>
+
+                <button class="lang-wrapper">
+                    <span class="globe-icon material-symbols-outlined">
+                        globe
+                    </span>
+                    <div class="lang-box">
+                        <span class="lang-zh">中</span>
+                        <span class="lang-en">EN</span>
+                    </div>
+                </button>
+
+                <a href="javascript:void(0)" id="avatar-btn" class="avatar-wrapper">
+                    <span id="guest-icon" class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    <img id="user-avatar" class="dp-none" src="assets/images/layout/nav-avatar.svg" alt="User Avatar">
+                </a>
+            </div>
+
+        </nav>
+    </header>
+    <aside id="user-side-menu" class="user-menu">
+        <div class="menu-header">
+            <button id="close-menu-btn" class="close-btn material-symbols-outlined">
+                close
+            </button>
+        </div>
+
+        <div class="menu-content">
+
+            <div class="acc-item">
+                <div class="acc-header">
+                    <div class="title-box">
+                        <span class="material-symbols-outlined">notifications</span>
+                        <span>通知</span>
+                    </div>
+                    <span class="arrow material-symbols-outlined">expand_more</span>
+                </div>
+
+                <div class="acc-body">
+                    <div class="switcher-box">
+                        <div class="switcher-nav">
+                            <button class="tab-btn active" data-target="tab-buddy">旅伴</button>
+                            <button class="tab-btn" data-target="tab-article">文章</button>
+                            <button class="tab-btn" data-target="tab-system">系統</button>
+                        </div>
+
+                        <div id="tab-buddy" class="tab-panel active">
+                            <ul class="notify-list">
+                                <li>Dave 傳送了交友邀請給你。</li>
+                                <li>Alice 回覆了你的留言。</li>
+                            </ul>
+                        </div>
+
+                        <div id="tab-article" class="tab-panel">
+                            <ul class="notify-list">
+                                <li>你的文章《新加坡美食》已被批准。</li>
+                                <li>有人收藏了你的文章。</li>
+                            </ul>
+                        </div>
+
+                        <div id="tab-system" class="tab-panel">
+                            <ul class="notify-list">
+                                <li>歡迎加入 Wanderlust Singapore!</li>
+                                <li>系統將於今晚維護。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acc-item">
+                <div class="acc-header">
+                    <div class="title-box">
+                        <span class="material-symbols-outlined">person</span>
+                        <span>個人主頁</span>
+                    </div>
+                    <span class="arrow material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="acc-body">
+                    <ul class="profile-links">
+                        <li><a href="#">我的文章</a></li>
+                        <li><a href="#">我的行程</a></li>
+                        <li><a href="#">我的旅伴</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#" class="simple-link">
+                <span class="material-symbols-outlined">manage_accounts</span>
+                帳號中心
+            </a>
+
+            <button id="auth-btn" class="simple-link"
+                style="width: 100%; border: none; background: transparent; cursor: pointer;">
+                <span id="auth-icon" class="material-symbols-outlined">login</span>
+                <span id="auth-text">登入</span>
+            </button>
+
+        </div>
+    </aside>
+    <div id="login-modal" class="login-modal-overlay">
+        <div class="login-box">
+            <button id="close-login-btn" class="close-btn material-symbols-outlined">close</button>
+
+            <h2>歡迎回來</h2>
+            <p>請輸入您的帳號密碼</p>
+
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="email">電子信箱</label>
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">密碼</label>
+                    <input type="password" id="password" placeholder="請輸入密碼" required>
+                </div>
+
+                <button type="submit" class="submit-btn">登入</button>
+            </form>
+
+            <p class="error-msg" id="login-error-msg"></p>
+        </div>
+    </div>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <!-- hero -->
+    <div class="hero-wrapper">
+
+        <section class="home-hero" id="portal-hero">
+            <div class="hero-title">
+                <span class="slogan slogan1">UNLEASH</span>
+                <span class="slogan slogan2">YOUR</span>
+                <span class="slogan slogan3">WANDERLUST</span>
+                <h1 class="slogan slogan4">DISCOVER</h1>
+                <h1 class="slogan slogan5">SINGAPORE</h1>
+                <span class="slogan slogan6">NOW</span>
+            </div>
+
+            <div class="trigger-zone">
+                <div class="interaction-hint">CLICK TO ENTER</div>
+            </div>
+
+            <div class="bg-pic">
+                <img src="assets/images/home/home-hero-bg-6.png" class="hero-bg-1" alt="Layer 1">
+                <img src="assets/images/home/home-hero-bg-6.png" class="hero-bg-2" alt="Layer 2">
+                <img src="assets/images/home/home-hero-bg-6.png" class="hero-bg-3" alt="Layer 3">
+            </div>
+        </section>
+
+        <section class="hero-carousel" id="main-carousel">
+            <div class="carousel-track">
+                <div class="carousel-slide active">
+                    <img src="assets/images/home/hero-1.png" alt="Marina Bay">
+                    <div class="carousel-caption">
+                        <h2>濱海灣花園</h2>
+                        <p>探索未來城市的綠色奇蹟，感受超級樹的震撼。</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/home/hero-2.png" alt="Chinatown">
+                    <div class="carousel-caption">
+                        <h2>牛車水美食</h2>
+                        <p>穿梭歷史街區，品嚐最道地的米其林小販料理。</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/home/hero-4.png" alt="Sentosa">
+                    <div class="carousel-caption">
+                        <h2>聖淘沙夕陽</h2>
+                        <p>遠離塵囂，享受熱帶島嶼的慵懶時光。</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/home/hero-3.png" alt="Jewel Changi">
+                    <div class="carousel-caption">
+                        <h2>星耀樟宜</h2>
+                        <p>世界最高的室內瀑布，雨漩渦的視覺饗宴。</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn prev-btn material-symbols-outlined">chevron_left</button>
+            <button class="carousel-btn next-btn material-symbols-outlined">chevron_right</button>
+
+            <div class="carousel-indicators">
+                <button class="indicator active" data-slide="0"></button>
+                <button class="indicator" data-slide="1"></button>
+                <button class="indicator" data-slide="2"></button>
+                <button class="indicator" data-slide="3"></button>
+            </div>
+        </section>
+    </div>
+
+    <div class="gap-between-section"></div>
+
+    <!-- forum -->
+    <section class="home-forum">
+        <header class="section-header">
+            <h2 class="title">大家都在聊什麼？</h2>
+            <p class="description">從隱藏美食到交通撇步，聽聽過來人的真實旅遊情報</p>
+        </header>
+
+        <nav class="forum-nav-bg">
+            <div class="forum-nav">
+                <a class="nav-item active" id="nav-corner" data-target="section-1">旅人咖啡廳</a>
+                <a class="nav-item" id="nav-news" data-target="section-2">旅人情報站</a>
+                <a class="nav-item" id="nav-announcements" data-target="section-3">網站公告</a>
+            </div>
+        </nav>
+
+        <section id="section-1" class="tab-content active home-forum-corner">
+            <aside class="tag-bar w-100per">
+                <form action="/search-result" method="get"
+                    class="corner-search-bar w-100per dp-flex jc-center ai-center p-0">
+                    <button type="submit" class="material-symbols-outlined w-20per">search</button>
+                    <input type="text" id="corner-search" class="w-80per p-10 corner-search-text" placeholder="熱門話題">
+                </form>
+
+                <a href="#" id="tag-cafe" class="tag-card active" data-target="content-cafe">
+                    <div class="tag">
+                        <span class="tag-icon material-symbols-outlined">local_cafe</span>
+                        <span class="tag-text">文青咖啡廳</span>
+                    </div>
+                    <span class="tag-number">1.2k posts</span>
+                </a>
+
+                <a href="#" id="tag-hidden" class="tag-card" data-target="content-hidden">
+                    <div class="tag">
+                        <span class="tag-icon material-symbols-outlined">photo_camera</span>
+                        <span class="tag-text">隱藏景點</span>
+                    </div>
+                    <span class="tag-number">1.2k posts</span>
+                </a>
+
+                <a href="#" id="tag-clarke" class="tag-card" data-target="content-clarke">
+                    <div class="tag">
+                        <span class="tag-icon material-symbols-outlined">nightlife</span>
+                        <span class="tag-text">克拉克碼頭</span>
+                    </div>
+                    <span class="tag-number">1.2k posts</span>
+                </a>
+
+                <a href="#" id="tag-ramen" class="tag-card" data-target="content-ramen">
+                    <div class="tag">
+                        <span class="tag-icon material-symbols-outlined">ramen_dining</span>
+                        <span class="tag-text">日式拉麵</span>
+                    </div>
+                    <span class="tag-number">1.2k posts</span>
+                </a>
+            </aside>
+
+            <div class="article-area">
+                <div id="content-cafe" class="article-group active"></div>
+                <div id="content-hidden" class="article-group"></div>
+                <div id="content-clarke" class="article-group"></div>
+                <div id="content-ramen" class="article-group"></div>
+            </div>
+
+            <div class="section-slogan dp-none">
+                <span>&nbsp;&nbsp;TRAVELER's&nbsp;CORNER</span>
+            </div>
+        </section>
+
+        <section id="section-2" class="tab-content forum-news-events">
+            <div class="forum-news-area">
+                <form action="/search-result" method="get" class="search-bar">
+                    <button class="search-icon material-symbols-outlined">search</button>
+                    <input type="text" id="news-search" class="news-search-text" placeholder="輸入活動或節慶">
+                </form>
+
+                <div class="news-area" id="news-container"></div>
+            </div>
+
+            <div class="section-slogan dp-none">
+                <span>&nbsp;&nbsp;NEWS</span>
+            </div>
+        </section>
+
+        <section id="section-3" class="tab-content forum-announcements-section">
+            <div class="announcement-area">
+                <section class="maintance" id="announcement-maintenance">
+                    <h3 class="announcement-title">維護公告</h3>
+                </section>
+
+                <section class="update" id="announcement-update">
+                    <h3 class="announcement-title">更新公告</h3>
+                </section>
+
+                <section class="community" id="announcement-community">
+                    <h3 class="announcement-title">社群快訊</h3>
+                </section>
+            </div>
+
+            <div class="section-slogan">
+                <span>&nbsp;&nbsp;ANNOUNCEMENT</span>
+            </div>
+        </section>
+    </section>
+
+    <div class="gap-between-section"></div>
+
+
+    <!-- travelers -->
+    <section class="find-travelers">
+        <header class="section-header">
+            <h2 class="title">看看誰也在新加坡</h2>
+            <p class="description">和其他準備去新加坡或正在新加坡的旅客成為旅伴</p>
+        </header>
+
+        <div class="search-container">
+            <span class="material-symbols-outlined search-icon">search</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="輸入關鍵字搜尋...">
+        </div>
+
+        <div class="filter-bar">
+            <div class="filter-group" id="locationFilter">
+                <button class="filter-btn">
+                    <span class="btn-text">景點</span>
+                    <span class="material-symbols-outlined arrow">keyboard_arrow_down</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li data-value="all">全部景點</li>
+                    <li data-value="Marina Bay">濱海灣</li>
+                    <li data-value="Sentosa">聖淘沙</li>
+                    <li data-value="Chinatown">牛車水</li>
+                    <li data-value="Little India">小印度</li>
+                    <li data-value="Orchard">烏節路</li>
+                    <li data-value="Bugis">武吉士</li>
+                </ul>
+            </div>
+
+            <div class="filter-group" id="dateFilter">
+                <button class="filter-btn">
+                    <span class="btn-text">日期</span>
+                    <span class="material-symbols-outlined arrow">keyboard_arrow_down</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li data-value="all">全部日期</li>
+                    <li data-value="Aug">八月</li>
+                    <li data-value="Sep">九月</li>
+                    <li data-value="Oct">十月</li>
+                    <li data-value="Nov">十一月</li>
+                    <li data-value="Dec">十二月</li>
+                </ul>
+            </div>
+
+            <div class="filter-group" id="hobbyFilter">
+                <button class="filter-btn">
+                    <span class="btn-text">愛好</span>
+                    <span class="material-symbols-outlined arrow">keyboard_arrow_down</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li data-value="all">全部愛好</li>
+                    <li data-value="Foodie">吃貨</li>
+                    <li data-value="Photography">拍照</li>
+                    <li data-value="History">歷史</li>
+                    <li data-value="Shopping">購物</li>
+                    <li data-value="Nature">自然</li>
+                    <li data-value="Art">藝術</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="carousel-wrapper">
+            <button class="nav-btn prev-btn" id="prevBtn" disabled>
+                <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+
+            <div class="carousel-viewport" id="carouselViewport">
+                <div class="travelers-track" id="travelersTrack">
+                </div>
+            </div>
+
+            <button class="nav-btn next-btn" id="nextBtn">
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+        </div>
+    </section>
+
+    <div class="gap-between-section"></div>
+
+
+    <!-- itinerary -->
+    <section class="itinerary-section">
+        <header class="section-header">
+            <h2 class="title">不想做功課？跟著玩就對了</h2>
+            <p class="description">收錄最順路的景點安排 省去規劃煩惱 直接複製就能出發</p>
+        </header>
+        <header class="itinerary-banner">
+            <div class="banner-pic" id="bannerCarousel">
+                <img src="assets/images/home/home-itinerary-1.png" alt="Singapore View 1"
+                    class="active">
+                <img src="assets/images/home/home-itinerary-2.png" alt="Singapore View 2">
+                <img src="assets/images/home/home-itinerary-3.png" alt="Singapore View 3">
+            </div>
+            <div class="banner-content">
+                <h1 class="banner-title">探 索 獅 城</h1>
+                <p class="banner-describe">查看各式各樣的行程，探索新加坡活力多元的文化、迷人的風景和隱藏的寶藏。</p>
+                <a href="#" class="banner-button">規劃行程</a>
+            </div>
+        </header>
+
+        <div class="itinerary-container">
+            <header class="section-header">
+                <h2 class="section-title">特色行程懶人包</h2>
+            </header>
+            <div class="itinerary-grid" id="itinerary-grid"></div>
+        </div>
+
+        <div id="itinerary-modal" class="itinerary-modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button class="modal-close-btn">&times;</button>
+                <div class="modal-header">
+                    <img id="modal-img" src="" alt="">
+                </div>
+                <div class="modal-body">
+                    <div class="modal-meta">
+                        <h3 id="modal-title"></h3>
+                        <span id="modal-duration"></span>
+                    </div>
+                    <div class="modal-scroll-area">
+                        <p id="modal-desc"></p>
+                        <p id="modal-details" class="modal-extra-info"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="planning.html" class="modal-action-btn">加入我的行程</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="gap-between-section"></div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="marquee-background">
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+
+            <div class="marquee-block">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                    <div class="marquee-text">YOUR GUIDE TO THE LION CITY’S HIDDEN GEMS</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="links-footer">
+
+            <div class="big-marquee-layer">
+                <div class="marquee-row scroll-big">
+                    <div class="marquee-wrapper">
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                        <div class="big-text">SINGAP<span class="capsule"></span>RE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="first-row m-auto w-66per">
+                <a href="index.html" class="link link-home">首頁</a>
+                <a href="forum.html" class="link link-forum">論壇</a>
+                <a href="explore.html" class="link link-explore">探索</a>
+            </div>
+            <div class="second-row m-auto w-66per">
+                <a href="#" class="link link-traveler">找旅伴</a>
+                <a href="itinerary.html" class="link link-itinerary">找行程</a>
+                <a href="#" class="link link-contact">關於我們</a>
+                <div class="link link-social">
+                    <a href="#"><img src="assets/images/layout/logo-facebook.svg" alt="FB"></a>
+                    <a href="#"><img src="assets/images/layout/logo-twitter.svg" alt="X"></a>
+                    <a href="#"><img src="assets/images/layout/logo-instagram.svg" alt="IG"></a>
+                </div>
+            </div>
+            <div class="third-row m-auto w-66per">
+                <a href="index.html" class="link logo">
+                    <img src="assets/images/layout/logo-deep-green.svg" alt="logo">
+                    <div class="brand-name">Wanderlust Singapore</div>
+                </a>
+                <div class="link copyright">© Copyright 2025. All Right Reserved</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/layout/nav.js"></script>
+    <script src="js/layout/footer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="/js/pages/home/hero.js"></script>
+    <script src="/js/pages/home/forum.js"></script>
+    <script src="/js/pages/home/travelers.js"></script>
+    <script src="/js/pages/home/itinerary.js"></script>
+
+
+
+
+</body>
+
+</html>

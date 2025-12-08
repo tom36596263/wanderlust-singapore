@@ -1,0 +1,135 @@
+@use 'variables' as *;
+
+/* 1. 基礎設定 */
+body {
+    font-family: $font-family-base;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    @each $name, $color in $theme-colors {
+        --#{$name}: #{$color};
+    }
+}
+
+/* 2. 顏色工具 */
+@each $name, $color in $theme-colors {
+    .bgc-#{$name} { background-color: $color; }
+    .c-#{$name} { color: $color; }
+}
+.bgc-transparent {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+/* 3. 字體與尺寸 */
+@each $key, $val in $font-sizes { .fz-#{$key} { font-size: $val; } }
+.fw-b { font-weight: bold; }
+.fw-br { font-weight: bolder; }
+.fw-n { font-weight: normal; }
+
+@for $i from 1 through 100 { .w-#{$i}per { width: $i * 1%; } .h-#{$i}per { height: $i * 1%; } }
+
+
+/* 4. 邊框與 Flex */
+.b-1-deep-green { border: 1px solid $deep-green; }
+.br-15 { border-radius: 15px; }
+.br-20 { border-radius: 20px; }
+.br-pill { border-radius: 999px; }
+.br-circle { border-radius: 50%; }
+
+.dp-flex { display: flex; }
+.dp-inline-flex { display: inline-flex; }
+.dp-none { display: none; }
+.dp-block { display: block; }
+.fd-row { flex-direction: row; }
+.fd-col { flex-direction: column; }
+.fd-row-rev { flex-direction: row-reverse; }
+.fw-wrap { flex-wrap: wrap; }
+.flex-1 { flex: 1; }
+.jc-center { justify-content: center; }
+.jc-between { justify-content: space-between; }
+.jc-start { justify-content: flex-start; }
+.jc-end { justify-content: flex-end; }
+.jc-around { justify-content: space-around; }
+.ai-center { align-items: center; }
+.ai-start { align-items: flex-start; }
+.ai-end { align-items: flex-end; }
+
+
+/* 5. 定位 (Position) & 溢出 (Overflow) - 縮寫版 */
+.pos-rel { position: relative; }
+.pos-abs { position: absolute; }
+.pos-fixed { position: fixed; }
+.pos-sticky { position: sticky; } 
+
+/* 座標縮寫 */
+.t-0 { top: 0; }
+.b-0 { bottom: 0; }
+.l-0 { left: 0; }
+.r-0 { right: 0; }
+.inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+
+/* 溢出縮寫 */
+.ov-hidden { overflow: hidden; }
+.ov-auto { overflow: auto; }
+.ov-scroll { overflow: scroll; }
+
+/* Z-Index */
+@each $level in $z-index-levels { .z-#{$level} { z-index: $level; } }
+
+
+/* 6. Spacing (間距)  */
+/* Margin / Padding - 全方向 */
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    .m-#{$val} { margin: #{$val}px; }
+    .p-#{$val} { padding: #{$val}px; }
+}
+
+/* Margin / Padding - 上 (Top) */
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    .mt-#{$val} { margin-top: #{$val}px; }
+    .pt-#{$val} { padding-top: #{$val}px; }
+}
+
+/* Margin / Padding - 下 (Bottom) */
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    .mb-#{$val} { margin-bottom: #{$val}px; }
+    .pb-#{$val} { padding-bottom: #{$val}px; }
+}
+
+/* Margin / Padding - 左 (Left) */
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    .ml-#{$val} { margin-left: #{$val}px; }
+    .pl-#{$val} { padding-left: #{$val}px; }
+}
+
+/* Margin / Padding - 右 (Right) */
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    .mr-#{$val} { margin-right: #{$val}px; }
+    .pr-#{$val} { padding-right: #{$val}px; }
+}
+
+/* Auto Margin */
+.mx-auto { margin-left: auto; margin-right: auto; }
+.my-auto { margin-top: auto; margin-bottom: auto; }
+.m-auto { margin: auto; }
+
+/* Margin / Padding - 水平軸 (X: Left + Right) */
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    .mx-#{$val} { margin-left: #{$val}px; margin-right: #{$val}px; }
+    .px-#{$val} { padding-left: #{$val}px; padding-right: #{$val}px; }
+}
+
+/* Margin / Padding - 垂直軸 (Y: Top + Bottom) */
+@for $i from 1 through 20 {
+    $val: $i * 5;
+    .my-#{$val} { margin-top: #{$val}px; margin-bottom: #{$val}px; }
+    .py-#{$val} { padding-top: #{$val}px; padding-bottom: #{$val}px; }
+}

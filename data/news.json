@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "渣打新加坡馬拉松 2025",
+        "displayDate": "2025/12/05 ~ 2025/12/07",
+        "startDate": "2025-12-05",
+        "desc": "無論您是注重健康還是追求快感，渣打新加坡馬拉松賽都是鍛鍊和挑戰身心的絕佳方式，今年的路線將經過更多歷史地標。",
+        "image": "https://placehold.co/320x170/82c9bd/ffffff?text=Marathon"
+    },
+    {
+        "id": 2,
+        "title": "烏節路聖誕大街歡 Christmas on A Great Street",
+        "displayDate": "2025/11/16 ~ 2026/01/01",
+        "startDate": "2025-12-10",
+        "desc": "新加坡最著名的購物街變身為璀璨的燈海，巨大的聖誕樹與街頭表演，讓您在熱帶國家感受最濃厚的聖誕氣氛。",
+        "image": "https://placehold.co/320x170/82c9bd/ffffff?text=Xmas+Orchard"
+    },
+    {
+        "id": 3,
+        "title": "濱海灣跨年倒數 2026",
+        "displayDate": "2025/12/31",
+        "startDate": "2025-12-31",
+        "desc": "濱海灣跨年煙火秀是全球矚目的焦點。除了壯觀的煙火，周邊還有光影秀、音樂會與無人機表演，一同迎接新的一年。",
+        "image": "https://placehold.co/320x170/457B9D/ffffff?text=Countdown+2026"
+    },
+    {
+        "id": 4,
+        "title": "新加坡藝術週 Singapore Art Week",
+        "displayDate": "2026/01/17 ~ 2026/01/26",
+        "startDate": "2026-01-17",
+        "desc": "為期 10 天的視覺藝術慶典，遍布全島的畫廊、博物館與公共空間都將展出國內外藝術家的精彩作品。",
+        "image": "https://placehold.co/320x170/e08282/ffffff?text=Art+Week"
+    },
+    {
+        "id": 5,
+        "title": "龐格爾節 Pongal (豐收節)",
+        "displayDate": "2026/01/14 ~ 2026/01/17",
+        "startDate": "2026-01-14",
+        "desc": "走進小印度，體驗泰米爾人的傳統豐收節。色彩繽紛的裝飾、傳統陶鍋烹煮甜米粥，感謝太陽神的恩賜。",
+        "image": "https://placehold.co/320x170/FF9800/ffffff?text=Pongal"
+    },
+    {
+        "id": 6,
+        "title": "大寶森節 Thaipusam",
+        "displayDate": "2026/02/01",
+        "startDate": "2026-02-01",
+        "desc": "新加坡最震撼的宗教遊行之一。信徒們揹負著裝飾華麗的卡瓦第（Kavadi），從斯里尼瓦沙柏魯馬興都廟遊行至丹達烏他帕尼興都廟。",
+        "image": "https://placehold.co/320x170/5D4037/ffffff?text=Thaipusam"
+    },
+    {
+        "id": 7,
+        "title": "春到河畔 River Hongbao 2026",
+        "displayDate": "2026/02/15 ~ 2026/02/24",
+        "startDate": "2026-02-15",
+        "desc": "濱海灣花園將舉辦大型的新春慶祝活動，巨型財神爺燈飾、十二生肖展示與精彩的煙火秀，是農曆新年的必去景點。",
+        "image": "https://placehold.co/320x170/D32F2F/ffffff?text=River+Hongbao"
+    },
+    {
+        "id": 8,
+        "title": "妝藝大遊行 Chingay Parade",
+        "displayDate": "2026/02/20 ~ 2026/02/21",
+        "startDate": "2026-02-20",
+        "desc": "亞洲最大的街頭表演與花車遊行，匯集了華人、馬來人、印度人與歐亞裔的多元文化表演，場面熱鬧非凡。",
+        "image": "https://placehold.co/320x170/9C27B0/ffffff?text=Chingay"
+    },
+    {
+        "id": 9,
+        "title": "新加坡國際爵士音樂節",
+        "displayDate": "2026/03/06 ~ 2026/03/08",
+        "startDate": "2026-03-06",
+        "desc": "在濱海灣金沙的戶外舞台，享受世界級爵士樂手的現場演奏，海風與薩克斯風交織的浪漫夜晚。",
+        "image": "https://placehold.co/320x170/3F51B5/ffffff?text=Jazz+Fest"
+    },
+    {
+        "id": 10,
+        "title": "世界名廚峰會 World Gourmet Summit",
+        "displayDate": "2026/04/01 ~ 2026/04/30",
+        "startDate": "2026-04-01",
+        "desc": "精緻餐飲界的奧斯卡，全球頂尖名廚齊聚新加坡，推出限定菜單與美酒晚宴，是老饕們的年度盛事。",
+        "image": "https://placehold.co/320x170/FF5722/ffffff?text=Gourmet"
+    },
+    {
+        "id": 11,
+        "title": "開齋節 Hari Raya Puasa",
+        "displayDate": "2026/03/20",
+        "startDate": "2026-03-20",
+        "desc": "芽籠士乃將亮起璀璨的燈飾，並舉辦大型市集，販售傳統馬來美食、地毯與服飾，慶祝齋戒月的結束。",
+        "image": "https://placehold.co/320x170/009688/ffffff?text=Hari+Raya"
+    },
+    {
+        "id": 12,
+        "title": "新加坡雞尾酒節",
+        "displayDate": "2026/05/05 ~ 2026/05/21",
+        "startDate": "2026-05-05",
+        "desc": "全島最佳酒吧聯合推出的微醺慶典，只需購買通行證，就能以優惠價格品嚐大師級特調雞尾酒。",
+        "image": "https://placehold.co/320x170/E91E63/ffffff?text=Cocktail+Fest"
+    },
+    {
+        "id": 13,
+        "title": "畫廊兒童雙年展",
+        "displayDate": "2026/05/25 ~ 2027/05/25",
+        "startDate": "2026-05-25",
+        "desc": "國家美術館變身為巨大的兒童遊樂場，透過互動藝術裝置激發孩子的創造力與想像力。",
+        "image": "https://placehold.co/320x170/FFC107/ffffff?text=Kids+Biennale"
+    },
+    {
+        "id": 14,
+        "title": "衛塞節 Vesak Day",
+        "displayDate": "2026/05/31",
+        "startDate": "2026-05-31",
+        "desc": "佛教徒紀念佛陀誕生、成道與涅槃的日子。當天各大寺廟會舉辦浴佛儀式與燭光遊行，氣氛莊嚴祥和。",
+        "image": "https://placehold.co/320x170/FFD54F/ffffff?text=Vesak+Day"
+    },
+    {
+        "id": 15,
+        "title": "新加坡大熱賣 Great Singapore Sale",
+        "displayDate": "2026/06/01 ~ 2026/07/31",
+        "startDate": "2026-06-01",
+        "desc": "長達兩個月的全民購物狂歡，從烏節路名牌到鄰里小店，全島商家祭出年度最殺折扣。",
+        "image": "https://placehold.co/320x170/F44336/ffffff?text=GSS+Sale"
+    },
+    {
+        "id": 16,
+        "title": "新加坡美食節 Singapore Food Festival",
+        "displayDate": "2026/07/15 ~ 2026/07/30",
+        "startDate": "2026-07-15",
+        "desc": "以「傳統與創新」為主題，匯聚全島小販傳奇與現代料理，是品嚐辣椒螃蟹、叻沙等國菜的最佳時機。",
+        "image": "https://placehold.co/320x170/FF7043/ffffff?text=Food+Festival"
+    },
+    {
+        "id": 17,
+        "title": "新加坡國慶日 National Day",
+        "displayDate": "2026/08/09",
+        "startDate": "2026-08-09",
+        "desc": "全城一片紅海！濱海灣將舉行盛大的閱兵儀式、戰機飛行表演與壯觀的煙火秀，慶祝新加坡獨立。",
+        "image": "https://placehold.co/320x170/D50000/ffffff?text=National+Day"
+    },
+    {
+        "id": 18,
+        "title": "仲秋佳節 Mid-Autumn Festival",
+        "displayDate": "2026/09/25",
+        "startDate": "2026-09-25",
+        "desc": "牛車水將掛滿巨型燈籠，濱海灣花園也會舉辦燈展。品嚐月餅、提燈籠賞月是當晚的傳統活動。",
+        "image": "https://placehold.co/320x170/FBC02D/ffffff?text=Mid+Autumn"
+    },
+    {
+        "id": 19,
+        "title": "F1 新加坡大獎賽 2026",
+        "displayDate": "2026/10/02 ~ 2026/10/04",
+        "startDate": "2026-10-02",
+        "desc": "夜間街道賽的極速快感回歸！除了賽道上的激戰，賽後的國際巨星演唱會更是這場盛事的高潮。",
+        "image": "https://placehold.co/320x170/212121/ffffff?text=F1+2026"
+    },
+    {
+        "id": 20,
+        "title": "屠妖節 Deepavali",
+        "displayDate": "2026/11/08",
+        "startDate": "2026-11-08",
+        "desc": "萬燈節將小印度染成金黃色。欣賞精緻的藍果麗（Rangoli）地畫，品嚐印度甜點，感受光明戰勝黑暗的喜悅。",
+        "image": "https://placehold.co/320x170/7B1FA2/ffffff?text=Deepavali"
+    }
+]

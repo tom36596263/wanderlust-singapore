@@ -1,0 +1,1246 @@
+[
+    {
+        "id": 1,
+        "title": "濱海灣花園",
+        "category": "自然風景",
+        "desc": "新加坡最著名的地標，擁有巨大的擎天樹叢與冷室，展現科技與自然的完美結合。",
+        "image": "assets/images/explore/1.png",
+        "posts": "12.5k",
+        "rating": 4.9,
+        "lat": 1.2815,
+        "lng": 103.8636,
+        "info": {
+            "time": "05:00 - 02:00",
+            "ticket": "戶外免費，冷室需購票",
+            "address": "18 Marina Gardens Dr",
+            "transport": "MRT 海灣舫站 (Bayfront)"
+        },
+        "full_intro": "<p>濱海灣花園是新加坡實踐「花園城市」願景的巔峰之作，佔地廣達101公頃。這裡不僅是植物愛好者的天堂，更是展現永續發展技術的宏大展示場。白天，您可以穿梭在恆溫冷室中欣賞來自世界各地的珍稀植物；夜晚，則絕對不能錯過擎天樹叢（Supertrees）帶來的聲光震撼。這是一座將大自然與現代科技完美融合的未來主義花園。</p>",
+        "highlights": [
+            { "title": "擎天樹叢", "desc": "阿凡達般的奇幻巨樹", "long_desc": "18棵高達25至50公尺的人造樹，外層種滿垂直植物。每晚兩場的「花園狂想曲」燈光秀更是震撼視覺。", "img": "assets/images/attractions/1-1.png" },
+            { "title": "雲霧林", "desc": "室內巨型瀑布", "long_desc": "模擬熱帶高山氣候，擁有一座高達35公尺的室內人造山與飛瀑，雲霧繚繞，宛如仙境。", "img": "assets/images/attractions/1-2.png" },
+            { "title": "花穹", "desc": "世界最大玻璃冷室", "long_desc": "金氏世界紀錄認證，模擬地中海乾冷氣候，依據季節更換花卉展覽，四季皆有不同美景。", "img": "assets/images/attractions/1-3.png" },
+            { "title": "OCBC 空中走廊", "desc": "漫步雲端的體驗", "long_desc": "懸掛在擎天樹之間、離地22公尺長的空中步道，能以絕佳視野俯瞰整個濱海灣區與花園全景。", "img": "assets/images/attractions/1-4.png" },
+            { "title": "蜻蜓湖", "desc": "寧靜的生態湖泊", "long_desc": "沿著長達440公尺的木棧道散步，欣賞湖中倒映的摩天輪與金沙酒店，是攝影愛好者的私房點。", "img": "assets/images/attractions/1-5.png" },
+            { "title": "太陽閣", "desc": "沙漠植物王國", "long_desc": "匯集了來自美洲與非洲乾燥地區的千奇百怪仙人掌與多肉植物，展現強韌的生命力。", "img": "assets/images/attractions/1-6.png" },
+            { "title": "奇幻花園", "desc": "花藝與科技的結合", "long_desc": "Floral Fantasy 結合了鮮花藝術與4D科技體驗，打造出如夢似幻的童話場景，非常適合拍照。", "img": "assets/images/attractions/1-7.png" }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "魚尾獅公園",
+        "category": "人文歷史",
+        "desc": "新加坡的象徵，噴水的魚尾獅雕像是必拍景點，背後是濱海灣金沙。",
+        "image": "assets/images/explore/2.png",
+        "posts": "10.2k",
+        "rating": 4.7,
+        "lat": 1.2868,
+        "lng": 103.8545,
+        "info": {
+            "time": "24小時開放",
+            "ticket": "免費",
+            "address": "1 Fullerton Rd",
+            "transport": "MRT 萊佛士坊站 (Raffles Place)"
+        },
+        "full_intro": "<p>魚尾獅公園坐落於新加坡河的出海口，矗立著新加坡的國家標誌——魚尾獅。獅頭代表新加坡「獅城」（Singapura）的傳說由來，魚尾則象徵這裡曾是個純樸的漁村。這裡是所有遊客必訪的打卡勝地，白天的藍天白雲與夜晚的璀璨燈火展現截然不同的風貌，更是欣賞金沙雷射秀的絕佳觀眾席。</p>",
+        "highlights": [
+            { "title": "魚尾獅雕像", "desc": "高8.6公尺的地標", "long_desc": "全年無休地向濱海灣噴水，別忘了利用錯位攝影，拍一張用嘴巴或手「接財水」的趣味照片！", "img": "assets/images/attractions/2-1.png" },
+            { "title": "小魚尾獅", "desc": "隱藏版的可愛地標", "long_desc": "位於大魚尾獅背後，有一座高2公尺的小魚尾獅寶寶，許多遊客常常錯過這個可愛的隱藏景點。", "img": "assets/images/attractions/2-2.png" },
+            { "title": "濱海灣全景", "desc": "明信片般的視角", "long_desc": "這裡是拍攝濱海灣金沙酒店、摩天輪以及蓮花狀藝術科學博物館「三合一」全景的最佳角度。", "img": "assets/images/attractions/2-3.png" },
+            { "title": "濱海藝術中心遠眺", "desc": "大榴槤建築", "long_desc": "隔著海灣欣賞造型獨特的Esplanade藝術中心，因其帶刺的圓頂外觀，被當地人戲稱為「大榴槤」。", "img": "assets/images/attractions/2-4.png" },
+            { "title": "禧年大橋", "desc": "海上的優美步道", "long_desc": "Jubilee Bridge 連接著魚尾獅公園與濱海藝術中心，走在橋上吹著海風，視野極其開闊。", "img": "assets/images/attractions/2-5.png" }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "新加坡環球影城",
+        "category": "休閒娛樂",
+        "desc": "東南亞首座好萊塢電影主題公園，擁有24個遊樂設施，讓您身歷其境。",
+        "image": "assets/images/explore/3.png",
+        "posts": "8.8k",
+        "rating": 4.8,
+        "lat": 1.2540,
+        "lng": 103.8238,
+        "info": {
+            "time": "11:00 - 18:00",
+            "ticket": "需購票 (約SGD 80+)",
+            "address": "8 Sentosa Gateway",
+            "transport": "聖淘沙捷運 - 環球影城站"
+        },
+        "full_intro": "<p>位於聖淘沙名勝世界內的新加坡環球影城（USS），是東南亞唯一的環球影城。園區分為七大主題區，包括好萊塢、紐約、科幻城市、古埃及、失落的世界、遙遠王國與馬達加斯加。這裡匯集了世界最高的雙軌過山車，以及變形金剛3D對決等頂級遊樂設施，無論是追求刺激的年輕人還是親子家庭，都能在此度過難忘的一天。</p>",
+        "highlights": [
+            { "title": "變形金剛3D對決", "desc": "全球首創的沉浸式戰鬥", "long_desc": "戴上3D眼鏡，坐上戰車，加入柯博文的隊伍，在城市大樓間穿梭，感受逼真的熱浪與水花。", "img": "assets/images/attractions/3-1.png" },
+            { "title": "木乃伊復仇記", "desc": "室內黑暗高速過山車", "long_desc": "位於古埃及區，您將在伸手不見五指的黑暗中急速衝刺、倒退，體驗法老王的詛咒與驚悚。", "img": "assets/images/attractions/3-2.png" },
+            { "title": "太空堡壘雙軌過山車", "desc": "世界最高雙軌過山車", "long_desc": "分為「人類」（紅色，坐式）與「機械戰隊」（灰色，懸掛式），兩車同時發車並在空中交錯，極度刺激。", "img": "assets/images/attractions/3-3.png" },
+            { "title": "遙遠王國城堡", "desc": "史瑞克的夢幻世界", "long_desc": "全球第一座《史瑞克》城堡，內有精彩的4D電影院，讓您感覺蜘蛛在腳邊爬過、驢子的口水噴在臉上。", "img": "assets/images/attractions/3-4.png" },
+            { "title": "侏羅紀河流探險", "desc": "濕身保證的急流泛舟", "long_desc": "搭乘圓形船筏闖入恐龍禁區，最後會從高處俯衝入水，建議穿著雨衣體驗這場叢林冒險。", "img": "assets/images/attractions/3-5.png" },
+            { "title": "水世界 WaterWorld", "desc": "好萊塢級特技表演", "long_desc": "現場爆破、快艇追逐與高空跳水，重現電影中的驚險場面，前排座位的觀眾請準備好全濕！", "img": "assets/images/attractions/3-6.png" },
+            { "title": "鞋貓劍客歷險記", "desc": "懸吊式飛行車", "long_desc": "全球首創的懸吊飛車，適合家庭乘坐，跟著鞋貓劍客一起尋找金蛋，體驗輕微的失重感。", "img": "assets/images/attractions/3-7.png" }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "烏節路",
+        "category": "購物時尚",
+        "desc": "新加坡的購物天堂，百貨商場林立，國際品牌雲集，街道充滿綠意。",
+        "image": "assets/images/explore/4.png",
+        "posts": "9.1k",
+        "rating": 4.6,
+        "lat": 1.3048,
+        "lng": 103.8318,
+        "info": {
+            "time": "10:00 - 22:00",
+            "ticket": "免費",
+            "address": "Orchard Road",
+            "transport": "MRT 烏節站 (Orchard)"
+        },
+        "full_intro": "<p>烏節路（Orchard Road）全長2.2公里，是亞洲最著名的購物大街之一。這裡曾經是果園，如今搖身一變成為時尚中心。從國際頂級精品到平價快時尚，超過20家大型購物中心林立於此。街道兩旁種滿了巨大的雨樹與昂賽那樹，讓您在熱帶國家也能享受舒適涼爽的逛街體驗。</p>",
+        "highlights": [
+            { "title": "ION Orchard", "desc": "地標性前衛購物中心", "long_desc": "外觀如幾何晶體般閃耀，集結眾多國際旗艦店。55樓與56樓的「ION Sky」觀景台可免費俯瞰城市美景。", "img": "assets/images/attractions/4-1.png" },
+            { "title": "義安城", "desc": "老牌高端百貨霸主", "long_desc": "宏偉的紅磚建築內擁有日本高島屋百貨（Takashimaya）與全東南亞最大的紀伊國屋書店。", "img": "assets/images/attractions/4-2.png" },
+            { "title": "Library@Orchard", "desc": "最美設計感圖書館", "long_desc": "隱身在 Orchard Gateway 商場內，波浪形的書架設計充滿現代感，是文青與設計師必訪的靈感空間。", "img": "assets/images/attractions/4-3.png" },
+            { "title": "翡翠山路", "desc": "鬧區中的歷史秘境", "long_desc": "Emerald Hill 位於繁華商圈旁，保留了完整的傳統峇峇娘惹建築群（Peranakan），色彩繽紛，適合街拍。", "img": "assets/images/attractions/4-4.png" },
+            { "title": "Design Orchard", "desc": "新加坡在地設計", "long_desc": "專門展示與販售新加坡本土設計師品牌，頂樓還有一個階梯式的公共露天劇場，是休憩的好去處。", "img": "assets/images/attractions/4-5.png" },
+            { "title": "Apple Orchard Road", "desc": "東南亞首家直營店", "long_desc": "擁有標誌性的玻璃帷幕與兩層樓高的石牆樓梯，定期舉辦 Today at Apple 課程，果粉必朝聖。", "img": "assets/images/attractions/4-6.png" }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "牛車水",
+        "category": "人文歷史",
+        "desc": "充滿歷史韻味的唐人街，擁有眾多傳統店舖、寺廟與米其林美食。",
+        "image": "assets/images/explore/5.png",
+        "posts": "7.5k",
+        "rating": 4.5,
+        "lat": 1.2848,
+        "lng": 103.8439,
+        "info": {
+            "time": "全天 (商店約 10-21)",
+            "ticket": "免費",
+            "address": "Chinatown",
+            "transport": "MRT 牛車水站 (Chinatown)"
+        },
+        "full_intro": "<p>牛車水（Chinatown）見證了新加坡華人移民的歷史。這裡保留了許多色彩繽紛的戰前店屋，新舊交融。您可以在狹窄的巷弄中找到傳統中藥鋪、書法店，轉角卻又是新潮的咖啡廳或酒吧。這裡也是宗教和諧的典範，佛教寺廟與印度廟僅幾步之遙。美食街更是饕客的天堂，從早到晚都有吃不完的道地美味。</p>",
+        "highlights": [
+            { "title": "佛牙寺龍華院", "desc": "宏偉的唐代風格寺廟", "long_desc": "供奉珍貴的佛牙舍利，內部裝潢金碧輝煌，頂樓還有著名的萬佛閣與蘭花園，氛圍莊嚴。", "img": "assets/images/attractions/5-1.png" },
+            { "title": "麥士威熟食中心", "desc": "平民美食集散地", "long_desc": "距離地鐵站步行可達，匯集了天天海南雞飯、老伴豆花等新加坡必吃的小販美食。", "img": "assets/images/attractions/5-2.png" },
+            { "title": "馬里安曼興都廟", "desc": "新加坡最古老印度廟", "long_desc": "位於華人區的印度廟，塔門上雕刻著色彩鮮豔的印度諸神，見證了新加坡多元宗教的和諧共處。", "img": "assets/images/attractions/5-3.png" },
+            { "title": "牛車水原貌館", "desc": "沈浸式歷史體驗", "long_desc": "還原了1950年代店屋內部的生活場景，真實重現早期華人移民擠在狹小空間生活的艱辛歷史。", "img": "assets/images/attractions/5-4.png" },
+            { "title": "牛車水美食街", "desc": "露天餐飲體驗", "long_desc": "史密斯街（Smith St）到了晚上會變身為熱鬧的美食街，加上高掛的紅燈籠，極具東方風情。", "img": "assets/images/attractions/5-5.png" },
+            { "title": "天福宮", "desc": "最古老的福建媽祖廟", "long_desc": "建於1840年，全殿採無釘結構建造，是早期華人移民感謝媽祖保佑航海平安的重要信仰中心。", "img": "assets/images/attractions/5-6.png" }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "濱海灣金沙酒店",
+        "category": "休閒娛樂",
+        "desc": "新加坡天際線的代表，擁有世界最高的無邊際泳池、賭場與奢華購物中心。",
+        "image": "assets/images/explore/6.png",
+        "posts": "15.3k",
+        "rating": 4.9,
+        "lat": 1.2834,
+        "lng": 103.8607,
+        "info": {
+            "time": "全天 (觀景台 11:00-21:00)",
+            "ticket": "觀景台需購票",
+            "address": "10 Bayfront Ave",
+            "transport": "MRT 海灣舫站 (Bayfront)"
+        },
+        "full_intro": "<p>濱海灣金沙（Marina Bay Sands）不僅是一間飯店，更是新加坡最豪華的綜合娛樂城。三座55層高的塔樓頂端由巨大的船型空中花園連接，構成了獨特的天際線。內部包含了國際級賭場、劇院、頂級購物商城、米其林餐廳以及藝術科學博物館，是體驗極致奢華生活的首選之地。</p>",
+        "highlights": [
+            { "title": "無邊際泳池", "desc": "人生必訪的夢幻泳池", "long_desc": "位於57層樓高，長達150公尺。僅限住客使用，讓您享受在雲端游泳、俯瞰整個城市的尊榮感。", "img": "assets/images/attractions/6-1.png" },
+            { "title": "空中花園觀景台", "desc": "360度城市全景", "long_desc": "位於船頭位置，對外開放購票入場。黃昏時刻前來，可一次飽覽日落美景與繁華夜景。", "img": "assets/images/attractions/6-2.png" },
+            { "title": "金沙購物商城", "desc": "極致奢華購物", "long_desc": "匯集全球頂級精品，商城內更有一條室內運河，您可以搭乘傳統舢舨船穿梭於商店之間。", "img": "assets/images/attractions/6-3.png" },
+            { "title": "藝術科學博物館", "desc": "盛開的蓮花建築", "long_desc": "外型像一朵巨大的白色蓮花，常設展「Future World」與 TeamLab 合作，打造出絕美的光影互動世界。", "img": "assets/images/attractions/6-4.png" },
+            { "title": "Spectra 光影水舞秀", "desc": "免費的視聽饗宴", "long_desc": "每晚在戶外活動廣場上演，結合了雷射、噴泉與交響樂，在對岸的魚尾獅公園也能欣賞到雷射光束。", "img": "assets/images/attractions/6-5.png" },
+            { "title": "金沙賭場", "desc": "富麗堂皇的娛樂場", "long_desc": "擁有數層樓高的挑高天花板與世界最大的施華洛世奇水晶吊燈，外國遊客憑護照可免費入場參觀。", "img": "assets/images/attractions/6-6.png" }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "天天海南雞飯",
+        "category": "美食饗宴",
+        "desc": "位於麥士威熟食中心，屢獲米其林必比登推薦的新加坡國寶級美食。",
+        "image": "assets/images/explore/7.png",
+        "posts": "5.6k",
+        "rating": 4.7,
+        "lat": 1.2803,
+        "lng": 103.8447,
+        "info": {
+            "time": "10:00 - 19:30 (週一休)",
+            "ticket": "約 SGD 5-10",
+            "address": "Maxwell Food Centre",
+            "transport": "MRT 麥士威站 (Maxwell)"
+        },
+        "full_intro": "<p>如果來新加坡只能吃一家海南雞飯，「天天」絕對是首選。這家位於麥士威熟食中心的攤位，不僅深受本地人喜愛，更屢獲米其林必比登推薦，連名廚安東尼·波登都曾大力讚賞。儘管總是大排長龍，但當您嚐到那一口鮮嫩多汁的雞肉時，一切等待都值得了。</p>",
+        "highlights": [
+            { "title": "招牌海南雞飯", "desc": "滑嫩雞肉與香雞油飯", "long_desc": "雞肉經過冰鎮處理，皮滑肉嫩；米飯使用雞湯與香蘭葉烹煮，單吃就充滿濃郁香氣，粒粒分明。", "img": "assets/images/attractions/7-1.png" },
+            { "title": "特製辣椒醬", "desc": "靈魂般的佐料", "long_desc": "自製的辣椒醬酸辣適中，帶有蒜蓉與金桔的香氣，完美提升了雞肉的鮮甜，是整盤飯的靈魂所在。", "img": "assets/images/attractions/7-2.png" },
+            { "title": "玻璃雞腳", "desc": "爽脆開胃配菜", "long_desc": "去骨的雞腳口感爽脆，搭配泰式酸辣風味的醬汁與洋蔥絲，非常開胃，是老饕必點的隱藏菜色。", "img": "assets/images/attractions/7-3.png" },
+            { "title": "蠔油青菜", "desc": "均衡營養首選", "long_desc": "簡單燙過的菜心或小松菜，淋上鹹香的蠔油與炸蔥酥，清脆解膩，是搭配雞飯的最佳綠葉。", "img": "assets/images/attractions/7-4.png" }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "新加坡國家美術館",
+        "category": "藝術文化",
+        "desc": "由前高等法院和政府大廈改建，全球最大的東南亞現代藝術公共收藏地。",
+        "image": "assets/images/explore/8.png",
+        "posts": "3.2k",
+        "rating": 4.8,
+        "lat": 1.2905,
+        "lng": 103.8517,
+        "info": {
+            "time": "10:00 - 19:00",
+            "ticket": "需購票",
+            "address": "1 St Andrew's Rd",
+            "transport": "MRT 政府大廈站 (City Hall)"
+        },
+        "full_intro": "<p>新加坡國家美術館（National Gallery Singapore）是將兩座國家古蹟——前高等法院與政府大廈，透過精妙的建築設計連結而成。這裡收藏了自19世紀以來世界上最大規模的東南亞現代藝術品。即使您不是藝術迷，這座建築本身宏偉的殖民地風格、光影交錯的長廊，以及屋頂壯觀的景色，都值得您花半天時間細細品味。</p>",
+        "highlights": [
+            { "title": "圓頂中庭", "desc": "光影交織的歷史空間", "long_desc": "前高等法院的圓頂圖書館區，保留了古典的樑柱與細節，陽光透過穹頂灑落，是館內最美的攝影點。", "img": "assets/images/attractions/8-1.png" },
+            { "title": "連通天橋", "desc": "新舊建築的橋樑", "long_desc": "透過金屬與玻璃打造的現代天橋與屋頂，巧妙地將兩座歷史建築連接起來，展現建築修復的工藝之美。", "img": "assets/images/attractions/8-2.png" },
+            { "title": "吳冠中畫廊", "desc": "大師級水墨藝術", "long_desc": "專門展示中國現代藝術大師吳冠中的作品，探索傳統水墨與西方現代藝術的融合。", "img": "assets/images/attractions/8-3.png" },
+            { "title": "屋頂花園", "desc": "絕佳的觀景視野", "long_desc": "位於Ng Teng Fong屋頂花園展覽區，您可以從獨特的視角眺望對面的濱海灣金沙與大草場（Padang）。", "img": "assets/images/attractions/8-4.png" },
+            { "title": "Smoke & Mirrors", "desc": "頂樓景觀酒吧", "long_desc": "逛完展覽後，不妨到頂樓的這家酒吧小酌，這裡擁有欣賞新加坡F1賽道與濱海灣夜景的特等席。", "img": "assets/images/attractions/8-5.png" }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "夜間野生動物園",
+        "category": "自然風景",
+        "desc": "世界首座專為夜間動物設計的野生動物園，體驗神秘的叢林探險。",
+        "image": "assets/images/explore/9.png",
+        "posts": "6.7k",
+        "rating": 4.6,
+        "lat": 1.4022,
+        "lng": 103.7880,
+        "info": {
+            "time": "19:15 - 00:00",
+            "ticket": "需購票",
+            "address": "80 Mandai Lake Rd",
+            "transport": "接駁巴士或計程車"
+        },
+        "full_intro": "<p>當夜幕低垂，冒險才正要開始！新加坡夜間野生動物園（Night Safari）是世界首創的夜間動物園。園區運用特殊的燈光技術，模仿月光下的叢林環境。您可以搭乘遊園車穿越七個地理區域，或徒步走入小徑，近距離觀察獅子、花豹、馬來貘等夜行性動物最活躍的一面，體驗完全不同於日間動物園的神祕氛圍。</p>",
+        "highlights": [
+            { "title": "遊園車探險", "desc": "40分鐘的叢林導覽", "long_desc": "最受歡迎的體驗，搭乘開放式電車穿越喜馬拉雅山麓到赤道非洲，沿途幾乎沒有圍欄，動物就在車邊漫步。", "img": "assets/images/attractions/9-1.png" },
+            { "title": "夜晚精靈秀", "desc": "精彩的動物互動表演", "long_desc": "在圓形劇場欣賞水獺、果子狸、貓頭鷹等動物展現其自然習性與捕獵技巧，寓教於樂。", "img": "assets/images/attractions/9-2.png" },
+            { "title": "漁貓小徑", "desc": "徒步探索河岸生態", "long_desc": "這條徒步路線模擬新加坡叢林夜景，您可以透過玻璃窗，幸運的話能看見漁貓在水邊狩獵的模樣。", "img": "assets/images/attractions/9-3.png" },
+            { "title": "花豹小徑", "desc": "近距離接觸猛獸", "long_desc": "這是園區內最受歡迎的步行道之一，能近距離觀察獅子與花豹，並經過巨大的飛行蝙蝠籠。", "img": "assets/images/attractions/9-4.png" },
+            { "title": "婆羅洲土著火舞秀", "desc": "熱情的迎賓表演", "long_desc": "入園處的 Thumbuakar 表演，勇士們熟練地玩弄火焰，噴火秀更是將現場氣氛炒熱到最高點。", "img": "assets/images/attractions/9-5.png" },
+            { "title": "沙袋鼠小徑", "desc": "澳洲內陸風情", "long_desc": "走進這條小徑，您可以與來自澳洲的自由放養沙袋鼠（Wallaby）近距離相遇。", "img": "assets/images/attractions/9-6.png" }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "小印度",
+        "category": "人文歷史",
+        "desc": "充滿繽紛色彩、強烈香料氣味與印度傳統文化的活力社區。",
+        "image": "assets/images/explore/10.png",
+        "posts": "4.8k",
+        "rating": 4.4,
+        "lat": 1.3063,
+        "lng": 103.8517,
+        "info": {
+            "time": "全天",
+            "ticket": "免費",
+            "address": "Serangoon Road",
+            "transport": "MRT 小印度站 (Little India)"
+        },
+        "full_intro": "<p>踏入小印度（Little India），彷彿瞬間穿越到了孟買或德里。這是新加坡最具活力的社區之一，空氣中瀰漫著茉莉花香與濃郁的咖哩香料味。實龍崗路（Serangoon Rd）兩旁充滿了銷售紗麗、金飾和寶萊塢音樂的商店。這裡不僅保留了濃厚的印度傳統文化，更有許多色彩鮮豔的建築，是街頭攝影師的最愛。</p>",
+        "highlights": [
+            { "title": "維拉瑪卡里雅曼興都廟", "desc": "精美雕刻的印度廟", "long_desc": "供奉卡莉女神，是小印度最核心的信仰中心。塔門上繁複且色彩鮮豔的神像雕刻，令人嘆為觀止。", "img": "assets/images/attractions/10-1.png" },
+            { "title": "陳東齡故居", "desc": "最繽紛的彩虹屋", "long_desc": "這棟建於1900年的別墅，因其外牆被漆成極其鮮豔的彩虹色而爆紅，是小印度最熱門的IG打卡點。", "img": "assets/images/attractions/10-2.png" },
+            { "title": "竹腳中心", "desc": "印度美食大本營", "long_desc": "一樓是熟食中心，您可以用手抓著吃最正宗的印度煎餅（Roti Prata）與薑黃飯（Biryani），再來杯拉茶。", "img": "assets/images/attractions/10-3.png" },
+            { "title": "慕達發購物中心", "desc": "24小時購物迷宮", "long_desc": "Mustafa Centre 是一座什麼都賣的巨型商場，從黃金、電器到印度香料應有盡有，是買伴手禮的好地方。", "img": "assets/images/attractions/10-4.png" },
+            { "title": "小印度拱廊", "desc": "傳統市集體驗", "long_desc": "這裡聚集了許多小店，您可以體驗印度傳統的手繪紋身（Henna），或購買精美的印度手工藝品。", "img": "assets/images/attractions/10-5.png" },
+            { "title": "甘貝爾巷", "desc": "花香四溢的街道", "long_desc": "這條街上掛滿了鮮豔的鮮花花環，通常用於供神，是感受印度教文化氛圍的最佳地點。", "img": "assets/images/attractions/10-6.png" }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "星耀樟宜",
+        "category": "購物時尚",
+        "desc": "不僅是機場商場，更是擁有世界最高室內瀑布的綠色地標。",
+        "image": "assets/images/explore/11.png",
+        "posts": "11.2k",
+        "rating": 4.9,
+        "lat": 1.3601,
+        "lng": 103.9898,
+        "info": {
+            "time": "24小時 (瀑布 11-22)",
+            "ticket": "免費",
+            "address": "Changi Airport",
+            "transport": "MRT 樟宜機場站"
+        },
+        "full_intro": "<p>星耀樟宜（Jewel Changi Airport）徹底顛覆了人們對機場的想像。這座與樟宜機場航廈相連的綜合娛樂地標，核心是一座高達40公尺的室內瀑布，周圍環繞著千姿百態的熱帶植物。這裡匯集了超過280家國際商店、米其林餐廳與親子遊樂設施，無論是剛抵達新加坡或即將離開，這裡都是不可錯過的行程。</p>",
+        "highlights": [
+            { "title": "HSBC 雨漩渦", "desc": "世界最高室內瀑布", "long_desc": "高達七層樓的瀑布從玻璃穹頂傾瀉而下，晚上整點會有震撼的聲光秀，是絕對的視覺焦點。", "img": "assets/images/attractions/11-1.png" },
+            { "title": "資生堂森林谷", "desc": "室內熱帶雨林", "long_desc": "沿著環繞瀑布的步道漫步，四周種滿了2000多棵樹木與10萬株灌木，讓您在冷氣房也能享受芬多精。", "img": "assets/images/attractions/11-2.png" },
+            { "title": "星空花園", "desc": "頂樓的遊樂樂園", "long_desc": "位於頂層（L5），包含樹籬迷宮、鏡子迷宮、步行網與彈跳網，適合大人小孩放電。", "img": "assets/images/attractions/11-3.png" },
+            { "title": "天懸橋", "desc": "玻璃底觀景橋", "long_desc": "懸浮於23公尺高空，底部為透明玻璃，能以最近的距離與最佳的高度欣賞雨漩渦。", "img": "assets/images/attractions/11-4.png" },
+            { "title": "寶可夢中心", "desc": "海外首家旗艦店", "long_desc": "日本海外第一家 Pokemon Center，販售新加坡限定的機長皮卡丘玩偶，粉絲必朝聖。", "img": "assets/images/attractions/11-5.png" },
+            { "title": "Shake Shack", "desc": "紐約神級漢堡", "long_desc": "位於二樓，擁有兩層樓的寬敞空間，邊吃漢堡邊欣賞瀑布美景是這裡的一大享受。", "img": "assets/images/attractions/11-6.png" }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "S.E.A. 海洋館",
+        "category": "休閒娛樂",
+        "desc": "潛入深藍世界，欣賞鬼蝠魟與鯊魚共游的壯觀景象。",
+        "image": "assets/images/explore/12.png",
+        "posts": "6.9k",
+        "rating": 4.7,
+        "lat": 1.2583,
+        "lng": 103.8205,
+        "info": {
+            "time": "10:00 - 17:00",
+            "ticket": "需購票",
+            "address": "8 Sentosa Gateway",
+            "transport": "聖淘沙捷運"
+        },
+        "full_intro": "<p>位於聖淘沙的 S.E.A. 海洋館是世界級的大型水族館之一。館內劃分為10大區域，棲息著超過10萬隻海洋生物，涵蓋800多個物種。從色彩斑斕的珊瑚礁到神秘的深海沈船，這裡提供了沉浸式的海底體驗，旨在啟發遊客對海洋保育的重視。</p>",
+        "highlights": [
+            { "title": "深海奧秘生態區", "desc": "巨無霸觀景窗", "long_desc": "寬36公尺、高8.3公尺的全球最大觀景窗之一，看著優雅的鬼蝠魟在眼前滑翔，極度療癒。", "img": "assets/images/attractions/12-1.png" },
+            { "title": "鯊魚海域", "desc": "360度海底隧道", "long_desc": "穿越隧道，被雙髻鯊、護士鯊等超過200隻海洋掠食者環繞，體驗令人屏息的震撼。", "img": "assets/images/attractions/12-2.png" },
+            { "title": "海月水母區", "desc": "夢幻光影展區", "long_desc": "透明的水母在變換的燈光下緩慢游動，彷彿外太空生物，是館內最夢幻的打卡點。", "img": "assets/images/attractions/12-3.png" },
+            { "title": "沈船生態區", "desc": "海底沈船遺跡", "long_desc": "模擬沈船環境，展示魚群如何將人工結構轉化為繁榮的棲息地。", "img": "assets/images/attractions/12-4.png" },
+            { "title": "探索池", "desc": "親手觸摸海洋", "long_desc": "在工作人員指導下，輕輕觸摸海星與海參，是小朋友最喜歡的互動環節。", "img": "assets/images/attractions/12-5.png" }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "老巴剎美食廣場",
+        "category": "美食饗宴",
+        "desc": "在百年的維多利亞式建築旁，享受露天沙爹街的煙火氣。",
+        "image": "assets/images/explore/13.png",
+        "posts": "5.1k",
+        "rating": 4.5,
+        "lat": 1.2807,
+        "lng": 103.8504,
+        "info": {
+            "time": "24小時 (沙爹街 19:00起)",
+            "ticket": "免費入場",
+            "address": "18 Raffles Quay",
+            "transport": "MRT 萊佛士坊站"
+        },
+        "full_intro": "<p>老巴剎（Lau Pa Sat）坐落於新加坡金融區的高樓大廈之間，形成強烈的新舊對比。這座建於19世紀的八角形建築擁有精美的維多利亞式鑄鐵結構。每當夜幕低降，旁邊的文達街（Boon Tat St）會封路變身為著名的「沙爹街」，空氣中瀰漫著炭烤肉串的香氣，熱鬧非凡。</p>",
+        "highlights": [
+            { "title": "露天沙爹街", "desc": "越夜越美麗的燒烤", "long_desc": "點幾十串雞肉與羊肉沙爹，搭配冰啤酒，在摩天大樓腳下享受最道地的街頭美食體驗。", "img": "assets/images/attractions/13-1.png" },
+            { "title": "維多利亞建築", "desc": "國家級古蹟", "long_desc": "抬頭欣賞挑高的拱門與精緻的鑄鐵花飾，這是東南亞現存最大的維多利亞時期鑄鐵建築。", "img": "assets/images/attractions/13-2.png" },
+            { "title": "鐵板魔鬼魚", "desc": "香辣鮮嫩海鮮", "long_desc": "塗滿特製參巴辣椒醬（Sambal）的魟魚在鐵板上滋滋作響，肉質鮮嫩，是必點的下酒菜。", "img": "assets/images/attractions/13-3.png" },
+            { "title": "傳統客家雷茶飯", "desc": "健康養生料理", "long_desc": "將綠色的草藥茶湯倒入配料豐富的飯中，口味獨特，是老巴剎內的人氣攤位。", "img": "assets/images/attractions/13-4.png" }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "新加坡植物園",
+        "category": "自然風景",
+        "desc": "新加坡首個世界文化遺產，擁有全球最大的蘭花展示園。",
+        "image": "assets/images/explore/14.png",
+        "posts": "4.5k",
+        "rating": 4.8,
+        "lat": 1.3138,
+        "lng": 103.8159,
+        "info": {
+            "time": "05:00 - 00:00",
+            "ticket": "大門免費 (胡姬園收費)",
+            "address": "1 Cluny Rd",
+            "transport": "MRT 植物園站"
+        },
+        "full_intro": "<p>新加坡植物園擁有超過160年的歷史，是新加坡第一處獲得聯合國教科文組織（UNESCO）認證的世界文化遺產。這片佔地82公頃的綠洲，不僅是植物學研究的重鎮，更是當地人晨跑、野餐和放鬆心靈的後花園。從熱帶雨林到精心修剪的庭園，處處皆是風景。</p>",
+        "highlights": [
+            { "title": "國家胡姬花園", "desc": "蘭花愛好者的天堂", "long_desc": "園中之園，展示超過1000個原生種和2000個雜交種蘭花，色彩斑斕，包含新加坡國花「卓錦萬代蘭」。", "img": "assets/images/attractions/14-1.png" },
+            { "title": "天鵝湖", "desc": "優雅的湖畔風光", "long_desc": "園內最古老的觀賞湖，您可以看見一對來自阿姆斯特丹的白天鵝優雅地在水面滑行。", "img": "assets/images/attractions/14-2.png" },
+            { "title": "交響樂湖", "desc": "草地音樂會", "long_desc": "邵氏基金交響樂台位於湖中央，週末經常舉辦免費的露天交響樂或華樂演出，氣氛極佳。", "img": "assets/images/attractions/14-3.png" },
+            { "title": "雅格巴拉斯兒童花園", "desc": "寓教於樂", "long_desc": "亞洲最大的兒童花園，設有樹屋滑梯、吊橋和戲水區，旨在教育孩子認識植物與大自然。", "img": "assets/images/attractions/14-4.png" },
+            { "title": "白色的音樂亭", "desc": "標誌性打卡點", "long_desc": "The Bandstand 八角形涼亭建於1930年，周圍環繞著黃雨樹，是許多新人拍攝婚紗的熱門景點。", "img": "assets/images/attractions/14-5.png" }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "哈芝巷",
+        "category": "購物時尚",
+        "desc": "充滿塗鴉牆、獨立設計小店與文青咖啡館的潮流巷弄。",
+        "image": "assets/images/explore/15.png",
+        "posts": "8.3k",
+        "rating": 4.6,
+        "lat": 1.3007,
+        "lng": 103.8584,
+        "info": {
+            "time": "11:00 - 21:00",
+            "ticket": "免費",
+            "address": "Haji Lane",
+            "transport": "MRT 武吉士站 (Bugis)"
+        },
+        "full_intro": "<p>哈芝巷（Haji Lane）是新加坡最狹窄但也最色彩繽紛的街道之一。位於甘榜格南區旁，這裡沒有連鎖大品牌，取而代之的是充滿個性的獨立設計師品牌、古著店和特色酒吧。牆上滿是藝術家創作的大型塗鴉，展現了新加坡年輕與叛逆的一面。</p>",
+        "highlights": [
+            { "title": "藝術塗鴉牆", "desc": "街頭攝影聖地", "long_desc": "整條巷子的牆面都被色彩鮮豔的壁畫覆蓋，隨便站一個角落都能拍出雜誌封面的質感。", "img": "assets/images/attractions/15-1.png" },
+            { "title": "露天酒吧", "desc": "越夜越熱鬧", "long_desc": "傍晚過後，店家會在狹窄的巷弄擺出桌椅，點杯調酒聽著Live Music，感受放鬆的氛圍。", "img": "assets/images/attractions/15-2.png" },
+            { "title": "自拍咖啡館", "desc": "創意飲品體驗", "long_desc": "著名的 Selfie Coffee 可以將您的自拍照直接打印在咖啡奶泡上，既好玩又好喝。", "img": "assets/images/attractions/15-3.png" },
+            { "title": "獨立設計選物", "desc": "挖寶好去處", "long_desc": "這裡有許多販售手工飾品、個性服飾與復古雜貨的小店，不想撞衫來這裡就對了。", "img": "assets/images/attractions/15-4.png" }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "克拉碼頭",
+        "category": "休閒娛樂",
+        "desc": "新加坡河畔的不夜城，匯集了海鮮餐廳、酒吧與極限運動。",
+        "image": "assets/images/explore/16.png",
+        "posts": "7.2k",
+        "rating": 4.5,
+        "lat": 1.2905,
+        "lng": 103.8466,
+        "info": {
+            "time": "傍晚至深夜",
+            "ticket": "免費",
+            "address": "3 River Valley Rd",
+            "transport": "MRT 克拉碼頭站"
+        },
+        "full_intro": "<p>克拉碼頭（Clarke Quay）昔日是繁忙的貨物起卸區，如今舊倉庫被改建為五顏六色的餐廳與酒吧，並加上了充滿未來感的天棚，搖身一變成為新加坡夜生活的中心。您可以在河畔享用著名的辣椒螃蟹，接著去夜店狂歡，或是搭船欣賞夜景。</p>",
+        "highlights": [
+            { "title": "新加坡遊河船", "desc": "浪漫夜遊", "long_desc": "搭乘傳統的bumboat，沿著新加坡河航行至濱海灣，欣賞沿岸歷史建築與現代摩天樓的燈光倒影。", "img": "assets/images/attractions/16-1.png" },
+            { "title": "珍寶海鮮", "desc": "必吃辣椒螃蟹", "long_desc": "Jumbo Seafood 的河畔分店，坐在河邊享用酸辣開胃的國菜「辣椒螃蟹」，記得配炸饅頭。", "img": "assets/images/attractions/16-2.png" },
+            { "title": "G-Max 逆轉蹦極", "desc": "心跳加速的挑戰", "long_desc": "在河畔顯眼的白色鐵架，將人坐在球體艙內彈射到60公尺高空，尖叫聲響徹雲霄。", "img": "assets/images/attractions/16-3.png" },
+            { "title": "李德橋", "desc": "街頭聚會熱點", "long_desc": "連接兩岸的行人徒步橋，晚上常有街頭藝人表演，許多人喜歡買罐啤酒坐在橋上吹風聊天。", "img": "assets/images/attractions/16-4.png" },
+            { "title": "Zouk Club", "desc": "傳奇夜店", "long_desc": "雖然搬遷至附近，但仍是克拉碼頭夜生活的重要指標，世界百大夜店之一。", "img": "assets/images/attractions/16-5.png" }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "松發肉骨茶",
+        "category": "美食饗宴",
+        "desc": "米其林必比登推薦，湯頭濃郁充滿胡椒香氣的潮州式肉骨茶。",
+        "image": "assets/images/explore/17.png",
+        "posts": "4.9k",
+        "rating": 4.7,
+        "lat": 1.2891,
+        "lng": 103.8485,
+        "info": {
+            "time": "09:00 - 21:15",
+            "ticket": "約 SGD 10-15",
+            "address": "11 New Bridge Rd",
+            "transport": "MRT 克拉碼頭站"
+        },
+        "full_intro": "<p>松發（Song Fa）始於1969年，從一台手推車發展至今，已成為新加坡最受歡迎的肉骨茶品牌之一，並連續多年獲得米其林必比登推薦。店內裝潢重現60年代的懷舊氛圍。這裡的湯頭屬於潮州派，色澤清澈但胡椒味勁道十足，喝完全身暖洋洋。</p>",
+        "highlights": [
+            { "title": "特級龍骨湯", "desc": "無限續湯的美味", "long_desc": "選用優質排骨，燉煮到軟嫩脫骨，胡椒與大蒜的香氣完美融合。喝完可以免費無限加湯。", "img": "assets/images/attractions/17-1.png" },
+            { "title": "滷豬腳", "desc": "入口即化的膠質", "long_desc": "豬腳滷得深紅透亮，皮Q肉嫩，鹹香入味，是搭配白飯的最佳良伴。", "img": "assets/images/attractions/17-2.png" },
+            { "title": "油條", "desc": "吸湯神器", "long_desc": "老饕的標準吃法：將切段的油條浸泡在熱辣的肉骨茶湯中，吸飽湯汁後一口咬下，口感獨特。", "img": "assets/images/attractions/17-3.png" },
+            { "title": "功夫茶", "desc": "解膩必備", "long_desc": "吃完重口味的肉骨茶，泡一壺熱騰騰的中國茶，不僅解膩，更是體驗傳統肉骨茶文化的一環。", "img": "assets/images/attractions/17-4.png" }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "紅點設計博物館",
+        "category": "藝術文化",
+        "desc": "亞洲唯一的紅點設計博物館，展示獲獎的當代前衛設計。",
+        "image": "assets/images/explore/18.png",
+        "posts": "2.8k",
+        "rating": 4.3,
+        "lat": 1.2800,
+        "lng": 103.8562,
+        "info": {
+            "time": "11:00 - 20:00",
+            "ticket": "需購票",
+            "address": "11 Marina Blvd",
+            "transport": "MRT 海灣舫站"
+        },
+        "full_intro": "<p>這座全玻璃幕牆的幾何建築坐落在濱海灣畔，相當吸睛。它是德國著名的「紅點設計獎」在亞洲的唯一博物館。館內展示了來自世界各地的紅點獎獲獎作品，從概念設計到實際產品，涵蓋科技、家居與時尚，是設計師與美學愛好者的靈感寶庫。</p>",
+        "highlights": [
+            { "title": "常設展覽", "desc": "未來生活趨勢", "long_desc": "探索數百件獲獎作品，了解最新的設計趨勢以及設計如何改善人類的生活。", "img": "assets/images/attractions/18-1.png" },
+            { "title": "設計商店", "desc": "帶得走的設計", "long_desc": "館內的商店販售許多精選的設計商品，質感極佳，適合尋找獨特的紀念品或禮物。", "img": "assets/images/attractions/18-2.png" },
+            { "title": "博物館咖啡吧", "desc": "味覺的設計", "long_desc": "逛累了可以在此休息，這裡提供設計感十足的甜點與當地風味的咖啡與茶。", "img": "assets/images/attractions/18-3.png" }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "甘榜格南",
+        "category": "人文歷史",
+        "desc": "馬來皇族舊址，以金頂蘇丹回教堂為中心，充滿異國風情。",
+        "image": "assets/images/explore/19.png",
+        "posts": "3.9k",
+        "rating": 4.5,
+        "lat": 1.3021,
+        "lng": 103.8598,
+        "info": {
+            "time": "全天",
+            "ticket": "免費",
+            "address": "Kampong Gelam",
+            "transport": "MRT 武吉士站"
+        },
+        "full_intro": "<p>甘榜格南（Kampong Gelam）是新加坡最古老的城區之一，曾是馬來皇室的居住地。這裡以宏偉的蘇丹回教堂為中心，周圍街道（如Arab Street、Bussorah Street）充滿了濃厚的阿拉伯風情。您可以找到精緻的波斯地毯、手工香水與傳統紡織品，同時也是品嚐中東美食與馬來料理的絕佳地點。</p>",
+        "highlights": [
+            { "title": "蘇丹回教堂", "desc": "巨大的金色圓頂", "long_desc": "新加坡最大的清真寺，建於1824年。其巨大的金色圓頂與底座的一圈玻璃瓶底裝飾最為著名。", "img": "assets/images/attractions/19-1.png" },
+            { "title": "馬來傳統文化館", "desc": "昔日皇宮", "long_desc": "由曾經的馬來蘇丹皇宮改建而成，透過展覽深入了解新加坡馬來社群的歷史與文化遺產。", "img": "assets/images/attractions/19-2.png" },
+            { "title": "巴索拉街", "desc": "明信片般的步行街", "long_desc": "位於回教堂正前方，兩旁種滿棕櫚樹與色彩繽紛的店屋，是拍攝回教堂全景的最佳角度。", "img": "assets/images/attractions/19-3.png" },
+            { "title": "阿拉伯街", "desc": "布料與香水", "long_desc": "這條街上林立著布料行，販售絲綢、蠟染布（Batik），還有充滿異國情調的無酒精香水店。", "img": "assets/images/attractions/19-4.png" },
+            { "title": "Zam Zam 餐廳", "desc": "百年印度煎餅", "long_desc": "位於回教堂對面，創立於1908年，這裡的鹿肉煎餅（Murtabak）份量巨大，美味無比。", "img": "assets/images/attractions/19-5.png" }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "麥里芝蓄水池",
+        "category": "自然風景",
+        "desc": "新加坡的綠肺，擁有著名的樹梢吊橋，是健行愛好者的首選。",
+        "image": "assets/images/explore/20.png",
+        "posts": "3.1k",
+        "rating": 4.6,
+        "lat": 1.3456,
+        "lng": 103.8366,
+        "info": {
+            "time": "07:00 - 19:00",
+            "ticket": "免費",
+            "address": "Lornie Road",
+            "transport": "巴士到達"
+        },
+        "full_intro": "<p>想要遠離城市喧囂？麥里芝蓄水池（MacRitchie Reservoir）是新加坡最大的蓄水池之一，也是極為重要的自然保護區。這裡擁有成熟的熱帶雨林生態系統，您可以遇見長尾獼猴、松鼠與各種鳥類。長達11公里的環狀步道，是當地人週末健行與慢跑的熱門路線。</p>",
+        "highlights": [
+            { "title": "樹梢吊橋", "desc": "行走於森林之上", "long_desc": "TreeTop Walk 是一座長250公尺的無支撐懸索橋，懸掛在25公尺高的樹冠層之間，視野極為震撼。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=TreeTop+Walk" },
+            { "title": "日落塔", "desc": "絕佳制高點", "long_desc": "攀上螺旋樓梯到達塔頂，可以360度俯瞰蓄水池被茂密森林環繞的寧靜景色。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Jelutong+Tower" },
+            { "title": "親水木棧道", "desc": "輕鬆的散步路線", "long_desc": "如果您不想爬山，沿著水邊修建的 Chemperai 步道非常平緩，適合全家大小輕鬆散步。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Boardwalk" },
+            { "title": "曲折橋", "desc": "水上九曲橋", "long_desc": "位於入口處附近的 Zig-Zag Bridge，是欣賞夕陽倒映在水面上的經典拍照點。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Zig-Zag+Bridge" },
+            { "title": "獨木舟體驗", "desc": "水上視角", "long_desc": "您可以在租借處租用獨木舟，在平靜的蓄水池水面上划行，從另一個角度欣賞自然美景。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Kayaking" }
+        ]
+    },
+    {
+        "id": 21,
+        "title": "藝術科學博物館",
+        "category": "藝術文化",
+        "desc": "外型如盛開蓮花般的地標，由 teamLab 打造的沉浸式光影世界。",
+        "image": "assets/images/explore/21.png",
+        "posts": "9.5k",
+        "rating": 4.7,
+        "lat": 1.2863,
+        "lng": 103.8593,
+        "info": {
+            "time": "10:00 - 19:00",
+            "ticket": "需購票",
+            "address": "6 Bayfront Ave",
+            "transport": "MRT 海灣舫站 (Bayfront)"
+        },
+        "full_intro": "<p>這座建築本身就是一件藝術品，由名建築師 Moshe Safdie 設計，外型像一朵在濱海灣盛開的巨大白色蓮花，也象徵著「新加坡歡迎之手」。藝術科學博物館（ArtScience Museum）致力於探索藝術、科學、文化與科技的交匯點。館內常設展「Future World」與日本數位藝術團隊 teamLab 合作，打造出一個夢幻的互動光影世界，是新加坡最熱門的打卡展覽。</p>",
+        "highlights": [
+            { "title": "Future World", "desc": "與 teamLab 共創未來", "long_desc": "常設展覽，透過先進的數位技術讓藝術與人互動。您可以看見花朵隨著您的移動而綻放或凋零。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Future+World" },
+            { "title": "水晶宇宙", "desc": "星際穿越般的體驗", "long_desc": "Crystal Universe 使用超過17萬顆LED燈泡，營造出浩瀚宇宙的錯覺，隨手一拍都是大片。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Crystal+Universe" },
+            { "title": "彩繪水族館", "desc": "親子互動塗鴉", "long_desc": "Sketch Aquarium 讓小朋友畫的海洋生物，透過掃描後在巨大的虛擬水族館中「活」過來並自由游動。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Sketch+Aquarium" },
+            { "title": "蓮花建築結構", "desc": "收集雨水的巧思", "long_desc": "屋頂的特殊設計能將雨水收集並引導至建築中心的圓孔落下，形成室內瀑布，體現永續設計理念。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Rain+Oculus" },
+            { "title": "VR 影廊", "desc": "虛擬實境體驗", "long_desc": "戴上最新的 VR 裝置，沉浸在藝術家創造的虛擬世界中，探索超越現實的感官體驗。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=VR+Gallery" },
+            { "title": "特展巡禮", "desc": "國際級大展", "long_desc": "館方經常引進世界級的特展，如吉卜力工作室、漫威英雄或哈利波特展覽，每次造訪都有新驚喜。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Special+Exhibition" }
+        ]
+    },
+    {
+        "id": 22,
+        "title": "亞坤咖椰吐司",
+        "category": "美食饗宴",
+        "desc": "新加坡必吃的國民早餐，酥脆吐司與半熟蛋的完美組合。",
+        "image": "assets/images/explore/22.png",
+        "posts": "6.3k",
+        "rating": 4.8,
+        "lat": 1.2825,
+        "lng": 103.8475,
+        "info": {
+            "time": "07:30 - 19:00",
+            "ticket": "約 SGD 5-8",
+            "address": "18 China St (總店)",
+            "transport": "MRT 萊佛士坊站 (Raffles Place)"
+        },
+        "full_intro": "<p>沒吃過亞坤（Ya Kun Kaya Toast），別說你來過新加坡！創立於1944年，這裡承載了幾代新加坡人的早餐記憶。招牌的咖椰吐司在炭火上烤得焦香酥脆，夾著冰涼的牛油與香甜的咖椰醬（Kaya），一口咬下，冷熱交織的口感令人欲罷不能，是體驗正宗南洋早餐的首選。</p>",
+        "highlights": [
+            { "title": "Set A 套餐", "desc": "經典入門首選", "long_desc": "包含兩片咖椰牛油吐司、兩顆養生半熟蛋和一杯熱飲，一份套餐就能體驗最道地的吃法。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Set+A+Meal" },
+            { "title": "養生半熟蛋", "desc": "獨特的飲蛋文化", "long_desc": "將半熟蛋打入碗中，淋上醬油與白胡椒粉攪拌，可以直接喝，或用酥脆的吐司沾著吃。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Soft+Boiled+Eggs" },
+            { "title": "Kopi Gu You", "desc": "防彈咖啡始祖", "long_desc": "南洋咖啡（Kopi）加入一塊牛油，口感比拿鐵更加濃郁順滑，帶有獨特的鹹香風味。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Butter+Coffee" },
+            { "title": "咖椰醬伴手禮", "desc": "把美味帶回家", "long_desc": "店內販售罐裝的招牌咖椰醬，由雞蛋、椰奶、糖和香蘭葉製成，是送禮自用兩相宜的最佳手信。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Kaya+Jar" }
+        ]
+    },
+    {
+        "id": 23,
+        "title": "怡豐城 VivoCity",
+        "category": "購物時尚",
+        "desc": "新加坡最大的購物中心，由日本建築大師伊東豐雄設計，眺望聖淘沙海景。",
+        "image": "assets/images/explore/23.png",
+        "posts": "5.8k",
+        "rating": 4.6,
+        "lat": 1.2642,
+        "lng": 103.8222,
+        "info": {
+            "time": "10:00 - 22:00",
+            "ticket": "免費",
+            "address": "1 HarbourFront Walk",
+            "transport": "MRT 港灣站 (HarbourFront)"
+        },
+        "full_intro": "<p>怡豐城（VivoCity）不只是購物中心，更是一個巨型的生活娛樂樞紐。由日本建築大師伊東豐雄設計，建築線條如海浪般流動。作為通往聖淘沙的必經門戶，這裡擁有全島最大的屋頂戶外遊樂區、戲水池以及無敵海景圖書館。無論是逛街血拼、家庭聚餐還是單純看海發呆，這裡都能滿足。</p>",
+        "highlights": [
+            { "title": "空中花園", "desc": "屋頂的歡樂天地", "long_desc": "位於頂樓的巨大戶外空間，設有淺水區讓兒童戲水，也能在此遠眺聖淘沙島與纜車美景。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Sky+Park" },
+            { "title": "聖淘沙跨海步道", "desc": "夕陽散步首選", "long_desc": "Sentosa Boardwalk 連接商場與聖淘沙島，傍晚時分沿著海濱散步，海風徐徐，非常浪漫。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Boardwalk" },
+            { "title": "Library@Harbourfront", "desc": "無敵海景圖書館", "long_desc": "位於三樓，擁有大片落地窗面海的閱讀區，被譽為新加坡風景最美的公共圖書館。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Sea+View+Library" },
+            { "title": "嘉華院線", "desc": "頂級觀影體驗", "long_desc": "Golden Village 擁有全獅城最大的螢幕之一，逛累了不妨看場電影休息一下。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Golden+Village" },
+            { "title": "Timezone 遊樂場", "desc": "室內遊樂天堂", "long_desc": "擁有碰碰車、保齡球與各式機台的大型遊樂場，是年輕人與親子家庭的最愛。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Arcade" },
+            { "title": "FairPrice Xtra", "desc": "巨型超市掃貨", "long_desc": "位於B2的超大超市，商品種類齊全，是購買新加坡零食、肉骨茶包等伴手禮的最佳補給站。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Supermarket" }
+        ]
+    },
+    {
+        "id": 24,
+        "title": "贊美廣場",
+        "category": "人文歷史",
+        "desc": "在哥德式教堂的白色迴廊下，享受浪漫的戶外晚餐與酒吧時光。",
+        "image": "assets/images/explore/24.png",
+        "posts": "4.2k",
+        "rating": 4.7,
+        "lat": 1.2952,
+        "lng": 103.8521,
+        "info": {
+            "time": "全天 (餐廳視營業時間)",
+            "ticket": "免費",
+            "address": "30 Victoria St",
+            "transport": "MRT 政府大廈站 (City Hall)"
+        },
+        "full_intro": "<p>贊美廣場（CHIJMES）是新加坡歷史建築活化的完美典範。這裡原是19世紀的天主教聖嬰修道院，擁有優雅的白色哥德式教堂與迴廊。如今，它已華麗轉身為時尚的餐飲聚落。電影《瘋狂亞洲富豪》那場奢華的世紀婚禮便是在此取景。夜晚點燈後，氛圍極其浪漫，是情侶約會的勝地。</p>",
+        "highlights": [
+            { "title": "贊美禮堂", "desc": "夢幻婚禮殿堂", "long_desc": "CHIJMES Hall 擁有精美的彩繪玻璃與高聳的尖塔，純白的建築外觀是攝影師的最愛。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=The+Chapel" },
+            { "title": "戶外庭院", "desc": "慵懶的微醺時光", "long_desc": "下沉式的庭院廣場種滿綠樹，周圍環繞著各國美食餐廳與酒吧，坐在戶外座位區格外愜意。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Courtyard+Dining" },
+            { "title": "螺旋樓梯", "desc": "網美必拍角落", "long_desc": "隱藏在建築一側的白色鑄鐵螺旋樓梯，充滿古典美感，隨手一拍都像是在歐洲。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Spiral+Staircase" },
+            { "title": "希望之門", "desc": "歷史的見證", "long_desc": "Gate of Hope 曾是棄嬰收容所的入口，保留了這座建築早期作為修道院與孤兒院的歷史記憶。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Gate+of+Hope" },
+            { "title": "草地休閒區", "desc": "城市中的綠洲", "long_desc": "教堂後方有一片舒適的草地，擺放著懶骨頭沙發，適合逛累了躺下來休息，欣賞建築之美。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=The+Lawn" }
+        ]
+    },
+    {
+        "id": 25,
+        "title": "新加坡摩天觀景輪",
+        "category": "休閒娛樂",
+        "desc": "亞洲最大的景觀摩天輪，30分鐘的空中旅程飽覽濱海灣絕美夜景。",
+        "image": "assets/images/explore/25.png",
+        "posts": "6.5k",
+        "rating": 4.6,
+        "lat": 1.2893,
+        "lng": 103.8631,
+        "info": {
+            "time": "14:00 - 22:00",
+            "ticket": "需購票",
+            "address": "30 Raffles Ave",
+            "transport": "MRT 寶門廊站 (Promenade)"
+        },
+        "full_intro": "<p>新加坡摩天觀景輪（Singapore Flyer）高達165公尺，相當於42層樓高，曾是世界最高的摩天輪。它不僅僅是個遊樂設施，更是一個移動的空中觀景台。巨大的膠囊車廂行駛極其平穩，旋轉一圈約需30分鐘。天氣晴朗時，視線甚至可以遠達馬來西亞的新山與印尼的民丹島。</p>",
+        "highlights": [
+            { "title": "景觀膠囊艙", "desc": "360度無死角視野", "long_desc": "寬敞的空調車廂最多可容納28人，四面皆是防紫外線的透明玻璃，讓您盡情拍攝濱海灣全景。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Observation+Capsule" },
+            { "title": "時光之旅", "desc": "沉浸式互動展覽", "long_desc": "Time Capsule 位於搭乘入口前，透過多媒體投影帶您穿越時空，了解新加坡的過去、現在與未來。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Time+Capsule" },
+            { "title": "空中晚宴", "desc": "極致浪漫體驗", "long_desc": "Sky Dining 服務讓您在摩天輪上享用四道式精緻晚餐，並有專屬管家服務，求婚成功率100%。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Sky+Dining" },
+            { "title": "F1 賽道視角", "desc": "俯瞰極速傳奇", "long_desc": "摩天輪下方即是F1新加坡大獎賽的維修站大樓與賽道，賽車迷絕對會對這個上帝視角感到興奮。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=F1+Track+View" },
+            { "title": "新加坡路邊攤", "desc": "復古美食街", "long_desc": "位於摩天輪一樓的 Singapore Food Treats，裝潢重現60年代的新加坡街頭，匯集了著名的本地小吃。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Food+Street" }
+        ]
+    },
+    {
+        "id": 26,
+        "title": "河川生態園",
+        "category": "自然風景",
+        "desc": "亞洲首座以河流為主題的野生動物園，探訪大熊貓與亞馬遜河生物。",
+        "image": "assets/images/explore/26.png",
+        "posts": "4.7k",
+        "rating": 4.5,
+        "lat": 1.4037,
+        "lng": 103.7890,
+        "info": {
+            "time": "10:00 - 19:00",
+            "ticket": "需購票",
+            "address": "80 Mandai Lake Rd",
+            "transport": "接駁巴士"
+        },
+        "full_intro": "<p>河川生態園（River Wonders）位於新加坡動物園旁，是亞洲首個也是唯一一個以河流為主題的野生動物園。園區設計巧妙地帶領遊客遊歷世界著名的河流系統，包括尼羅河、長江、亞馬遜河等。這裡不僅有可愛的大熊貓，還有巨大的海牛與來自世界各地的淡水生物，大部分區域有遮蓋，是雨天出遊的好選擇。</p>",
+        "highlights": [
+            { "title": "亞馬遜河探險", "desc": "刺激的遊船體驗", "long_desc": "Amazon River Quest 讓您乘船進入模擬亞馬遜叢林的河道，尋找美洲豹、食蟻獸與巴西貘的蹤跡。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Amazon+River+Quest" },
+            { "title": "大熊貓竹林", "desc": "明星動物見面會", "long_desc": "走進恆溫館，看可愛的大熊貓凱凱（Kai Kai）與嘉嘉（Jia Jia），以及牠們的寶寶叻叻（Le Le）賣萌。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Giant+Panda+Forest" },
+            { "title": "亞馬遜水下森林", "desc": "巨型淡水水族箱", "long_desc": "世界最大的淡水水族箱之一，看著重達一噸的海牛優雅地在您面前游過，景象極為壯觀。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Manatee+Tank" },
+            { "title": "松鼠猴生態林", "desc": "零距離接觸", "long_desc": "在這個開放式區域，好奇的松鼠猴就在您的頭頂跳躍穿梭，請看管好您的隨身物品！", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Squirrel+Monkey" },
+            { "title": "恆河生態區", "desc": "神秘的食魚鱷", "long_desc": "觀察長相獨特、瀕臨絕種的恆河鱷（Gharial），牠們細長的嘴巴專門用來捕魚。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Ganges+River" },
+            { "title": "河川巡遊", "desc": "愜意的觀景船", "long_desc": "Reservoir Cruise 帶您駛入實里達蓄水池，在微風中欣賞周邊的熱帶雨林風光，運氣好還能看見野生大蜥蜴。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Reservoir+Cruise" }
+        ]
+    },
+    {
+        "id": 27,
+        "title": "土生文化館",
+        "category": "人文歷史",
+        "desc": "深入探索東南亞獨特的「峇峇娘惹」文化，展示華麗精緻的文物。",
+        "image": "assets/images/explore/27.png",
+        "posts": "2.1k",
+        "rating": 4.4,
+        "lat": 1.2945,
+        "lng": 103.8493,
+        "info": {
+            "time": "10:00 - 19:00",
+            "ticket": "需購票",
+            "address": "39 Armenian St",
+            "transport": "MRT 政府大廈站 (City Hall)"
+        },
+        "full_intro": "<p>土生華人（Peranakan，男性稱峇峇，女性稱娘惹）是早期中國移民與東南亞在地居民通婚後的後代，形成了獨特的混合文化。土生文化館（Peranakan Museum）設於一所建於1912年的舊道南學校內，這裡收藏了世界上最精緻的土生華人文物，從珠寶、刺繡到瓷器，帶您窺探這個富裕且講究禮俗的族群生活。</p>",
+        "highlights": [
+            { "title": "傳統婚禮廳", "desc": "長達12天的盛宴", "long_desc": "展示極其華麗的傳統婚禮習俗，包括新婚夫婦的豪華婚床以及繁複的結婚儀式用品。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Wedding+Chamber" },
+            { "title": "娘惹珠寶", "desc": "極致金工藝", "long_desc": "欣賞精雕細琢的「Kerosang」（胸針）與金腰帶，展現了當時工匠高超的技藝與家族的財力。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Nyonya+Jewelry" },
+            { "title": "珠繡工藝", "desc": "一針一線的耐心", "long_desc": "展出色彩鮮豔的娘惹鞋（Kasut Manek）與刺繡桌布，這些通常是娘惹女性從小必須學習的手藝。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Beadwork" },
+            { "title": "長桌宴席", "desc": "Tok Panjang", "long_desc": "重現土生華人家族聚餐的長桌場景，擺滿了粉彩瓷器（Nyonya ware），反映了豐富的飲食文化。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Feast+Table" }
+        ]
+    },
+    {
+        "id": 28,
+        "title": "珍寶海鮮",
+        "category": "美食饗宴",
+        "desc": "新加坡國菜「辣椒螃蟹」的代名詞，享受在河畔大啖海鮮的樂趣。",
+        "image": "assets/images/explore/28.png",
+        "posts": "8.9k",
+        "rating": 4.8,
+        "lat": 1.2894,
+        "lng": 103.8486,
+        "info": {
+            "time": "11:30 - 23:30",
+            "ticket": "人均約 SGD 80",
+            "address": "Riverside Point",
+            "transport": "MRT 克拉碼頭站 (Clarke Quay)"
+        },
+        "full_intro": "<p>成立於1987年的珍寶海鮮（Jumbo Seafood），是新加坡享譽國際的海鮮餐廳。其中，位於克拉碼頭 Riverside Point 的分店人氣最旺，您可以選擇坐在戶外區，邊吹著河風，邊享用獲獎無數的辣椒螃蟹。記得戴上店家提供的可愛圍兜，盡情享受這場雙手並用的吮指饗宴。</p>",
+        "highlights": [
+            { "title": "獲獎辣椒螃蟹", "desc": "一生必吃一次", "long_desc": "肥美的斯里蘭卡蟹，浸泡在由辣椒、番茄醬與蛋液調製的濃郁醬汁中，甜辣適中，極度開胃。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Chili+Crab" },
+            { "title": "黃金炸饅頭", "desc": "醬汁的最佳拍檔", "long_desc": "外酥內軟的炸饅頭是絕對不能少的配角，沾滿辣椒螃蟹的醬汁一起吃，美味程度甚至超越螃蟹本身。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Fried+Mantou" },
+            { "title": "招牌黑胡椒蟹", "desc": "重口味老饕首選", "long_desc": "如果不喜歡偏甜的口味，這款使用大量黑胡椒與牛油快炒的螃蟹，香氣逼人，辛辣感直衝腦門。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Black+Pepper+Crab" },
+            { "title": "麥片活蝦", "desc": "獨特的酥脆口感", "long_desc": "新鮮大蝦裹上特製的香甜麥片油炸，連殼都能吃，帶有淡淡的奶香與咖哩葉香氣。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Cereal+Prawns" }
+        ]
+    },
+    {
+        "id": 29,
+        "title": "烏敏島",
+        "category": "自然風景",
+        "desc": "搭乘斑駁的小船穿越時光，體驗新加坡最後的甘榜鄉村生活。",
+        "image": "assets/images/explore/29.png",
+        "posts": "3.3k",
+        "rating": 4.7,
+        "lat": 1.4120,
+        "lng": 103.9572,
+        "info": {
+            "time": "全天 (船班白天運行)",
+            "ticket": "船票 SGD 4",
+            "address": "Pulau Ubin",
+            "transport": "樟宜尾碼頭搭船"
+        },
+        "full_intro": "<p>烏敏島（Pulau Ubin）是新加坡最後一個未經現代化開發的村落（Kampong）。這裡彷彿停留在1960年代，沒有高樓大廈，只有茂密的紅樹林、廢棄的花崗岩採石場與悠閒的野生動物。只需從樟宜尾碼頭搭乘15分鐘的駁船（bumboat），就能暫時逃離城市的喧囂，擁抱純樸的大自然。</p>",
+        "highlights": [
+            { "title": "其爪哇濕地", "desc": "生態寶庫", "long_desc": "Chek Jawa 擁有極其豐富的海岸生態，沿著海上木棧道行走，退潮時可觀察到海星、海馬與招潮蟹。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Chek+Jawa+Wetlands" },
+            { "title": "環島單車遊", "desc": "最棒的探索方式", "long_desc": "島上交通主要靠腳踏車。碼頭旁就有租車店，騎車穿梭在綠色隧道與椰林之間，自由自在。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Cycling" },
+            { "title": "北干採石場", "desc": "如畫般的湖景", "long_desc": "Pekan Quarry 是由廢棄礦場積水形成的湖泊，湖水翠綠平靜，是賞鳥與拍攝倒影的絕佳地點。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Pekan+Quarry" },
+            { "title": "柏卡山", "desc": "登高望遠", "long_desc": "Puaka Hill 是島上的制高點，攀登約20分鐘即可抵達山頂，俯瞰整個採石場湖泊與遠處的馬來西亞。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Puaka+Hill" },
+            { "title": "傳統甘榜屋", "desc": "懷舊建築", "long_desc": "沿途可見保留完整的木造高腳屋，雖然大多已無人居住，但仍能感受到濃濃的舊時光氛圍。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Kampong+House" },
+            { "title": "碼頭海鮮餐", "desc": "簡單的美味", "long_desc": "騎完車後，在碼頭旁的餐廳點一份炒飯與椰子水，享受最純粹的鄉村風味。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Seafood+Lunch" }
+        ]
+    },
+    {
+        "id": 30,
+        "title": "福南 Funan",
+        "category": "購物時尚",
+        "desc": "可以騎腳踏車進入的未來感商場，結合科技、運動與城市農耕。",
+        "image": "assets/images/explore/30.png",
+        "posts": "4.1k",
+        "rating": 4.5,
+        "lat": 1.2917,
+        "lng": 103.8498,
+        "info": {
+            "time": "10:00 - 22:00",
+            "ticket": "免費",
+            "address": "107 North Bridge Rd",
+            "transport": "MRT 政府大廈站 (City Hall)"
+        },
+        "full_intro": "<p>經過三年重建，老牌的電腦商場華麗變身為「Funan」。這是一座充滿賽博龐克（Cyberpunk）風格的現代生活實驗室。它是新加坡唯一允許騎自行車進入的商場，擁有貫穿樓層的室內單車道。這裡匯集了最新的科技產品、室內攀岩牆、屋頂農場以及各式文創品牌，是年輕潮流人士的聚集地。</p>",
+        "highlights": [
+            { "title": "室內單車道", "desc": "騎車逛街新體驗", "long_desc": "一條長達200公尺的藍色自行車道貫穿商場一樓，連接外部街道，展現了對單車族極致友善的設計。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Indoor+Bike+Path" },
+            { "title": "Climb Central", "desc": "中庭巨型攀岩牆", "long_desc": "位於商場中庭，高聳的攀岩牆橫跨多個樓層，即使不攀爬，看著高手們在牆上移動也是一種視覺享受。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Climbing+Wall" },
+            { "title": "城市屋頂農場", "desc": "Edible Garden City", "long_desc": "位於頂樓（L7）的開放式農場，種植了各種香草與蔬菜，您可以參觀了解城市農業，並欣賞金沙酒店遠景。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Urban+Farm" },
+            { "title": "生命之樹", "desc": "創意零售空間", "long_desc": "Tree of Life 是一個巨大的木造結構，支撐著許多開放式的快閃店（Pop-up stores），讓您探索小眾設計品牌。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Tree+of+Life" },
+            { "title": "動態藝術牆", "desc": "Kinetic Wall", "long_desc": "入口處高達13公尺的多媒體藝術裝置，由數千片會隨時間變換的葉片組成，充滿科技美感。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Kinetic+Wall" }
+        ]
+    },
+    {
+        "id": 31,
+        "title": "飛禽公園",
+        "category": "自然風景",
+        "desc": "亞洲最大的鳥類公園，擁有8個大型戶外擬真生態鳥舍。",
+        "image": "assets/images/explore/31.png",
+        "posts": "5.2k",
+        "rating": 4.7,
+        "lat": 1.4055,
+        "lng": 103.7876,
+        "info": {
+            "time": "09:00 - 18:00",
+            "ticket": "需購票",
+            "address": "20 Mandai Lake Rd",
+            "transport": "接駁巴士"
+        },
+        "full_intro": "<p>全新的新加坡飛禽公園（Bird Paradise）已搬遷至萬禮野生動物保護區，是亞洲最大的飛禽公園之一。園區設計打破了傳統籠舍的限制，打造了8個不同地理主題的戶外大型網狀鳥舍。遊客可以在模擬非洲雨林、澳洲內陸或南美濕地的環境中，看著色彩斑斕的金剛鸚鵡、紅鶴與犀鳥在頭頂自由飛翔，體驗沉浸式的生態觀察。</p>",
+        "highlights": [
+            { "title": "企鵝灣", "desc": "企鵝的豪華別墅", "long_desc": "Ocean Network Express Penguin Cove 擁有巨大的水下觀景窗，讓您欣賞國王企鵝、巴布亞企鵝在水中如子彈般穿梭的泳姿。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Penguin+Cove" },
+            { "title": "宏願之心", "desc": "震撼的猛禽表演", "long_desc": "在圓形劇場欣賞「Predators on Wings」表演，看著巨大的老鷹、禿鷲從觀眾席後方俯衝而下，展現精準的捕獵技巧。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Bird+Show" },
+            { "title": "緋紅濕地", "desc": "粉紅色的視覺饗宴", "long_desc": "這裡是世界上色彩最鮮豔的濕地之一，數百隻美洲紅鶴與猩紅䴉聚集於此，與背景的瀑布構成絕美的畫面。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Crimson+Wetlands" },
+            { "title": "彩鸚谷", "desc": "親手餵食吸蜜鸚鵡", "long_desc": "Lory Loft 模擬巴布亞叢林，手持一杯花蜜，五顏六色的吸蜜鸚鵡就會熱情地停在您的手上、肩膀上享用大餐。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Lory+Loft" },
+            { "title": "亞馬遜之寶", "desc": "雨林鳥類天堂", "long_desc": "擁有巨大的榕樹景觀，您可以觀察隱藏在樹冠層的冠蕉鵑與傘鳥，彷彿置身南美叢林。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Amazonian+Jewels" },
+            { "title": "樹冠吊橋", "desc": "高空視角", "long_desc": "走在懸掛於鳥舍頂端的吊橋，以鳥瞰的角度欣賞這些飛禽，並遠眺萬禮蓄水池的美景。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Canopy+Walk" }
+        ]
+    },
+    {
+        "id": 32,
+        "title": "吉柯寶藝術村",
+        "category": "藝術文化",
+        "desc": "隱身在綠色叢林中的前英軍軍營，現為當代藝術畫廊聚落。",
+        "image": "assets/images/explore/32.png",
+        "posts": "1.8k",
+        "rating": 4.3,
+        "lat": 1.2801,
+        "lng": 103.8051,
+        "info": {
+            "time": "視畫廊而定 (週一休)",
+            "ticket": "免費",
+            "address": "9 Lock Rd",
+            "transport": "MRT 拉柏多公園站 (Labrador Park)"
+        },
+        "full_intro": "<p>吉柯寶藝術村（Gillman Barracks）擁有獨特的歷史氛圍。這裡曾是二戰時期的英軍軍營，保留了殖民風格的黑白建築。如今，這些被熱帶叢林環繞的營房已轉變為新加坡頂尖的當代藝術聚落，匯集了多家國際知名的畫廊。這裡遠離市區的喧囂，是藝術愛好者享受寧靜午後的秘密基地。</p>",
+        "highlights": [
+            { "title": "當代藝術畫廊", "desc": "國際級策展", "long_desc": "這裡聚集了如 Sundaram Tagore 等國際畫廊，定期舉辦高品質的免費展覽，展出前衛的繪畫、雕塑與裝置藝術。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Art+Galleries" },
+            { "title": "黑白屋建築", "desc": "殖民歷史遺跡", "long_desc": "漫步在園區內，欣賞經過修復的英軍營房（Black & White Houses），感受濃厚的歷史韻味與熱帶綠意的反差。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Colonial+Architecture" },
+            { "title": "Creamier 冰淇淋", "desc": "人氣手工冰淇淋", "long_desc": "逛累了必去的小店，以伯爵茶薰衣草和烤開心果口味聞名，搭配現烤的華夫餅是絕配。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Creamier+Ice+Cream" },
+            { "title": "Art After Dark", "desc": "夜間藝術派對", "long_desc": "園區偶爾會舉辦夜間開放活動，結合現場音樂表演、露天美食攤位與延長開放的展覽，氣氛熱鬧。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Art+After+Dark" }
+        ]
+    },
+    {
+        "id": 33,
+        "title": "東海岸公園",
+        "category": "休閒娛樂",
+        "desc": "綿延15公里的海岸線，是當地人騎單車、野餐與享用海鮮的首選。",
+        "image": "assets/images/explore/33.png",
+        "posts": "3.6k",
+        "rating": 4.6,
+        "lat": 1.3005,
+        "lng": 103.9122,
+        "info": {
+            "time": "24小時開放",
+            "ticket": "免費",
+            "address": "East Coast Park",
+            "transport": "巴士到達"
+        },
+        "full_intro": "<p>東海岸公園（East Coast Park）是新加坡最受歡迎的戶外休閒勝地，沿著海岸線綿延15公里。這裡充滿了悠閒的生活氣息：早晨有人慢跑，下午家庭在此野餐、放風箏，傍晚則是大啖海鮮的好時機。租一輛腳踏車迎著海風騎行，是體驗新加坡在地生活的最佳方式。</p>",
+        "highlights": [
+            { "title": "海岸騎行", "desc": "平坦的自行車道", "long_desc": "完善的自行車專用道連接了整個公園，沿途樹蔭濃密，海風徐徐，非常適合全家大小一同騎車。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Cycling+Path" },
+            { "title": "東海岸海鮮中心", "desc": "海邊的美食盛宴", "long_desc": "匯集了珍寶、長堤等著名海鮮餐廳，坐在半露天的座位區，聽著海浪聲享用辣椒螃蟹與黑胡椒蟹。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Seafood+Centre" },
+            { "title": "Coastal PlayGrove", "desc": "巨型遊樂塔", "long_desc": "前身為 Big Splash，現擁有全島最高的戶外遊樂塔（16公尺），內有極速滑梯與攀爬網，還有免費的戲水區。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=PlayGrove" },
+            { "title": "勿洛碼頭", "desc": "釣魚與夕陽", "long_desc": "Bedok Jetty 是公園內最長延伸至海中的碼頭，許多釣客在此垂釣，也是欣賞日出與日落的絕佳位置。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Bedok+Jetty" },
+            { "title": "Xtreme SkatePark", "desc": "極限運動場", "long_desc": "世界級的滑板公園，擁有高難度的碗池與街道賽區，常可見到滑板與直排輪好手在此切磋。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=SkatePark" }
+        ]
+    },
+    {
+        "id": 34,
+        "title": "慕達發購物中心",
+        "category": "購物時尚",
+        "desc": "位於小印度的24小時傳奇百貨，商品包羅萬象，價格實惠。",
+        "image": "assets/images/explore/34.png",
+        "posts": "2.9k",
+        "rating": 4.4,
+        "lat": 1.3096,
+        "lng": 103.8558,
+        "info": {
+            "time": "24小時營業",
+            "ticket": "免費",
+            "address": "145 Syed Alwi Rd",
+            "transport": "MRT 花拉公園站 (Farrer Park)"
+        },
+        "full_intro": "<p>Mustafa Centre 是新加坡的一個傳奇。這座位於小印度的巨型商場24小時全年無休，內部像迷宮一樣龐大。這裡的商品種類多到令人咋舌，從最新的電子產品、名牌香水、印度香料、黃金首飾到日常雜貨應有盡有。如果您想體驗深夜購物的樂趣，或尋找最便宜的伴手禮，來這裡準沒錯。</p>",
+        "highlights": [
+            { "title": "黃金珠寶區", "desc": "金光閃閃的震撼", "long_desc": "這裡的黃金飾品種類繁多且價格極具競爭力，雖然設計偏向印度傳統風格，但純度與重量絕對實在。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Gold+Jewelry" },
+            { "title": "異國超市", "desc": "香料與茶葉寶庫", "long_desc": "二樓的超市區可以買到各種便宜的印度香料、咖哩粉、英國茶葉與東南亞特色零食，是買伴手禮的好地方。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Supermarket" },
+            { "title": "電子產品", "desc": "3C愛好者天堂", "long_desc": "從手錶、相機到各種小家電，這裡的貨源充足且經常有折扣，許多遊客專程來此購買G-Shock手錶。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Electronics" },
+            { "title": "貨幣兌換", "desc": "匯率極佳", "long_desc": "Mustafa 附近有許多換錢所，這裡的匯率通常比機場或市區其他地方更好，且24小時皆可兌換。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Money+Changer" }
+        ]
+    },
+    {
+        "id": 35,
+        "title": "佛牙寺龍華院",
+        "category": "人文歷史",
+        "desc": "牛車水的地標性唐代風格寺廟，供奉珍貴的佛牙舍利。",
+        "image": "assets/images/explore/35.png",
+        "posts": "5.5k",
+        "rating": 4.8,
+        "lat": 1.2814,
+        "lng": 103.8443,
+        "info": {
+            "time": "07:00 - 17:00",
+            "ticket": "免費",
+            "address": "288 South Bridge Rd",
+            "transport": "MRT 牛車水站 (Chinatown)"
+        },
+        "full_intro": "<p>佛牙寺龍華院（Buddha Tooth Relic Temple）雖然建成於2007年，但其建築風格嚴格遵循唐代曼荼羅的設計元素，氣勢恢宏。寺廟樓高五層，內部金碧輝煌，供奉著據說是佛陀的犬齒舍利。這裡不僅是宗教場所，更是一座展示豐富佛教藝術與歷史文物的博物館。</p>",
+        "highlights": [
+            { "title": "百龍殿", "desc": "莊嚴的主殿", "long_desc": "一樓的正殿供奉著彌勒佛，天花板與樑柱上雕刻著一百條栩栩如生的金龍，極具視覺震撼力。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Hundred+Dragons+Hall" },
+            { "title": "佛牙舍利塔", "desc": "鎮寺之寶", "long_desc": "位於四樓的靈光殿，佛牙舍利被供奉在一座由320公斤黃金製成的舍利塔中，氣氛莊嚴肅穆。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Relic+Stupa" },
+            { "title": "萬佛閣", "desc": "頂樓蘭花園", "long_desc": "頂樓是一個寧靜的戶外花園，種滿了胡姬花，中央設有巨大的萬佛轉經輪，轉動經輪祈求平安。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Rooftop+Garden" },
+            { "title": "佛教文化博物館", "desc": "宗教藝術展", "long_desc": "二、三樓設有博物館，展示了來自亞洲各地的珍貴佛教文物、佛像與經書。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Museum" }
+        ]
+    },
+    {
+        "id": 36,
+        "title": "328 加東叻沙",
+        "category": "美食饗宴",
+        "desc": "米其林推薦，只用湯匙就能享用的正宗娘惹風味叻沙。",
+        "image": "assets/images/explore/36.png",
+        "posts": "4.3k",
+        "rating": 4.6,
+        "lat": 1.3056,
+        "lng": 103.9037,
+        "info": {
+            "time": "10:00 - 22:00",
+            "ticket": "約 SGD 7-10",
+            "address": "51 E Coast Rd",
+            "transport": "巴士到達"
+        },
+        "full_intro": "<p>來到以土生華人文化聞名的加東區（Katong），絕不能錯過「328 加東叻沙」。這家店曾因在烹飪挑戰中擊敗地獄廚神 Gordon Ramsay 而聲名大噪。這裡的叻沙特色是將粗米粉剪成小段，不需要筷子，只需一根湯匙就能同時舀起麵條與濃郁的湯頭，每一口都是精華。</p>",
+        "highlights": [
+            { "title": "招牌叻沙", "desc": "剪刀剪過的米粉", "long_desc": "湯頭使用新鮮椰奶、蝦米與獨家香料熬煮，口感濃郁順滑，剪短的米粉吸附了滿滿的湯汁。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Katong+Laksa" },
+            { "title": "香烤烏打", "desc": "Otah", "long_desc": "用香蕉葉包裹魚漿與香料炭烤而成的微辣魚餅，是叻沙的最佳配菜，帶有獨特的煙燻香氣。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Otah" },
+            { "title": "自製辣椒醬", "desc": "提味神器", "long_desc": "嗜辣者一定要加一勺店家的特製辣椒醬（Sambal），能將湯頭的鮮味提升到另一個層次。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Chilli+Paste" },
+            { "title": "酸柑水", "desc": "解辣解膩", "long_desc": "吃完重口味的叻沙，來一杯冰涼酸甜的酸柑水（Lime Juice），瞬間清爽解膩。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Lime+Juice" }
+        ]
+    },
+    {
+        "id": 37,
+        "title": "濱海藝術中心",
+        "category": "藝術文化",
+        "desc": "外型酷似大榴槤的地標建築，享受免費藝文表演與海灣美景。",
+        "image": "assets/images/explore/37.png",
+        "posts": "3.8k",
+        "rating": 4.5,
+        "lat": 1.2897,
+        "lng": 103.8556,
+        "info": {
+            "time": "12:00 - 20:30",
+            "ticket": "視演出而定",
+            "address": "1 Esplanade Dr",
+            "transport": "MRT 濱海中心站 (Esplanade)"
+        },
+        "full_intro": "<p>濱海藝術中心（Esplanade - Theatres on the Bay）是新加坡國家級的表演藝術中心。其獨特的帶刺鋁製遮陽板屋頂，讓它被當地人親切地稱為「大榴槤」。這裡不僅有世界級的音樂廳與劇院，更致力於讓藝術普及化，因此在戶外與大廳常年舉辦免費的音樂、舞蹈與戲劇演出。</p>",
+        "highlights": [
+            { "title": "戶外劇場", "desc": "星空下的免費演出", "long_desc": "Outdoor Theatre 位於濱海灣畔，每逢週末夜晚都有免費的現場樂隊表演，以璀璨夜景為背景，氣氛極佳。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Outdoor+Theatre" },
+            { "title": "屋頂露台", "desc": "私房觀景點", "long_desc": "搭電梯至頂樓的 Roof Terrace，這裡遊客較少，可以安靜地俯瞰魚尾獅公園與金沙酒店的全景。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Roof+Terrace" },
+            { "title": "藝術圖書館", "desc": "文青避暑勝地", "long_desc": "Library@Esplanade 是新加坡少數專注於表演藝術、電影與音樂的公共圖書館，館藏豐富。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Arts+Library" },
+            { "title": "Makansutra Gluttons Bay", "desc": "露天美食街", "long_desc": "位於藝術中心旁，精選了許多老字號的小販美食，看完表演後可以直接來這裡吃宵夜。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Gluttons+Bay" }
+        ]
+    },
+    {
+        "id": 38,
+        "title": "聖淘沙海灘",
+        "category": "休閒娛樂",
+        "desc": "擁有三種截然不同風格的海灘，滿足冒險、家庭與放鬆的需求。",
+        "image": "assets/images/explore/38.png",
+        "posts": "6.1k",
+        "rating": 4.6,
+        "lat": 1.2494,
+        "lng": 103.8182,
+        "info": {
+            "time": "全天",
+            "ticket": "免費",
+            "address": "Sentosa Island",
+            "transport": "聖淘沙捷運 - 海灘站"
+        },
+        "full_intro": "<p>聖淘沙島擁有綿延3.2公里的白色沙灘，分為三個風格各異的區域：西樂索（Siloso）、巴拉灣（Palawan）與丹戎（Tanjong）。無論您是想尋求水上活動的刺激、享受親子玩沙的樂趣，還是在高級海灘俱樂部裡拿著雞尾酒看書，這裡都能滿足您的熱帶度假夢想。</p>",
+        "highlights": [
+            { "title": "亞洲大陸極南點", "desc": "地理標誌打卡", "long_desc": "位於巴拉灣海灘，走過一座著名的懸索吊橋，就能抵達這個位於赤道邊緣的小島，證明自己到了亞洲最南端。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Southernmost+Point" },
+            { "title": "西樂索海灘", "desc": "活力與冒險", "long_desc": "最熱鬧的海灘，聚集了高空彈跳（Bungy Jump）、巨型鞦韆與人造衝浪等極限運動設施。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Siloso+Beach" },
+            { "title": "丹戎海灘俱樂部", "desc": "Tanjong Beach Club", "long_desc": "被評為世界最佳海灘酒吧之一，風格慵懶奢華，擁有私人泳池與躺椅，是週末派對的熱點。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Tanjong+Beach+Club" },
+            { "title": "Magical Shores", "desc": "沙灘光影秀", "long_desc": "每晚在西樂索海灘舉辦的免費互動光影秀，絢麗的燈光投影在沙灘上，隨遊客腳步互動。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Magical+Shores" },
+            { "title": "巴拉灣海盜船", "desc": "免費水上樂園", "long_desc": "專為兒童設計的免費水上遊樂區，有滑梯與噴水設施，非常適合家庭遊客。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Palawan+Pirate+Ship" }
+        ]
+    },
+    {
+        "id": 39,
+        "title": "福康寧公園",
+        "category": "自然風景",
+        "desc": "見證新加坡歷史的山頂公園，擁有著名的神秘螺旋階梯。",
+        "image": "assets/images/explore/39.png",
+        "posts": "7.8k",
+        "rating": 4.7,
+        "lat": 1.2947,
+        "lng": 103.8471,
+        "info": {
+            "time": "24小時開放",
+            "ticket": "免費",
+            "address": "River Valley Rd",
+            "transport": "MRT 福康寧站 (Fort Canning)"
+        },
+        "full_intro": "<p>福康寧公園（Fort Canning Park）是新加坡最重要的歷史地標之一。這座位於市中心的小山丘，曾是古代馬來皇族的禁地，也是二戰時期英軍的指揮總部。公園內古樹參天，環境清幽。近年來，因公園邊緣的一座地下道螺旋階梯在Instagram上爆紅，成為全球遊客爭相打卡的秘境。</p>",
+        "highlights": [
+            { "title": "樹龍之穴", "desc": "爆紅螺旋階梯", "long_desc": "Tree Tunnel 位於公園邊緣，從地下道往上看，巨大的雨樹枝葉覆蓋在圓形井口，形成如同眼睛般的神秘構圖。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Tree+Tunnel" },
+            { "title": "桑尼拉烏他瑪花園", "desc": "爪哇式庭園", "long_desc": "重現14世紀古代馬來皇宮的花園風貌，紅磚圍牆、對稱的池塘與雞蛋花樹，充滿古樸意境。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Sang+Nila+Utama" },
+            { "title": "碉堡博物館", "desc": "Battlebox", "long_desc": "曾是英軍在二戰期間的地下指揮中心，也是英軍決定向日軍投降的歷史現場，現為博物館（需購票）。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=The+Battlebox" },
+            { "title": "香料園", "desc": "萊佛士的實驗田", "long_desc": "仿造萊佛士爵士當年在此建立的第一個實驗植物園，種植了肉豆蔻、丁香等各種香料植物。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Spice+Garden" },
+            { "title": "福康寧草坪", "desc": "戶外音樂會場地", "long_desc": "Fort Canning Green 是一片廣闊的斜坡草坪，經常舉辦大型戶外演唱會、電影放映或芭蕾舞表演。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Fort+Canning+Green" }
+        ]
+    },
+    {
+        "id": 40,
+        "title": "紐頓熟食中心",
+        "category": "美食饗宴",
+        "desc": "因電影《瘋狂亞洲富豪》而聲名大噪的露天美食廣場，主打燒烤海鮮。",
+        "image": "assets/images/explore/40.png",
+        "posts": "5.4k",
+        "rating": 4.5,
+        "lat": 1.3120,
+        "lng": 103.8395,
+        "info": {
+            "time": "12:00 - 02:00",
+            "ticket": "免費入場",
+            "address": "500 Clemenceau Ave N",
+            "transport": "MRT 紐頓站 (Newton)"
+        },
+        "full_intro": "<p>紐頓熟食中心（Newton Food Centre）是新加坡最具代表性的戶外美食中心之一，設計成馬蹄形的開放式廣場，通風良好。這裡因電影《瘋狂亞洲富豪》的取景而國際知名度大增。雖然價格略高於鄰里小販中心，但這裡的燒烤海鮮水準極高，且營業至深夜，是吃宵夜的絕佳去處。</p>",
+        "highlights": [
+            { "title": "聯合海鮮燒烤", "desc": "米其林推薦", "long_desc": "Alliance Seafood (攤位27號) 連續多年獲得米其林必比登推薦，其招牌辣椒螃蟹與黑胡椒蟹品質穩定。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Alliance+Seafood" },
+            { "title": "叁峇魔鬼魚", "desc": "必點燒烤海鮮", "long_desc": "厚實的魟魚肉塗滿香辣的參巴醬（Sambal）用香蕉葉包裹炭烤，肉質鮮嫩多汁，帶有獨特煙燻味。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Sambal+Stingray" },
+            { "title": "興興蠔煎", "desc": "酥脆鮮美", "long_desc": "Heng Heng (攤位71號) 的蠔煎口感酥脆不油膩，肥美的鮮蚵給得很大方，搭配特製酸辣醬很開胃。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Oyster+Omelette" },
+            { "title": "沙爹串燒", "desc": "最佳下酒菜", "long_desc": "這裡有多家優秀的沙爹攤位，炭火現烤的雞肉、羊肉與牛肉串，沾上濃郁的花生醬，令人一支接一支。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Satay+Sticks" }
+        ]
+    },
+    {
+        "id": 41,
+        "title": "武吉士街",
+        "category": "購物時尚",
+        "desc": "新加坡最大的平價購物迷宮，許多年輕人與遊客的挖寶天堂。",
+        "image": "assets/images/explore/41.png",
+        "posts": "4.6k",
+        "rating": 4.3,
+        "lat": 1.3005,
+        "lng": 103.8542,
+        "info": {
+            "time": "11:00 - 22:00",
+            "ticket": "免費",
+            "address": "3 New Bugis Street",
+            "transport": "MRT 武吉士站 (Bugis)"
+        },
+        "full_intro": "<p>如果說烏節路是名牌的殿堂，那武吉士街（Bugis Street）就是平價時尚的戰場。這裡擁有超過600家店鋪，宛如一個巨大的有蓋市集迷宮。一樓主要販售便宜的紀念品與當季流行服飾，二樓和三樓則隱藏著更多韓風潮牌、美甲店與特色小舖。這裡是體驗新加坡在地活力、練習殺價技巧的最佳場所。</p>",
+        "highlights": [
+            { "title": "時尚巷弄", "desc": "高CP值穿搭", "long_desc": "從T恤、洋裝到球鞋，這裡的價格極具競爭力，只需少少的預算就能買到全身行頭。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Fashion+Alley" },
+            { "title": "熱帶水果吧", "desc": "現打鮮果汁", "long_desc": "逛累了隨手買一杯SGD 1-2元的現打果汁，西瓜汁、酪梨牛奶或甘蔗汁都是消暑聖品。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Fruit+Juice" },
+            { "title": "平價紀念品", "desc": "伴手禮掃貨", "long_desc": "魚尾獅巧克力、鑰匙圈、班蘭蛋糕等伴手禮，這裡的價格通常比機場或觀光景點便宜許多。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Souvenirs" },
+            { "title": "街頭小吃攤", "desc": "邊走邊吃", "long_desc": "著名的「老曾記」咖哩角、炸香蕉、烤香腸等小吃攤散布其中，香氣四溢。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Street+Snacks" }
+        ]
+    },
+    {
+        "id": 42,
+        "title": "新加坡動物園",
+        "category": "自然風景",
+        "desc": "世界最佳「開放式」動物園，與紅毛猩猩共進早餐的難忘體驗。",
+        "image": "assets/images/explore/42.png",
+        "posts": "9.2k",
+        "rating": 4.9,
+        "lat": 1.4043,
+        "lng": 103.7930,
+        "info": {
+            "time": "08:30 - 18:00",
+            "ticket": "需購票",
+            "address": "80 Mandai Lake Rd",
+            "transport": "接駁巴士"
+        },
+        "full_intro": "<p>新加坡動物園（Singapore Zoo）享譽全球，最大的特色在於「開放式」設計。園區利用天然屏障（如溪流、岩石、植被）取代冰冷的鐵籠，讓遊客彷彿置身於動物的自然棲息地中。這裡擁有超過300種物種，其中最著名的是世界上首個自由放養的紅毛猩猩棲息地，您可以抬頭看著牠們在樹梢間自由擺盪。</p>",
+        "highlights": [
+            { "title": "與紅毛猩猩吃早餐", "desc": "世界級的體驗", "long_desc": "在阿明餐廳（Ah Meng Restaurant）享用自助早餐，紅毛猩猩家族會從樹上下來與您共度早晨，絕對是打卡亮點。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Breakfast+with+Orangutans" },
+            { "title": "脆弱森林", "desc": "零距離接觸", "long_desc": "走進這個巨大的生物圓頂，狐猴、樹懶、飛狐和鼷鹿就在您身邊自由活動，甚至會跳到欄杆上。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Fragile+Forest" },
+            { "title": "雨林兒童樂園", "desc": "水上歡樂時光", "long_desc": "KidzWorld 設有大型的水上遊樂場、動物觸摸區與騎乘小馬體驗，記得幫小孩多帶一套衣服。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=KidzWorld" },
+            { "title": "海洋動物表演", "desc": "Splash Safari", "long_desc": "看加州海獅展現高超的頂球與滑水技巧，前排座位的觀眾請準備好迎接「濕身」的驚喜。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Splash+Safari" },
+            { "title": "亞洲大象園", "desc": "聰明的巨人", "long_desc": "欣賞大象與飼育員的互動，了解這些溫柔巨人的習性，還有機會親自餵食大象。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Elephants+of+Asia" },
+            { "title": "爬行類生態館", "desc": "RepTopia", "long_desc": "展示各種奇特的蜥蜴、蛇類與兩棲動物，工作人員會定時拿出溫馴的爬蟲類讓遊客觸摸。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=RepTopia" }
+        ]
+    },
+    {
+        "id": 43,
+        "title": "娘惹博物館",
+        "category": "人文歷史",
+        "desc": "一窺百年前土生華人富商的奢華生活，保存最完整的藍色老宅。",
+        "image": "assets/images/explore/43.png",
+        "posts": "2.5k",
+        "rating": 4.6,
+        "lat": 1.2974,
+        "lng": 103.8378,
+        "info": {
+            "time": "需預約導覽",
+            "ticket": "免費/收費視方案",
+            "address": "157 Neil Rd",
+            "transport": "MRT 歐南園站 (Outram Park)"
+        },
+        "full_intro": "<p>這棟位於尼路（Neil Road）的鮮豔藍色三層樓排屋，是新加坡國立大學（NUS）管理的敦陳禎祿峇峇屋（Baba House）。它建於1890年代，經過精心修復，完美重現了20世紀初期新加坡土生華人權貴家庭的生活場景。與一般博物館不同，這裡必須透過預約導覽才能進入，提供深度且私密的文化體驗。</p>",
+        "highlights": [
+            { "title": "湛藍外牆", "desc": "建築美學", "long_desc": "建築外觀使用了當時稀有昂貴的藍色染料，門面裝飾著精緻的剪黏工藝與金字匾額，氣派非凡。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Blue+Facade" },
+            { "title": "一樓廳堂", "desc": "富麗堂皇", "long_desc": "擺放著鑲嵌貝殼的酸枝木家具與祖先牌位，展現了峇峇家庭對傳統禮教與祭祀的重視。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Reception+Hall" },
+            { "title": "傳統廚房", "desc": "娘惹菜的誕生地", "long_desc": "充滿生活感的廚房空間，展示了各式各樣的烹飪器具與餐具，彷彿還能聞到香料的氣味。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Traditional+Kitchen" },
+            { "title": "天井設計", "desc": "通風採光", "long_desc": "傳統店屋特有的天井結構，不僅具備採光功能，更是收集雨水（象徵聚財）的重要設計。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Airwell" }
+        ]
+    },
+    {
+        "id": 44,
+        "title": "斜坡滑車",
+        "category": "休閒娛樂",
+        "desc": "玩一次絕對不夠！聖淘沙最受歡迎的重力滑車與空中吊椅。",
+        "image": "assets/images/explore/44.png",
+        "posts": "5.9k",
+        "rating": 4.8,
+        "lat": 1.2526,
+        "lng": 103.8157,
+        "info": {
+            "time": "11:00 - 19:30",
+            "ticket": "需購票",
+            "address": "45 Siloso Beach Walk",
+            "transport": "聖淘沙捷運 - 海灘站"
+        },
+        "full_intro": "<p>Skyline Luge Sentosa 是來自紐西蘭的戶外娛樂設施，標榜「Once is Never Enough」（玩一次絕對不夠）。體驗包含兩部分：首先搭乘空中吊椅（Skyride）上山，雙腳懸空欣賞海景；接著駕駛三輪滑車（Luge），靠著重力沿著蜿蜒的車道疾馳而下。操作簡單，連小朋友也能在大人陪同下體驗。</p>",
+        "highlights": [
+            { "title": "四條主題賽道", "desc": "不同難度", "long_desc": "擁有 Kupu Kupu、Expedition、Jungle 與 Dragon 四條車道，包含急轉彎、隧道與直線加速區。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Luge+Tracks" },
+            { "title": "空中吊椅", "desc": "Skyride", "long_desc": "像滑雪場一樣的開放式纜車，回程時可以俯瞰整個聖淘沙島與南中國海的壯麗景色。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Skyride+View" },
+            { "title": "夜間滑車", "desc": "Night Luge", "long_desc": "太陽下山後，賽道會亮起五顏六色的霓虹燈光，搭配動感音樂，帶來截然不同的競速體驗。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Night+Luge" },
+            { "title": "動態照片", "desc": "捕捉瞬間", "long_desc": "滑行過程中有自動相機捕捉您過彎或加速的驚恐/興奮表情，記得在終點處查看照片。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Photo+Souvenir" }
+        ]
+    },
+    {
+        "id": 45,
+        "title": "黃亞細肉骨茶",
+        "category": "美食饗宴",
+        "desc": "潮州派系的代表，以濃郁辛辣的白胡椒湯頭聞名的新加坡老字號。",
+        "image": "assets/images/explore/45.png",
+        "posts": "3.7k",
+        "rating": 4.5,
+        "lat": 1.3155,
+        "lng": 103.8584,
+        "info": {
+            "time": "07:00 - 22:00",
+            "ticket": "約 SGD 10-15",
+            "address": "208 Rangoon Rd",
+            "transport": "MRT 花拉公園站 (Farrer Park)"
+        },
+        "full_intro": "<p>位於仰光路（Rangoon Road）的黃亞細肉骨茶（Ng Ah Sio Bak Kut Teh）是新加坡肉骨茶界的傳奇之一，曾招待過多國政要。這裡屬於典型的「潮州派」，湯頭不加藥材，僅用大量蒜頭、特級白胡椒與豬骨長時間熬煮。湯色清澈金黃，但入口辛辣帶勁，喝完一身汗，非常過癮。</p>",
+        "highlights": [
+            { "title": "招牌肋排湯", "desc": "Premium Ribs", "long_desc": "選用肉質最嫩的龍骨部位，輕輕一咬就骨肉分離，吸滿了充滿胡椒香氣的湯汁。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Pork+Ribs+Soup" },
+            { "title": "功夫茶", "desc": "正宗吃法", "long_desc": "店內提供多種優質茶葉與茶具。一口肉骨茶、一口濃茶，既能解油膩，又能提升味覺層次。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Kung+Fu+Tea" },
+            { "title": "滷味拼盤", "desc": "經典配菜", "long_desc": "滷水非常入味，特別推薦滷粉腸、滷豆卜與花生，鹹甜適中，是配白飯的神器。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Braised+Platter" },
+            { "title": "油條", "desc": "湯頭伴侶", "long_desc": "這裡的油條較為厚實，浸泡在辛辣的湯頭中幾秒鐘後食用，半脆半軟的口感最棒。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=You+Tiao" }
+        ]
+    },
+    {
+        "id": 46,
+        "title": "新加坡國家博物館",
+        "category": "人文歷史",
+        "desc": "新加坡最古老的博物館，融合新古典建築與現代科技，生動講述國家故事。",
+        "image": "assets/images/explore/46.png",
+        "posts": "3.4k",
+        "rating": 4.7,
+        "lat": 1.2966,
+        "lng": 103.8485,
+        "info": {
+            "time": "10:00 - 19:00",
+            "ticket": "需購票",
+            "address": "93 Stamford Rd",
+            "transport": "MRT 多美歌站 (Dhoby Ghaut)"
+        },
+        "full_intro": "<p>新加坡國家博物館（National Museum of Singapore）的歷史可追溯至1887年。其潔白的圓頂與新古典主義建築外觀，是城市中的優雅地標。館內雖然講述歷史，但展示手法極具現代感，大量運用多媒體投影與沉浸式裝置，將新加坡從一個小漁村發展成現代化大都市的700年歷史，變成生動的故事。</p>",
+        "highlights": [
+            { "title": "森林的故事", "desc": "teamLab 裝置藝術", "long_desc": "位於玻璃圓樓（Glass Rotunda），您將沿著螺旋坡道走入一個360度的虛擬熱帶雨林，花朵與動物隨您互動。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Story+of+the+Forest" },
+            { "title": "新加坡歷史館", "desc": "時光隧道", "long_desc": "館內的核心展區，透過場景還原、口述歷史與珍貴文物，帶您穿越經歷殖民、戰爭到獨立的歲月。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=History+Gallery" },
+            { "title": "古典圓頂", "desc": "建築攝影", "long_desc": "博物館的白色圓頂大廳充滿了維多利亞時期的優雅氛圍，陽光透過彩繪玻璃灑下，非常適合拍照。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=The+Rotunda" },
+            { "title": "吳聲柱畫廊", "desc": "自然史圖鑑", "long_desc": "Goh Seng Choo Gallery 展示了19世紀威廉·法夸爾的自然歷史圖畫收藏，細膩描繪了當地的動植物。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Natural+History" },
+            { "title": "成長歲月", "desc": "互動親子區", "long_desc": "Growing Up 展區通過互動裝置展示了新加坡不同年代的孩童生活與社會變遷。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Growing+Up" }
+        ]
+    },
+    {
+        "id": 47,
+        "title": "虎豹別墅",
+        "category": "藝術文化",
+        "desc": "充滿奇幻與怪誕色彩的中華神話主題公園，著名的「十殿閻羅」所在地。",
+        "image": "assets/images/explore/47.png",
+        "posts": "2.2k",
+        "rating": 4.2,
+        "lat": 1.2842,
+        "lng": 103.7824,
+        "info": {
+            "time": "09:00 - 20:00",
+            "ticket": "免費 (地獄博物館收費)",
+            "address": "262 Pasir Panjang Rd",
+            "transport": "MRT 虎豹別墅站 (Haw Par Villa)"
+        },
+        "full_intro": "<p>虎豹別墅（Haw Par Villa）建於1937年，由發明虎標萬金油的胡文虎與胡文豹兄弟斥資打造。這是一個舉世無雙的超現實主題公園，園內遍布超過1000座色彩鮮豔、造型生動（甚至有些驚悚）的雕像，演繹著《西遊記》、《封神榜》等中國神話傳說，旨在勸人為善。</p>",
+        "highlights": [
+            { "title": "十殿閻羅", "desc": "警世地獄場景", "long_desc": "最著名的景點，生動且血腥地展示了罪人在地獄受到的各種刑罰（如上刀山、下油鍋），極具視覺衝擊。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=10+Courts+of+Hell" },
+            { "title": "地獄博物館", "desc": "探索死亡文化", "long_desc": "全新開放的冷氣展館（需購票），深入探討全球不同文化對死亡與來世的觀點，內容發人深省。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Hell+Museum" },
+            { "title": "神話雕塑群", "desc": "西遊記與八仙", "long_desc": "尋找孫悟空大戰紅孩兒、八仙過海等經典故事的雕像，造型充滿了早期的古樸與奇特美感。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Mythology+Statues" },
+            { "title": "牌坊入口", "desc": "標誌性建築", "long_desc": "公園入口處宏偉的中式牌坊，是虎豹別墅的地標，見證了近百年的歷史變遷。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Entrance+Archway" }
+        ]
+    },
+    {
+        "id": 48,
+        "title": "設計烏節",
+        "category": "購物時尚",
+        "desc": "烏節路上的創意綠洲，匯集新加坡頂尖在地設計師品牌的選物店。",
+        "image": "assets/images/explore/48.png",
+        "posts": "1.9k",
+        "rating": 4.4,
+        "lat": 1.3016,
+        "lng": 103.8364,
+        "info": {
+            "time": "10:30 - 21:30",
+            "ticket": "免費",
+            "address": "250 Orchard Rd",
+            "transport": "MRT 索美塞站 (Somerset)"
+        },
+        "full_intro": "<p>Design Orchard 位於繁華的烏節路與凱恩希爾路交界處，是一棟擁有獨特混凝土圓孔外牆的現代建築。這裡旨在培育新加坡本土設計力量，一樓的零售空間匯集了數十個精選的在地品牌，涵蓋時尚服飾、家居用品到特色紀念品。頂樓則是一個階梯式的露天劇場，是城市中難得的休憩綠洲。</p>",
+        "highlights": [
+            { "title": "在地設計選品", "desc": "支持新加坡原創", "long_desc": "不想買千篇一律的紀念品？這裡有設計感十足的服裝、香氛與工藝品，展現新加坡的現代美學。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Local+Brands" },
+            { "title": "屋頂階梯花園", "desc": "城市觀景台", "long_desc": "沿著戶外大階梯走上屋頂，被綠色植物環繞，您可以拿著咖啡坐在這裡看著烏節路的人來人往。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Rooftop+Steps" },
+            { "title": "The Cocoon Space", "desc": "創意孵化器", "long_desc": "二樓及三樓是專為設計師提供的共同工作空間與活動場地，充滿了創意的氛圍。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Creative+Space" },
+            { "title": "特色咖啡", "desc": "逛街歇腳處", "long_desc": "店內通常設有與在地品牌合作的咖啡角落，逛累了可以來杯具有南洋風味的特調飲品。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Cafe" }
+        ]
+    },
+    {
+        "id": 49,
+        "title": "南部山脊",
+        "category": "自然風景",
+        "desc": "長達10公里的景觀綠廊，串聯花柏山與波浪橋的絕美健行路線。",
+        "image": "assets/images/explore/49.png",
+        "posts": "2.7k",
+        "rating": 4.7,
+        "lat": 1.2805,
+        "lng": 103.8046,
+        "info": {
+            "time": "24小時開放",
+            "ticket": "免費",
+            "address": "Henderson Road",
+            "transport": "巴士到達"
+        },
+        "full_intro": "<p>南部山脊（The Southern Ridges）是一條將花柏山公園、直落布蘭雅山公園、肯特崗公園串聯起來的綠色廊道，全長約10公里。這條路線深受健行愛好者與攝影師喜愛，因為它擁有許多設計獨特的空中步道與橋樑，讓您能穿梭在樹冠層之間，同時飽覽城市天際線與森林美景。</p>",
+        "highlights": [
+            { "title": "亨德森波浪橋", "desc": "新加坡最高人行橋", "long_desc": "Henderson Waves 離地36公尺，獨特的波浪狀木肋結構極具雕塑感，夜間點燈後更是浪漫無比。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Henderson+Waves" },
+            { "title": "叢林小徑", "desc": "Forest Walk", "long_desc": "這是一段架高的金屬網狀步道，讓您行走在直落布蘭雅山的樹冠層高度，輕鬆觀察森林生態。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Forest+Walk" },
+            { "title": "亞歷山大拱橋", "desc": "像葉子般的橋", "long_desc": "Alexandra Arch 跨越繁忙的馬路，造型如同一片展開的葉子，夜晚會有變色的LED燈光秀。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Alexandra+Arch" },
+            { "title": "花柏山頂", "desc": "Mount Faber", "long_desc": "路線的起點或終點，這裡是搭乘纜車前往聖淘沙的地方，擁有俯瞰港灣區的絕佳視野。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Faber+Point" },
+            { "title": "園藝園林", "desc": "HortPark", "long_desc": "位於南部山脊中段的一站式園藝中心，展示了各種主題花園與溫室，適合親子遊憩。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=HortPark" }
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Zam Zam 印度煎餅",
+        "category": "美食饗宴",
+        "desc": "百年老店，份量巨大的鹿肉煎餅與香滑拉茶是必點招牌。",
+        "image": "assets/images/explore/50.png",
+        "posts": "4.4k",
+        "rating": 4.6,
+        "lat": 1.3023,
+        "lng": 103.8596,
+        "info": {
+            "time": "07:00 - 23:00",
+            "ticket": "約 SGD 6-12",
+            "address": "697-699 N Bridge Rd",
+            "transport": "MRT 武吉士站 (Bugis)"
+        },
+        "full_intro": "<p>Singapore Zam Zam 創立於1908年，就位於宏偉的蘇丹回教堂正對面，是新加坡現存最古老的印度穆斯林餐廳之一。這家百年老店見證了甘榜格南區的變遷。店員熱情、動作俐落，這裡最出名的就是比臉還大的印度煎餅（Murtabak），是體驗正宗瑪瑪檔（Mamak Stall）文化的必訪之地。</p>",
+        "highlights": [
+            { "title": "鹿肉煎餅", "desc": "獨家招牌", "long_desc": "Murtabak 是一種類似餡餅的厚煎餅，Zam Zam 的鹿肉口味內餡飽滿多汁，香料味濃郁，外皮酥脆。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Deer+Murtabak" },
+            { "title": "印度拉茶", "desc": "Teh Tarik", "long_desc": "看著師傅將茶在兩個杯子間反覆拉高撞擊，產生綿密的泡沫，入口香滑順喉，甜度適中。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Teh+Tarik" },
+            { "title": "羊肉香飯", "desc": "Mutton Briyani", "long_desc": "使用長米與大量香料烹煮的黃薑飯，搭配燉煮得軟爛入味的羊肉塊，份量十足。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Mutton+Briyani" },
+            { "title": "回教堂景觀", "desc": "用餐氛圍", "long_desc": "坐在二樓靠窗的位置，可以一邊享用美食，一邊欣賞對面蘇丹回教堂金頂的壯麗景色。", "img": "https://placehold.co/400x300/e0e0e0/333333?text=Mosque+View" }
+        ]
+    }
+]

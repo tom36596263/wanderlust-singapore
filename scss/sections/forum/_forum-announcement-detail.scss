@@ -1,0 +1,371 @@
+@use '../../base/variables' as vars;
+
+body {
+    display: block;
+    padding: 70px 0;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+
+    .main-container {
+        width: 66%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .article-area {
+        flex: 1;
+        width: 100%;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 0;
+        background: transparent;
+
+        /* 上方的標題條 */
+        .area-title {
+            background-color: #F9FAFB;
+            color: #479E82;
+            width: 100%;
+            height: 55px;
+            border: 1px solid #479E82;
+            border-bottom: none; /* 與下方文章接合 */
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* 文章本體 */
+        .article {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border: 1px solid #479E82;
+            /* 由於沒有輪播，文章直接接在標題下方，所以上面不需要圓角 */
+            border-radius: 0 0 15px 15px; 
+            box-sizing: border-box;
+            padding-bottom: 40px;
+            min-height: 400px; /* 避免內容太少時看起來太扁 */
+
+            .article-title {
+                width: 100%;
+                font-size: 24px;
+                font-weight: bold;
+                padding: 30px 30px 10px; /* 加大一點 padding 讓標題更明顯 */
+                box-sizing: border-box;
+                line-height: 1.4;
+                color: #333;
+            }
+
+            .writer-info-bar {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                padding: 5px 30px;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 15px;
+
+                .announcement-tag {
+                    background-color: #E8F2F2;
+                    color: #479E82;
+                    padding: 4px 12px;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    margin-right: 15px;
+                    font-weight: bold;
+                }
+
+                .writer-name {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #555;
+                }
+            }
+
+            .article-text {
+                width: 100%;
+                padding: 10px 30px;
+                line-height: 1.8;
+                font-size: 16px;
+                color: #333;
+                box-sizing: border-box;
+                text-align: justify;
+                white-space: pre-wrap; /* 保留換行 */
+            }
+
+            .article-subtitle {
+                width: 100%;
+                padding: 20px 30px 5px;
+                font-size: 18px;
+                font-weight: bold;
+                color: #D9534F; /* 公告的副標題用紅色系顯示警告感，或是維持 #479E82 也可以 */
+                box-sizing: border-box;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .side-area {
+        width: 315px;
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: sticky;
+        top: 0px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        .publish-area {
+            flex-shrink: 0;
+            width: 100%;
+            background-color: #E4F4F4;
+            border: 1px solid #479E82;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            box-sizing: border-box;
+
+            .publish-icon {
+                background: none;
+                border: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+                gap: 5px;
+
+                .icon {
+                    width: 40px;
+                    height: 40px;
+                    background-color: #fff;
+                    color: #479E82;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 5px;
+                }
+
+                .text {
+                    font-size: 12px;
+                    color: #479E82;
+                }
+            }
+        }
+
+        .recommended-user-area,
+        .topic-zone {
+            flex-shrink: 0;
+            width: 100%;
+            background-color: #F9FAFB;
+            border: 1px solid #479E82;
+            border-radius: 15px;
+            overflow: hidden;
+
+            h3 {
+                margin: 0;
+                padding: 10px 15px;
+                font-size: 16px;
+                color: #479E82;
+                border-bottom: 1px solid #479E82;
+                background: #fff;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    border-bottom: 1px solid #ddd;
+                    padding: 15px;
+
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+
+        .recommended-user-card {
+            .recommended-user-bar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+
+                .recommended-user-info {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .recommended-user-avatar {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+
+                .follow-button {
+                    width: 60px;
+                    height: 25px;
+                    background-color: #479E82;
+                    color: #FFF;
+                    border: none;
+                    border-radius: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+            }
+
+            .pic-area {
+                display: flex;
+                gap: 5px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 32%;
+                    border-radius: 5px;
+                }
+            }
+
+            .follower-number-area {
+                text-align: center;
+                font-size: 12px;
+                color: #479E82;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+            }
+        }
+
+        .contact-area {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+
+            .download {
+                background: #E4F4F4;
+                padding: 10px;
+                border-radius: 15px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .contact-us span {
+                display: block;
+                line-height: 1.6;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 60px 10px 80px 10px;
+
+        .main-container {
+            width: 100%;
+            flex-direction: column;
+            max-width: none;
+        }
+
+        .article-area {
+            width: 100%;
+            border: none;
+
+            .area-title,
+            .article {
+                border: none;
+                border-radius: 0;
+            }
+        }
+
+        .side-area {
+            position: fixed;
+            bottom: 0;
+            top: auto;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            z-index: 100;
+            background-color: #fff;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            border-top: 1px solid #eee;
+            gap: 0;
+            max-height: none;
+            overflow-y: visible;
+            flex-direction: row;
+
+            .recommended-user-area,
+            .topic-zone,
+            .contact-area {
+                display: none;
+            }
+
+            .publish-area {
+                width: 100%;
+                height: 100%;
+                background: none;
+                border: none;
+                border-radius: 0;
+                padding: 0;
+                align-items: center;
+
+                .publish-icon {
+                    flex: 1;
+
+                    .icon {
+                        background: none;
+                        color: #666;
+                        width: auto;
+                        height: auto;
+                        margin: 0;
+
+                        span {
+                            font-size: 24px;
+                        }
+                    }
+
+                    .text {
+                        color: #666;
+                        margin-top: 2px;
+                    }
+
+                    &:active {
+                        .icon,
+                        .text {
+                            color: #479E82;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

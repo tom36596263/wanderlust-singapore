@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wamderlust Singapore - 論壇</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Stack+Sans+Notch:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- google icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/forum-article-detail.css">
+
+</head>
+
+<body>
+    <!-- nav -->
+    <header class="nav-bg">
+        <nav class="nav">
+
+            <button id="mobile-menu-btn" class="hamburger-btn material-symbols-outlined">
+                menu
+            </button>
+
+            <ul class="nav-list" id="main-nav-list">
+
+                <li class="mobile-close-box">
+                    <button id="close-mobile-menu" class="material-symbols-outlined">
+                        close
+                    </button>
+                </li>
+
+                <li>
+                    <a href="index.html" class="nav-logo">
+                        <img src="assets/images/layout/logo.svg" alt="Logo of Wanderlust Singapore">
+                        <span class="logo-text">Wanderlust Singapore</span>
+                    </a>
+                </li>
+
+                <li class="mobile-function-area">
+
+                    <form class="m-search-box" action="search_result.html" method="get">
+                        <input type="text" name="q" placeholder="搜尋景點、美食...">
+                        <button type="submit" class="material-symbols-outlined">search</button>
+                    </form>
+
+                    <div class="m-lang-box">
+                        <button class="lang-btn active">繁體中文</button>
+                        <span class="divider">|</span>
+                        <button class="lang-btn">English</button>
+                    </div>
+
+                </li>
+
+                <li class="forum">
+                    <a href="forum.html">
+                        論壇
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                </li>
+
+                <li class="explore">
+                    <a href="explore.html">
+                        探索
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                    <div class="explore-submenu">
+                        <ul class="navigation-list">
+                            <li data-target="image-1"><a href="explore.html">景點牆</a></li>
+                            <li data-target="image-2"><a href="#">花園城市</a></li>
+                            <li data-target="image-3"><a href="#">繽紛南洋文化</a></li>
+                            <li data-target="image-4"><a href="#">清新熱帶</a></li>
+                            <li data-target="image-5"><a href="#">街頭美食</a></li>
+                        </ul>
+
+                        <div class="image-gallery">
+                            <img id="image-1" src="assets/images/layout/nav-attraction-wall.png">
+                            <img id="image-2" src="assets/images/layout/nav-city-garden.png">
+                            <img id="image-3" src="assets/images/layout/nav-Southeast-Asian-culture.png">
+                            <img id="image-4" src="assets/images/layout/nav-clean-tropical-city.png">
+                            <img id="image-5" src="assets/images/layout/nav-street-food.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="find-buddy"><a href="#">找旅伴</a></li>
+
+                <li class="itinerary">
+                    <a href="itinerary.html">
+                        找行程
+                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
+                    </a>
+                    <ul class="itinerary-submenu">
+                        <li><a href="itinerary.html">行程規劃</a></li>
+                        <li><a href="itineraries-wall.html">行程懶人包</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="icon-box">
+                <form class="search-wrapper" action="search_result.html" method="get">
+                    <button type="submit" class="search-btn material-symbols-outlined">
+                        search
+                    </button>
+                    <input type="text" class="search-txt" name="q" placeholder="搜尋...">
+                </form>
+
+                <button class="lang-wrapper">
+                    <span class="globe-icon material-symbols-outlined">
+                        globe
+                    </span>
+                    <div class="lang-box">
+                        <span class="lang-zh">中</span>
+                        <span class="lang-en">EN</span>
+                    </div>
+                </button>
+
+                <a href="javascript:void(0)" id="avatar-btn" class="avatar-wrapper">
+                    <span id="guest-icon" class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    <img id="user-avatar" class="dp-none" src="assets/images/layout/nav-avatar.svg" alt="User Avatar">
+                </a>
+            </div>
+
+        </nav>
+    </header>
+    <aside id="user-side-menu" class="user-menu">
+        <div class="menu-header">
+            <button id="close-menu-btn" class="close-btn material-symbols-outlined">
+                close
+            </button>
+        </div>
+
+        <div class="menu-content">
+
+            <div class="acc-item">
+                <div class="acc-header">
+                    <div class="title-box">
+                        <span class="material-symbols-outlined">notifications</span>
+                        <span>通知</span>
+                    </div>
+                    <span class="arrow material-symbols-outlined">expand_more</span>
+                </div>
+
+                <div class="acc-body">
+                    <div class="switcher-box">
+                        <div class="switcher-nav">
+                            <button class="tab-btn active" data-target="tab-buddy">旅伴</button>
+                            <button class="tab-btn" data-target="tab-article">文章</button>
+                            <button class="tab-btn" data-target="tab-system">系統</button>
+                        </div>
+
+                        <div id="tab-buddy" class="tab-panel active">
+                            <ul class="notify-list">
+                                <li>Dave 傳送了交友邀請給你。</li>
+                                <li>Alice 回覆了你的留言。</li>
+                            </ul>
+                        </div>
+
+                        <div id="tab-article" class="tab-panel">
+                            <ul class="notify-list">
+                                <li>你的文章《新加坡美食》已被批准。</li>
+                                <li>有人收藏了你的文章。</li>
+                            </ul>
+                        </div>
+
+                        <div id="tab-system" class="tab-panel">
+                            <ul class="notify-list">
+                                <li>歡迎加入 Wanderlust Singapore!</li>
+                                <li>系統將於今晚維護。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acc-item">
+                <div class="acc-header">
+                    <div class="title-box">
+                        <span class="material-symbols-outlined">person</span>
+                        <span>個人主頁</span>
+                    </div>
+                    <span class="arrow material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="acc-body">
+                    <ul class="profile-links">
+                        <li><a href="#">我的文章</a></li>
+                        <li><a href="#">我的行程</a></li>
+                        <li><a href="#">我的旅伴</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#" class="simple-link">
+                <span class="material-symbols-outlined">manage_accounts</span>
+                帳號中心
+            </a>
+
+            <button id="auth-btn" class="simple-link"
+                style="width: 100%; border: none; background: transparent; cursor: pointer;">
+                <span id="auth-icon" class="material-symbols-outlined">login</span>
+                <span id="auth-text">登入</span>
+            </button>
+
+        </div>
+    </aside>
+    <div id="login-modal" class="login-modal-overlay">
+        <div class="login-box">
+            <button id="close-login-btn" class="close-btn material-symbols-outlined">close</button>
+
+            <h2>歡迎回來</h2>
+            <p>請輸入您的帳號密碼</p>
+
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="email">電子信箱</label>
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">密碼</label>
+                    <input type="password" id="password" placeholder="請輸入密碼" required>
+                </div>
+
+                <button type="submit" class="submit-btn">登入</button>
+            </form>
+
+            <p class="error-msg" id="login-error-msg"></p>
+        </div>
+    </div>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    <!-- forum -->
+    <div class="main-container home-forum">
+
+        <main class="article-area">
+            <h2 class="area-title">文章詳情頁</h2>
+
+            <div class="image-slider-container">
+                <div class="slider-wrapper">
+                    <img src="https://placehold.co/760x430?text=Singapore+View+1" alt="風景預覽1" class="slider-img">
+                    <img src="https://placehold.co/760x430?text=Singapore+View+2" alt="風景預覽2" class="slider-img">
+                    <img src="https://placehold.co/760x430?text=Singapore+View+3" alt="風景預覽3" class="slider-img">
+                </div>
+                <button class="slider-btn prev-btn">
+                    <span class="material-symbols-outlined">chevron_left</span>
+                </button>
+                <button class="slider-btn next-btn">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
+            </div>
+
+            <article class="article">
+                <h1 class="article-title">魚尾獅的微笑與多元文化的交響：新加坡四日深度遊記</h1>
+                <header class="writer-info-bar">
+                    <img src="https://placehold.co/55x55?text=Olivia" alt="大頭照" class="writer-avatar">
+                    <span class="writer-name">Olivia Chen</span>
+                </header>
+
+                <p class="article-text">
+                    新加坡，這個赤道上的迷你島國，總是以其高效、清潔、綠意盎然的面貌迎接著來自世界各地的旅人。它不僅是全球重要的金融與貿易中心，更是一座將古老傳統與未來科技完美融合的文化熔爐。在這裡，你可以在現代摩天大樓的陰影下品嚐到世代相傳的南洋美食，在精心規劃的城市花園中感受熱帶的生機，並在多元種族的社區裡體驗豐富的人文故事。這篇超過
+                    1500 字的深度遊記，將帶你一同探索新加坡的魅力，從經典地標到隱藏巷弄，感受這座「花園城市」的獨特脈動。
+                </p>
+
+                <h3 class="article-subtitle">啟程：初探摩登都會的綠意心臟</h3>
+                <p class="article-text">抵達全球聞名的樟宜國際機場（Changi Airport, SIN），旅程便從一場視覺盛宴開始。作為世界上最美的機場之一，光是沉浸在 Jewel Changi
+                    Airport 的「雨漩渦」（The Rain Vortex）的壯觀景象中，就足以讓人忘卻旅途的疲憊。巨大的室內瀑布自天幕傾瀉而下，四周環繞著層疊的熱帶植被，充分預告了新加坡「花園城市」的主題。
+                </p>
+
+                <h3 class="article-subtitle">🌿 第一日：未來感花園與經典地標</h3>
+                <p class="article-text">我們的第一站直奔新加坡的標誌性景觀——濱海灣花園 (Gardens by the Bay)。這座佔地
+                    101公頃的超級花園，是新加坡城市規劃的傑作。白天，你可以走進兩座巨大的冷室：花穹 (Flower Dome) 模擬地中海和半乾旱地區的氣候，展示來自世界各地的奇花異草；而雲霧林 (Cloud
+                    Forest)則模擬熱帶山區的涼爽濕潤，擁有一個 35 公尺高的室內瀑布，行走其間，彷彿置身於高海拔的雨林。<br>然而，濱海灣花園的精髓在於夜晚的擎天樹叢 (Supertree
+                    Grove)。當夜幕降臨，這些高達 25 至 50 公尺的垂直花園被五光十色的燈光點亮，配合音樂上演「花園狂想曲」（Garden
+                    Rhapsody）。躺在樹下，仰望這些充滿未來感的巨樹在光影中變幻，是一次難以言喻的超現實體驗。<br>隨後，我們來到新加坡最具代表性的雕塑——魚尾獅公園
+                    (MerlionPark)。這座神話中的生物，獅頭魚身，象徵著新加坡從古老漁村「淡馬錫」到「獅城」的演變。雖然魚尾獅雕像本身並不巨大，但它所處的位置提供了拍攝濱海灣景觀的最佳視角，包括造型獨特的金沙酒店（Marina
+                    BaySands）和金融區的摩天大樓群。<br>晚餐的滋味： 在老巴剎 (Lau Pa
+                    Sat)享用一頓正宗的新加坡美食。這座歷史悠久的鑄鐵建築改建的美食中心，彙集了沙爹、叻沙、海南雞飯等經典小吃。特別是夜晚，戶外會變成沙爹街，熱鬧的燒烤香氣瀰漫，是體驗道地夜生活的絕佳場所。</p>
+
+                <h3 class="article-subtitle">文化熔爐：穿梭於多元種族的街區</h3>
+                <p class="article-text">新加坡的魅力，很大程度上源於其豐富的多元文化色彩，華人、馬來人、印度人以及歐亞裔在此共存，形成了獨特的社會圖景。</p>
+
+                <h3 class="article-subtitle">🕌 第二日：印度與馬來的色彩衝擊</h3>
+                <p class="article-text">上午，我們首先來到小印度 (Little
+                    India)。一踏入這個區域，彷彿瞬間穿越到了南亞大陸。空氣中瀰漫著咖哩、香料和茉莉花的芬芳，色彩鮮豔的紗麗店、黃金首飾店和花環攤位鱗次櫛比。維拉瑪卡里雅曼興都廟 (Sri
+                    Veeramakaliamman
+                    Temple) 和斯里瑟曼興都廟 (Sri Srinivasa Perumal Temple)
+                    等處處體現了精緻繁複的南印度廟宇建築風格。在這裡，隨手一拍都是一張充滿異域風情的照片。<br>下午，我們前往充滿活力的甘榜格南 (Kampong
+                    Glam)，這是新加坡的馬來/穆斯林文化中心。核心地標是宏偉的蘇丹回教堂 (Sultan Mosque)，其金色的圓頂在陽光下閃耀著莊嚴的光芒。圍繞回教堂的哈芝巷 (Haji Lane)
+                    則是年輕人聚集的時尚街區。這條狹窄的小巷兩側是色彩斑斕的店屋，遍佈著獨立設計師店、文創商店和充滿個性的咖啡館，街頭藝術塗鴉為這個古老的區域注入了叛逆和創意的氣息。<br>午餐的選擇：
+                    在甘榜格南可以品嚐到正宗的馬來美食，例如牛肉/雞肉的仁當 (Rendang) 或是香氣四溢的椰漿飯 (Nasi Lemak)。</p>
+
+                <h3 class="article-subtitle">🏘️ 第三日：海峽華人與歷史回眸</h3>
+                <p class="article-text">這一天，我們走進了海峽華人的故鄉——加東與如切 (Katong and Joo
+                    Chiat)。這裡是新加坡娘惹文化的發源地，保存著大量色彩鮮豔、裝飾華麗的土生華人
+                    (Peranakan) 店屋。這些店屋融合了中國、馬來和歐洲的建築元素，精美的瓷磚和木雕細節講述著富裕海峽華人家族的歷史故事。漫步於坤成路（Koon Seng Road）和東海岸路（East
+                    Coast
+                    Road），欣賞這些建築傑作本身就是一種享受。<br>隨後，我們來到新加坡河畔的克拉碼頭 (Clarke Quay) 和駁船碼頭 (Boat
+                    Quay)。雖然現代已成為餐飲和夜生活的中心，但在殖民時期，這裡曾是新加坡最重要的貿易港口。乘坐遊船沿著新加坡河航行，可以從水上視角欣賞城市風貌的變遷，從古老的倉庫到現代的博物館和劇院，體會歷史與現代的交織。<br>晚餐的饗宴：
+                    怎麼能錯過新加坡的國菜——辣椒螃蟹 (Chilli Crab)？在東海岸海鮮中心找一家著名的海鮮餐廳，用香辣濃郁的醬汁搭配新鮮的螃蟹，再點上一份炸饅頭沾醬，絕對是令人難忘的味蕾體驗。</p>
+
+                <h3 class="article-subtitle">展望未來與休憩：城市中的慢板</h3>
+                <p class="article-text">旅程的最後一天，是留給更深入的探索和悠閒的休憩。</p>
+
+                <h3 class="article-subtitle">🏞️ 第四日：藝術、知識與自然之巔</h3>
+                <p class="article-text">上午，我們來到新加坡國家博物館 (National Museum of Singapore)。作為新加坡歷史最悠久的博物館，它以創新的互動方式展示了新加坡從
+                    14
+                    世紀至今的國家發展歷程，是了解這個年輕國家如何崛起的最佳窗口。<br>午後，選擇一個能俯瞰城市全景的地方作為告別儀式。雖然金沙酒店的頂樓觀景台是熱門選擇，但更推薦登上花柏山 (Mount
+                    Faber)。這座海拔僅 105 公尺的小山是新加坡第二高的自然山丘，提供了一個遠離城市喧囂的綠色空間。從山頂可以遠眺新加坡南部和聖淘沙島的迷人景色。<br>若時間允許，可以考慮搭乘纜車前往聖淘沙島
+                    (Sentosa Island)。雖然環球影城和賭場是其主要的亮點，但島上寧靜的海灘和亞洲大陸最南端的標誌，也為這趟旅程增添了一抹悠閒的海島風情。<br>告別的滋味：
+                    在牛車水（Chinatown）的某家老字號茶樓享用一頓點心，或是去亞坤（Ya Kun Kaya Toast）來一份經典的咖椰吐司 (Kaya Toast)
+                    配半熟蛋和咖啡，用最道地的新加坡式早餐，為這趟豐富的旅程畫上甜蜜的句號。</p>
+
+                <h3 class="article-subtitle">結語：一座值得細品的精密花園</h3>
+                <p class="article-text">
+                    新加坡，這個國家面積不大，但其蘊含的能量和多樣性卻令人驚嘆。它不僅是高效的國際樞紐，更是活生生的文化教科書。從未來感十足的濱海灣花園，到充滿異域風情的印度廟宇，再到歷史悠久的娘惹店屋，每一次轉身，都帶來全新的視覺和心靈衝擊。<br>新加坡的成功，在於它對未來的勇敢想像，以及對多元文化遺產的細心呵護。它證明了經濟繁榮與生態保護、科技創新與人文關懷可以並存。這趟旅程，不僅是一次觀光，更是一次對「完美城市」定義的思考。魚尾獅的微笑，將永遠在我們的記憶中閃耀。
+                </p>
+            </article>
+
+            <section class="input-area">
+                <ul class="like-bar">
+                    <li class="like-card">
+                        <span class="like-icon material-symbols-outlined">thumb_up</span>
+                        <span class="like-number">653</span>
+                    </li>
+                    <li class="like-card">
+                        <span class="like-icon material-symbols-outlined">favorite</span>
+                        <span class="like-number">343</span>
+                    </li>
+                    <li class="like-card">
+                        <span class="like-icon material-symbols-outlined">mood</span>
+                        <span class="like-number">161</span>
+                    </li>
+                </ul>
+                <ul class="data-bar">
+                    <li class="data-card">
+                        <span class="data-icon material-symbols-outlined">chat_bubble</span>
+                        <span class="data-number">88</span>
+                    </li>
+                    <li class="data-card">
+                        <span class="data-icon material-symbols-outlined">star</span>
+                        <span class="data-number">83</span>
+                    </li>
+                    <li class="data-card">
+                        <span class="data-icon material-symbols-outlined">thumb_up</span>
+                        <span class="data-number">653</span>
+                    </li>
+                    <li class="data-card">
+                        <span class="data-icon material-symbols-outlined">share</span>
+                        <span class="data-number">38</span>
+                    </li>
+                </ul>
+
+                <textarea class="input-comment" id="commentInput" placeholder="發表評論..."></textarea>
+
+                <div class="tool-bar">
+                    <div class="tool">
+                        <span class="tool-icon material-symbols-outlined">mood</span>
+                        <span class="tool-icon material-symbols-outlined">photo</span>
+                        <span class="tool-icon material-symbols-outlined">alternate_email</span>
+                    </div>
+                    <button class="launch" id="submitCommentBtn">發送</button>
+                </div>
+                <div class="filter-bar">
+                    <span class="filter-text">全部評論</span>
+                    <span class="filter-icon material-symbols-outlined">arrow_drop_down</span>
+                </div>
+            </section>
+
+            <section class="comment-area" id="commentList">
+                <div class="comment-group">
+                    <article class="comment-card">
+                        <div class="comment-user-info-bar">
+                            <div class="comment-user-info">
+                                <img src="https://placehold.co/45x45?text=Emily" alt="">
+                                <div class="comment-user-info-text">
+                                    <span class="comment-user-name">Emily Wang</span>
+                                    <span class="comment-floor">1樓</span>
+                                </div>
+                            </div>
+                            <div class="comment-menu-wrapper">
+                                <button class="comment-menu">
+                                    <span class="comment-menu-icon material-symbols-outlined">more_vert</span>
+                                </button>
+                                <div class="menu-dropdown">
+                                    <div class="action-edit">編輯</div>
+                                    <div class="action-delete">刪除</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="comment-text">讀了這篇「魚尾獅的微笑與多元文化的交響：新加坡四日深度遊記」，我立刻被深深吸引了！作者的筆觸非常細膩，不只記錄了行程，更將新加坡多元文化的精髓與歷史深度完美地融合在文字中。<br>我特別喜歡「魚尾獅的微笑」這個意象，它確實象徵了這座城市既現代又充滿底蘊的魅力。文中提到的小印度區與牛車水的對比描寫得太棒了，讓人彷彿能親耳聽到那場文化的交響樂。感謝作者
+                            Jason 提供了這麼棒的視角，這四日深度遊記簡直是計劃去新加坡旅行的最佳指南！我已經開始期待下一篇遊記了！</p>
+                        <div class="comment-data-bar">
+                            <time class="comment-time" datetime="2025-11-06T10:00">20小時前(已編輯)</time>
+                            <div class="comment-data">
+                                <div class="comment-data-card action-reply">
+                                    <span class="comment-data-icon material-symbols-outlined">chat_bubble</span>
+                                    <span class="comment-data-text">回覆</span>
+                                </div>
+                                <div class="comment-data-card">
+                                    <span class="comment-data-icon material-symbols-outlined">thumb_up</span>
+                                    <span class="comment-data-text">77</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="reply-card">
+                        <div class="reply-user-info-bar">
+                            <div class="reply-user-info">
+                                <img src="https://placehold.co/30x30?text=Olivia" alt="">
+                                <span class="reply-user-name">Olivia Chen</span>
+                            </div>
+                            <div class="comment-menu-wrapper">
+                                <button class="comment-menu">
+                                    <span class="comment-menu-icon material-symbols-outlined">more_vert</span>
+                                </button>
+                                <div class="menu-dropdown">
+                                    <div class="action-edit">編輯</div>
+                                    <div class="action-delete">刪除</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="reply">謝謝!記得追蹤我，我會儘快更新!</p>
+                        <div class="reply-data-bar">
+                            <time class="reply-time" datetime="2025-11-06T12:00">18小時前</time>
+                            <div class="reply-data">
+                                <div class="reply-data-card action-reply">
+                                    <span class="reply-data-icon material-symbols-outlined">chat_bubble</span>
+                                    <span class="reply-data-text">回覆</span>
+                                </div>
+                                <div class="reply-data-card">
+                                    <span class="reply-data-icon material-symbols-outlined">thumb_up</span>
+                                    <span class="reply-data-text">7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <aside class="side-area">
+            <section class="publish-area">
+                <button class="publish-icon">
+                    <span class="icon material-symbols-outlined">ink_pen</span>
+                    <span class="text">圖文</span>
+                </button>
+                <button class="publish-icon">
+                    <span class="icon material-symbols-outlined">video_call</span>
+                    <span class="text">影片</span>
+                </button>
+                <button class="publish-icon">
+                    <span class="icon material-symbols-outlined">edit_calendar</span>
+                    <span class="text">行程</span>
+                </button>
+            </section>
+
+            <section class="recommended-user-area">
+                <h3 class="recommended-user-area-title">推薦使用者</h3>
+                <ul class="recommended-user">
+                    <li class="recommended-user-card">
+                        <div class="recommended-user-bar">
+                            <div class="recommended-user-info">
+                                <img src="https://placehold.co/60x60?text=Shirline" class="recommended-user-avatar"
+                                    alt="User Avatar">
+                                <div class="recommended-user-name">Shirline Dungey</div>
+                            </div>
+                            <button class="follow-button">
+                                <span class="follow-icon material-symbols-outlined">add</span>
+                            </button>
+                        </div>
+                        <div class="pic-area">
+                            <img src="https://placehold.co/150x100?text=Img+1" alt="風景預覽照">
+                            <img src="https://placehold.co/150x100?text=Img+2" alt="風景預覽照">
+                            <img src="https://placehold.co/150x100?text=Img+3" alt="風景預覽照">
+                        </div>
+                        <div class="follower-number-area">
+                            <span class="follower-icon material-symbols-outlined">account_circle</span>
+                            <span class="follower-number">追蹤人數：1,106</span>
+                        </div>
+                    </li>
+                    <li class="recommended-user-card">
+                        <div class="recommended-user-bar">
+                            <div class="recommended-user-info">
+                                <img src="https://placehold.co/60x60?text=Shirline" class="recommended-user-avatar"
+                                    alt="User Avatar">
+                                <div class="recommended-user-name">Shirline Dungey</div>
+                            </div>
+                            <button class="follow-button">
+                                <span class="follow-icon material-symbols-outlined">add</span>
+                            </button>
+                        </div>
+                        <div class="pic-area">
+                            <img src="https://placehold.co/150x100?text=Img+1" alt="風景預覽照">
+                            <img src="https://placehold.co/150x100?text=Img+2" alt="風景預覽照">
+                            <img src="https://placehold.co/150x100?text=Img+3" alt="風景預覽照">
+                        </div>
+                        <div class="follower-number-area">
+                            <span class="follower-icon material-symbols-outlined">account_circle</span>
+                            <span class="follower-number">追蹤人數：1,106</span>
+                        </div>
+                    </li>
+                    <li class="recommended-user-card">
+                        <div class="recommended-user-bar">
+                            <div class="recommended-user-info">
+                                <img src="https://placehold.co/60x60?text=Shirline" class="recommended-user-avatar"
+                                    alt="User Avatar">
+                                <div class="recommended-user-name">Shirline Dungey</div>
+                            </div>
+                            <button class="follow-button">
+                                <span class="follow-icon material-symbols-outlined">add</span>
+                            </button>
+                        </div>
+                        <div class="pic-area">
+                            <img src="https://placehold.co/150x100?text=Img+1" alt="風景預覽照">
+                            <img src="https://placehold.co/150x100?text=Img+2" alt="風景預覽照">
+                            <img src="https://placehold.co/150x100?text=Img+3" alt="風景預覽照">
+                        </div>
+                        <div class="follower-number-area">
+                            <span class="follower-icon material-symbols-outlined">account_circle</span>
+                            <span class="follower-number">追蹤人數：1,106</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="topic-zone">
+                <h3 class="topic-area-title">熱門話題</h3>
+                <ul class="topic-area">
+                    <li class="topic-card">
+                        <span class="topic">
+                            <div class="topic-tag">
+                                <span class="topic-icon material-symbols-outlined">local_cafe</span>
+                                <span class="topic-text">文青咖啡廳</span>
+                            </div>
+                            <span class="topic-number">1.2k posts / 3399 follower</span>
+                        </span>
+                    </li>
+                    <li class="topic-card">
+                        <span class="topic">
+                            <div class="topic-tag">
+                                <span class="topic-icon material-symbols-outlined">local_cafe</span>
+                                <span class="topic-text">文青咖啡廳</span>
+                            </div>
+                            <span class="topic-number">1.2k posts / 3399 follower</span>
+                        </span>
+                    </li>
+                    <li class="topic-card">
+                        <span class="topic">
+                            <div class="topic-tag">
+                                <span class="topic-icon material-symbols-outlined">local_cafe</span>
+                                <span class="topic-text">文青咖啡廳</span>
+                            </div>
+                            <span class="topic-number">1.2k posts / 3399 follower</span>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="contact-area">
+                <div class="download">
+                    <img src="assets/images/app-download.svg" alt="app下載">
+                </div>
+                <address class="contact-us">
+                    <span>聯絡我們<br></span>
+                    <span>信箱：20251106singapore@gmail.com<br></span>
+                    <span>電話：02-XXXX-XXXX<br></span>
+                    <span>© Copyright 2025. All Right Reserved</span>
+                </address>
+            </div>
+        </aside>
+    </div>
+
+
+    <script src="js/layout/nav.js"></script>
+    <script src="/js/pages/forum/forum-article-detail.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+{
+  "google font & icon, css": {
+    "prefix": "gclink",
+    "body": [
+      "<!-- google font -->",
+      "    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "    <link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Stack+Sans+Notch:wght@700&display=swap\"",
+      "        rel=\"stylesheet\">",
+      "    <!-- google icon -->",
+      "    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200\" rel=\"stylesheet\" />",
+      "    <link rel=\"stylesheet\" href=\"css/main.css\">",
+      "    <link rel=\"stylesheet\" href=\"css/nav.css\">",
+      "    <link rel=\"stylesheet\" href=\"css/footer.css\">",
+      "    <link rel=\"stylesheet\" href=\"css/${1:css-file}.css\">",
+      "$0"
+    ],
+    "description": "google font & icon, css"
+  },
+
+  "js includes nav and footer": {
+  "prefix": "jshub",
+  "body": [
+    "<script src=\"js/layout/nav.js\"></script>",
+    "<script src=\"js/layout/footer.js\"></script>",
+    "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js\"></script>"
+  ],
+  "description": "js includes nav and footer"
+},
+
+"add another js": {
+  "prefix": "js",
+  "body": [
+    "<script src=\"/js/${1:example}\"></script>",
+    ""
+  ],
+  "description": "add another js"
+}
+}

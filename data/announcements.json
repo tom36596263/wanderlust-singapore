@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "category": "maintenance",
+        "icon": "security",
+        "desc": "【資安維護】會員登入系統將進行安全性升級，作業期間將暫停「新用戶註冊」功能。",
+        "date": "2025/12/20"
+    },
+    {
+        "id": 2,
+        "category": "maintenance",
+        "icon": "manage_search",
+        "desc": "搜尋引擎索引優化：站內搜尋功能將進行短暫停機維護，預計作業時間 2 小時。",
+        "date": "2025/12/18"
+    },
+    {
+        "id": 3,
+        "category": "maintenance",
+        "icon": "cloud_sync",
+        "desc": "圖床伺服器遷移：為了提升海外讀取的載入速度，我們將進行 CDN 節點調整。",
+        "date": "2025/12/05"
+    },
+    {
+        "id": 4,
+        "category": "maintenance",
+        "icon": "build",
+        "desc": "【例行維護】伺服器優化作業：網站將於 [2025/12/15 02:00 - 06:00] 暫停服務。",
+        "date": "2025/12/10"
+    },
+    {
+        "id": 5,
+        "category": "maintenance",
+        "icon": "dns",
+        "desc": "資料庫系統升級通知：部分舊文章圖片可能暫時無法顯示，工程團隊正在修復中。",
+        "date": "2025/11/28"
+    },
+    {
+        "id": 6,
+        "category": "maintenance",
+        "icon": "lock_reset",
+        "desc": "SSL 憑證更新作業：預計於今晚凌晨進行，期間連線可能會出現短暫不穩定。",
+        "date": "2025/11/25"
+    },
+    {
+        "id": 7,
+        "category": "update",
+        "icon": "dark_mode",
+        "desc": "夜貓族福音！網站「深色模式」Beta 版正式上線，讓您半夜排行程也不傷眼。",
+        "date": "2025/12/12"
+    },
+    {
+        "id": 8,
+        "category": "update",
+        "icon": "diversity_3",
+        "desc": "旅伴配對功能升級：新增「旅遊預算」與「飲食偏好」標籤，幫您找到最合拍的旅伴。",
+        "date": "2025/12/08"
+    },
+    {
+        "id": 9,
+        "category": "update",
+        "icon": "map",
+        "desc": "地圖系統更新：景點地圖現已整合 MRT 地鐵路線圖，規劃交通轉乘更直覺。",
+        "date": "2025/11/30"
+    },
+    {
+        "id": 10,
+        "category": "update",
+        "icon": "rocket_launch",
+        "desc": "功能上線：全新的「行程規劃工具」來了！拖拉景點即可自動計算交通時間。",
+        "date": "2025/12/01"
+    },
+    {
+        "id": 11,
+        "category": "update",
+        "icon": "update",
+        "desc": "Ver 2.1 版本更新：修正了手機版導覽列無法正常展開的問題，並優化載入速度。",
+        "date": "2025/11/20"
+    },
+    {
+        "id": 12,
+        "category": "update",
+        "icon": "translate",
+        "desc": "多語言支援：新增「繁體中文 (香港)」與「英文」介面切換功能。",
+        "date": "2025/11/10"
+    },
+    {
+        "id": 13,
+        "category": "community",
+        "icon": "verified",
+        "desc": "【徵人文】尋找「新加坡在地嚮導」！分享私房景點文章，即可獲得專屬認證徽章。",
+        "date": "2025/12/22"
+    },
+    {
+        "id": 14,
+        "category": "community",
+        "icon": "celebration",
+        "desc": "2025 新年線下聚會：SG Compass 粉絲見面會開放報名，一起來吃天天海南雞飯！",
+        "date": "2025/12/15"
+    },
+    {
+        "id": 15,
+        "category": "community",
+        "icon": "warning",
+        "desc": "【防詐騙提醒】近期有詐騙集團假冒官方名義發送釣魚信件，請勿點擊不明連結。",
+        "date": "2025/12/10"
+    },
+    {
+        "id": 16,
+        "category": "community",
+        "icon": "emoji_events",
+        "desc": "恭喜！2025「看見新加坡」年度攝影大賽得獎名單公佈，感謝各位旅人的熱情參與。",
+        "date": "2025/12/05"
+    },
+    {
+        "id": 17,
+        "category": "community",
+        "icon": "campaign",
+        "desc": "版規修訂：為了維護討論品質，即日起禁止張貼純廣告內容，詳情請見版規置頂文。",
+        "date": "2025/11/15"
+    },
+    {
+        "id": 18,
+        "category": "community",
+        "icon": "rate_review",
+        "desc": "問卷調查：填寫網站滿意度調查，就有機會抽中環球影城門票乙張！",
+        "date": "2025/11/01"
+    }
+]
