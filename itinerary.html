@@ -1,405 +1,505 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wanderlust Singapore - 規劃行程</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Stack+Sans+Notch:wght@700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/itinerary.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Stack+Sans+Notch:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/itinerary.css" />
+  </head>
 
-<body>
+  <body>
     <!-- nav -->
     <header class="nav-bg">
-        <nav class="nav">
+      <nav class="nav">
+        <button
+          id="mobile-menu-btn"
+          class="hamburger-btn material-symbols-outlined"
+        >
+          menu
+        </button>
 
-            <button id="mobile-menu-btn" class="hamburger-btn material-symbols-outlined">
-                menu
+        <ul class="nav-list" id="main-nav-list">
+          <li class="mobile-close-box">
+            <button id="close-mobile-menu" class="material-symbols-outlined">
+              close
             </button>
+          </li>
 
-            <ul class="nav-list" id="main-nav-list">
-
-                <li class="mobile-close-box">
-                    <button id="close-mobile-menu" class="material-symbols-outlined">
-                        close
-                    </button>
-                </li>
-
-                <li>
-                    <a href="index.html" class="nav-logo">
-                        <img src="assets/images/layout/logo.svg" alt="Logo of Wanderlust Singapore">
-                        <span class="logo-text">Wanderlust Singapore</span>
-                    </a>
-                </li>
-
-                <li class="mobile-function-area">
-
-                    <form class="m-search-box" action="search_result.html" method="get">
-                        <input type="text" name="q" placeholder="搜尋景點、美食...">
-                        <button type="submit" class="material-symbols-outlined">search</button>
-                    </form>
-
-                    <div class="m-lang-box">
-                        <button class="lang-btn active">繁體中文</button>
-                        <span class="divider">|</span>
-                        <button class="lang-btn">English</button>
-                    </div>
-
-                </li>
-
-                <li class="forum">
-                    <a href="forum.html">
-                        論壇
-                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
-                    </a>
-                </li>
-
-                <li class="explore">
-                    <a href="explore.html">
-                        探索
-                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
-                    </a>
-                    <div class="explore-submenu">
-                        <ul class="navigation-list">
-                            <li data-target="image-1"><a href="explore.html">景點牆</a></li>
-                            <li data-target="image-2"><a href="#">花園城市</a></li>
-                            <li data-target="image-3"><a href="#">繽紛南洋文化</a></li>
-                            <li data-target="image-4"><a href="#">清新熱帶</a></li>
-                            <li data-target="image-5"><a href="#">街頭美食</a></li>
-                        </ul>
-
-                        <div class="image-gallery">
-                            <img id="image-1" src="assets/images/layout/nav-attraction-wall.png">
-                            <img id="image-2" src="assets/images/layout/nav-city-garden.png">
-                            <img id="image-3" src="assets/images/layout/nav-Southeast-Asian-culture.png">
-                            <img id="image-4" src="assets/images/layout/nav-clean-tropical-city.png">
-                            <img id="image-5" src="assets/images/layout/nav-street-food.png">
-                        </div>
-                    </div>
-                </li>
-
-                <li class="find-buddy"><a href="#">找旅伴</a></li>
-
-                <li class="itinerary">
-                    <a href="itinerary.html">
-                        找行程
-                        <span class="material-symbols-outlined mobile-arrow">expand_more</span>
-                    </a>
-                    <ul class="itinerary-submenu">
-                        <li><a href="itinerary.html">行程規劃</a></li>
-                        <li><a href="itineraries-wall.html">行程懶人包</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <div class="icon-box">
-                <form class="search-wrapper" action="search_result.html" method="get">
-                    <button type="submit" class="search-btn material-symbols-outlined">
-                        search
-                    </button>
-                    <input type="text" class="search-txt" name="q" placeholder="搜尋...">
-                </form>
-
-                <button class="lang-wrapper">
-                    <span class="globe-icon material-symbols-outlined">
-                        globe
-                    </span>
-                    <div class="lang-box">
-                        <span class="lang-zh">中</span>
-                        <span class="lang-en">EN</span>
-                    </div>
-                </button>
-
-                <a href="javascript:void(0)" id="avatar-btn" class="avatar-wrapper">
-                    <span id="guest-icon" class="material-symbols-outlined">
-                        account_circle
-                    </span>
-                    <img id="user-avatar" class="dp-none" src="assets/images/layout/nav-avatar.svg" alt="User Avatar">
-                </a>
-            </div>
-
-        </nav>
-    </header>
-    <aside id="user-side-menu" class="user-menu">
-        <div class="menu-header">
-            <button id="close-menu-btn" class="close-btn material-symbols-outlined">
-                close
-            </button>
-        </div>
-
-        <div class="menu-content">
-
-            <div class="acc-item">
-                <div class="acc-header">
-                    <div class="title-box">
-                        <span class="material-symbols-outlined">notifications</span>
-                        <span>通知</span>
-                    </div>
-                    <span class="arrow material-symbols-outlined">expand_more</span>
-                </div>
-
-                <div class="acc-body">
-                    <div class="switcher-box">
-                        <div class="switcher-nav">
-                            <button class="tab-btn active" data-target="tab-buddy">旅伴</button>
-                            <button class="tab-btn" data-target="tab-article">文章</button>
-                            <button class="tab-btn" data-target="tab-system">系統</button>
-                        </div>
-
-                        <div id="tab-buddy" class="tab-panel active">
-                            <ul class="notify-list">
-                                <li>Dave 傳送了交友邀請給你。</li>
-                                <li>Alice 回覆了你的留言。</li>
-                            </ul>
-                        </div>
-
-                        <div id="tab-article" class="tab-panel">
-                            <ul class="notify-list">
-                                <li>你的文章《新加坡美食》已被批准。</li>
-                                <li>有人收藏了你的文章。</li>
-                            </ul>
-                        </div>
-
-                        <div id="tab-system" class="tab-panel">
-                            <ul class="notify-list">
-                                <li>歡迎加入 Wanderlust Singapore!</li>
-                                <li>系統將於今晚維護。</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="acc-item">
-                <div class="acc-header">
-                    <div class="title-box">
-                        <span class="material-symbols-outlined">person</span>
-                        <span>個人主頁</span>
-                    </div>
-                    <span class="arrow material-symbols-outlined">expand_more</span>
-                </div>
-                <div class="acc-body">
-                    <ul class="profile-links">
-                        <li><a href="#">我的文章</a></li>
-                        <li><a href="#">我的行程</a></li>
-                        <li><a href="#">我的旅伴</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <a href="#" class="simple-link">
-                <span class="material-symbols-outlined">manage_accounts</span>
-                帳號中心
+          <li>
+            <a href="index.html" class="nav-logo">
+              <img
+                src="assets/images/layout/logo.svg"
+                alt="Logo of Wanderlust Singapore"
+              />
+              <span class="logo-text">Wanderlust Singapore</span>
             </a>
+          </li>
 
-            <button id="auth-btn" class="simple-link"
-                style="width: 100%; border: none; background: transparent; cursor: pointer;">
-                <span id="auth-icon" class="material-symbols-outlined">login</span>
-                <span id="auth-text">登入</span>
-            </button>
-
-        </div>
-    </aside>
-    <div id="login-modal" class="login-modal-overlay">
-        <div class="login-box">
-            <button id="close-login-btn" class="close-btn material-symbols-outlined">close</button>
-
-            <h2>歡迎回來</h2>
-            <p>請輸入您的帳號密碼</p>
-
-            <form id="login-form">
-                <div class="input-group">
-                    <label for="email">電子信箱</label>
-                    <input type="email" id="email" placeholder="name@example.com" required>
-                </div>
-
-                <div class="input-group">
-                    <label for="password">密碼</label>
-                    <input type="password" id="password" placeholder="請輸入密碼" required>
-                </div>
-
-                <button type="submit" class="submit-btn">登入</button>
+          <li class="mobile-function-area">
+            <form class="m-search-box" action="search_result.html" method="get">
+              <input type="text" name="q" placeholder="搜尋景點、美食..." />
+              <button type="submit" class="material-symbols-outlined">
+                search
+              </button>
             </form>
 
-            <p class="error-msg" id="login-error-msg"></p>
+            <div class="m-lang-box">
+              <button class="lang-btn active">繁體中文</button>
+              <span class="divider">|</span>
+              <button class="lang-btn">English</button>
+            </div>
+          </li>
+
+          <li class="forum">
+            <a href="forum.html">
+              論壇
+              <span class="material-symbols-outlined mobile-arrow"
+                >expand_more</span
+              >
+            </a>
+          </li>
+
+          <li class="explore">
+            <a href="explore.html">
+              探索
+              <span class="material-symbols-outlined mobile-arrow"
+                >expand_more</span
+              >
+            </a>
+            <div class="explore-submenu">
+              <ul class="navigation-list">
+                <li data-target="image-1"><a href="explore.html">景點牆</a></li>
+                <li data-target="image-2"><a href="#">花園城市</a></li>
+                <li data-target="image-3"><a href="#">繽紛南洋文化</a></li>
+                <li data-target="image-4"><a href="#">清新熱帶</a></li>
+                <li data-target="image-5"><a href="#">街頭美食</a></li>
+              </ul>
+
+              <div class="image-gallery">
+                <img
+                  id="image-1"
+                  src="assets/images/layout/nav-attraction-wall.png"
+                />
+                <img
+                  id="image-2"
+                  src="assets/images/layout/nav-city-garden.png"
+                />
+                <img
+                  id="image-3"
+                  src="assets/images/layout/nav-Southeast-Asian-culture.png"
+                />
+                <img
+                  id="image-4"
+                  src="assets/images/layout/nav-clean-tropical-city.png"
+                />
+                <img
+                  id="image-5"
+                  src="assets/images/layout/nav-street-food.png"
+                />
+              </div>
+            </div>
+          </li>
+
+          <li class="find-buddy"><a href="#">找旅伴</a></li>
+
+          <li class="itinerary">
+            <a href="itinerary.html">
+              找行程
+              <span class="material-symbols-outlined mobile-arrow"
+                >expand_more</span
+              >
+            </a>
+            <ul class="itinerary-submenu">
+              <li><a href="itinerary.html">行程規劃</a></li>
+              <li><a href="itineraries-wall.html">行程懶人包</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="icon-box">
+          <form class="search-wrapper" action="search_result.html" method="get">
+            <button type="submit" class="search-btn material-symbols-outlined">
+              search
+            </button>
+            <input
+              type="text"
+              class="search-txt"
+              name="q"
+              placeholder="搜尋..."
+            />
+          </form>
+
+          <button class="lang-wrapper">
+            <span class="globe-icon material-symbols-outlined"> globe </span>
+            <div class="lang-box">
+              <span class="lang-zh">中</span>
+              <span class="lang-en">EN</span>
+            </div>
+          </button>
+
+          <a href="javascript:void(0)" id="avatar-btn" class="avatar-wrapper">
+            <span id="guest-icon" class="material-symbols-outlined">
+              account_circle
+            </span>
+            <img
+              id="user-avatar"
+              class="dp-none"
+              src="assets/images/layout/nav-avatar.svg"
+              alt="User Avatar"
+            />
+          </a>
         </div>
+      </nav>
+    </header>
+    <aside id="user-side-menu" class="user-menu">
+      <div class="menu-header">
+        <button id="close-menu-btn" class="close-btn material-symbols-outlined">
+          close
+        </button>
+      </div>
+
+      <div class="menu-content">
+        <div class="acc-item">
+          <div class="acc-header">
+            <div class="title-box">
+              <span class="material-symbols-outlined">notifications</span>
+              <span>通知</span>
+            </div>
+            <span class="arrow material-symbols-outlined">expand_more</span>
+          </div>
+
+          <div class="acc-body">
+            <div class="switcher-box">
+              <div class="switcher-nav">
+                <button class="tab-btn active" data-target="tab-buddy">
+                  旅伴
+                </button>
+                <button class="tab-btn" data-target="tab-article">文章</button>
+                <button class="tab-btn" data-target="tab-system">系統</button>
+              </div>
+
+              <div id="tab-buddy" class="tab-panel active">
+                <ul class="notify-list">
+                  <li>Dave 傳送了交友邀請給你。</li>
+                  <li>Alice 回覆了你的留言。</li>
+                </ul>
+              </div>
+
+              <div id="tab-article" class="tab-panel">
+                <ul class="notify-list">
+                  <li>你的文章《新加坡美食》已被批准。</li>
+                  <li>有人收藏了你的文章。</li>
+                </ul>
+              </div>
+
+              <div id="tab-system" class="tab-panel">
+                <ul class="notify-list">
+                  <li>歡迎加入 Wanderlust Singapore!</li>
+                  <li>系統將於今晚維護。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc-item">
+          <div class="acc-header">
+            <div class="title-box">
+              <span class="material-symbols-outlined">person</span>
+              <span>個人主頁</span>
+            </div>
+            <span class="arrow material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="acc-body">
+            <ul class="profile-links">
+              <li><a href="#">我的文章</a></li>
+              <li><a href="#">我的行程</a></li>
+              <li><a href="#">我的旅伴</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="#" class="simple-link">
+          <span class="material-symbols-outlined">manage_accounts</span>
+          帳號中心
+        </a>
+
+        <button
+          id="auth-btn"
+          class="simple-link"
+          style="
+            width: 100%;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+          "
+        >
+          <span id="auth-icon" class="material-symbols-outlined">login</span>
+          <span id="auth-text">登入</span>
+        </button>
+      </div>
+    </aside>
+    <div id="login-modal" class="login-modal-overlay">
+      <div class="login-box">
+        <button
+          id="close-login-btn"
+          class="close-btn material-symbols-outlined"
+        >
+          close
+        </button>
+
+        <h2>歡迎回來</h2>
+        <p>請輸入您的帳號密碼</p>
+
+        <form id="login-form">
+          <div class="input-group">
+            <label for="email">電子信箱</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="name@example.com"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="password">密碼</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="請輸入密碼"
+              required
+            />
+          </div>
+
+          <button type="submit" class="submit-btn">登入</button>
+        </form>
+
+        <p class="error-msg" id="login-error-msg"></p>
+      </div>
     </div>
     <div id="menu-overlay" class="menu-overlay"></div>
     <!-- main -->
     <main class="planning-container">
-        <aside class="sidebar-left">
-            <div class="sidebar-header">
-                <h2>探索景點</h2>
-                <div class="search-box">
-                    <span class="material-symbols-outlined">search</span>
-                    <input type="text" id="attractionSearch" placeholder="搜尋景點...">
-                </div>
-                <div class="filter-pills" id="filterContainer">
-                    <button class="pill active" data-category="all">全部</button>
-                    <button class="pill" data-category="自然風景">自然</button>
-                    <button class="pill" data-category="美食饗宴">美食</button>
-                    <button class="pill" data-category="人文歷史">歷史</button>
-                    <button class="pill" data-category="購物時尚">購物</button>
-                    <button class="pill" data-category="休閒娛樂">娛樂</button>
-                </div>
-            </div>
+      <aside class="sidebar-left">
+        <div class="sidebar-header">
+          <h2>探索景點</h2>
+          <div class="search-box">
+            <span class="material-symbols-outlined">search</span>
+            <input
+              type="text"
+              id="attractionSearch"
+              placeholder="搜尋景點..."
+            />
+          </div>
+          <div class="filter-pills" id="filterContainer">
+            <button class="pill active" data-category="all">全部</button>
+            <button class="pill" data-category="自然風景">自然</button>
+            <button class="pill" data-category="美食饗宴">美食</button>
+            <button class="pill" data-category="人文歷史">歷史</button>
+            <button class="pill" data-category="購物時尚">購物</button>
+            <button class="pill" data-category="休閒娛樂">娛樂</button>
+          </div>
+        </div>
 
-            <div class="attractions-list" id="attractionSourceList">
-                <div class="loading">載入景點中...</div>
-            </div>
-        </aside>
+        <div class="attractions-list" id="attractionSourceList">
+          <div class="loading">載入景點中...</div>
+        </div>
+      </aside>
 
-        <section class="planner-area">
-            <div class="planner-header">
-                <div class="days-tabs" id="dayTabsContainer">
-                    <button class="add-day-btn" id="addDayBtn"><span
-                            class=" material-symbols-outlined">add</span></button>
-                </div>
-                <button class="action-btn primary" id="openCustomBtn"><span
-                        class="material-symbols-outlined">add_circle</span>
-                    新增自訂活動</button>
-            </div>
+      <section class="planner-area">
+        <div class="planner-header">
+          <div class="days-tabs" id="dayTabsContainer">
+            <button class="add-day-btn" id="addDayBtn">
+              <span class="material-symbols-outlined">add</span>
+            </button>
+          </div>
+          <button class="action-btn primary" id="openCustomBtn">
+            <span class="material-symbols-outlined">add_circle</span>
+            新增自訂活動
+          </button>
+        </div>
 
-            <div class="itinerary-timeline" id="dropZone">
-                <div class="empty-state">
-                    <span class="material-symbols-outlined">drag_indicator</span>
-                    <p>將左側景點拖曳至此開始規劃</p>
-                </div>
-            </div>
+        <div class="itinerary-timeline" id="dropZone">
+          <div class="empty-state">
+            <span class="material-symbols-outlined">drag_indicator</span>
+            <p>將左側景點拖曳至此開始規劃</p>
+          </div>
+        </div>
 
-            <div class="planner-footer">
-                <div class="summary">
-                    <h3>行程摘要</h3>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <span class="label">預估預算</span>
-                            <span class="value">SGD 120.00</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="label">總移動時間</span>
-                            <span class="value" id="totalTravelTime">0 分鐘</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="actions">
-                    <button class="action-btn secondary" id="shareBtn"><span
-                            class="material-symbols-outlined">share</span>
-                        分享</button>
-                    <button class="action-btn secondary" id="pdfBtn"><span
-                            class="material-symbols-outlined">download</span>
-                        PDF</button>
-                    <button class="action-btn primary save-btn" id="saveItineraryBtn"><span
-                            class="material-symbols-outlined">save</span>
-                        儲存行程</button>
-                </div>
+        <div class="planner-footer">
+          <div class="summary">
+            <h3>行程摘要</h3>
+            <div class="stats">
+              <div class="stat-item">
+                <span class="label">預估預算</span>
+                <span class="value">SGD 120.00</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">總移動時間</span>
+                <span class="value" id="totalTravelTime">0 分鐘</span>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="actions">
+            <button class="action-btn secondary" id="shareBtn">
+              <span class="material-symbols-outlined">share</span> 分享
+            </button>
+            <button class="action-btn secondary" id="pdfBtn">
+              <span class="material-symbols-outlined">download</span> PDF
+            </button>
+            <button class="action-btn primary save-btn" id="saveItineraryBtn">
+              <span class="material-symbols-outlined">save</span> 儲存行程
+            </button>
+          </div>
+        </div>
+      </section>
 
-        <aside class="sidebar-right">
-            <div id="googleMap" class="map-container"></div>
-        </aside>
+      <aside class="sidebar-right">
+        <div id="googleMap" class="map-container"></div>
+      </aside>
     </main>
 
     <nav class="mobile-nav">
-        <button class="nav-item" data-target="sidebar-left">
-            <span class="material-symbols-outlined">explore</span>
-            <span>景點</span>
-        </button>
+      <button class="nav-item" data-target="sidebar-left">
+        <span class="material-symbols-outlined">explore</span>
+        <span>景點</span>
+      </button>
 
-        <button class="nav-item active" data-target="planner-area">
-            <span class="material-symbols-outlined">edit_calendar</span>
-            <span>規劃</span>
-        </button>
+      <button class="nav-item active" data-target="planner-area">
+        <span class="material-symbols-outlined">edit_calendar</span>
+        <span>規劃</span>
+      </button>
 
-        <button class="nav-item" data-target="sidebar-right">
-            <span class="material-symbols-outlined">map</span>
-            <span>地圖</span>
-        </button>
+      <button class="nav-item" data-target="sidebar-right">
+        <span class="material-symbols-outlined">map</span>
+        <span>地圖</span>
+      </button>
     </nav>
 
     <div class="modal-overlay" id="customModal">
-        <div class="modal-container">
-            <div class="modal-header">
-                <h3>新增自訂活動</h3>
-                <button class="close-btn" id="closeModalBtn">
-                    <span class="material-symbols-outlined">close</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label>活動圖片</label>
-                    <div class="image-upload-box">
-                        <label for="customImageInput" class="upload-label">
-                            <span class="material-symbols-outlined">add_photo_alternate</span>
-                            <span>點擊上傳圖片</span>
-                        </label>
-                        <input type="file" id="customImageInput" accept="image/*" style="display: none;">
-                        <img id="customImagePreview" class="preview-img" style="display: none;">
-                        <button id="removeImageBtn" class="remove-img-btn" style="display: none;">
-                            <span class="material-symbols-outlined">close</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>活動名稱</label>
-                    <input type="text" id="customName" placeholder="例如：飯店休息、自由活動...">
-                </div>
-                <div class="form-group">
-                    <label>分類標籤</label>
-                    <select id="customCategory">
-                        <option value="自訂行程">自訂行程</option>
-                        <option value="美食饗宴">美食饗宴</option>
-                        <option value="購物時尚">購物時尚</option>
-                        <option value="休閒娛樂">休閒娛樂</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>備註 (Hover 時顯示)</label>
-                    <textarea id="customNote" rows="3" placeholder="輸入備註事項..."></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="action-btn secondary" id="cancelCustomBtn">取消</button>
-                <button class="action-btn primary" id="saveCustomBtn">確認新增</button>
-            </div>
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3>新增自訂活動</h3>
+          <button class="close-btn" id="closeModalBtn">
+            <span class="material-symbols-outlined">close</span>
+          </button>
         </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>活動圖片</label>
+            <div class="image-upload-box">
+              <label for="customImageInput" class="upload-label">
+                <span class="material-symbols-outlined"
+                  >add_photo_alternate</span
+                >
+                <span>點擊上傳圖片</span>
+              </label>
+              <input
+                type="file"
+                id="customImageInput"
+                accept="image/*"
+                style="display: none"
+              />
+              <img
+                id="customImagePreview"
+                class="preview-img"
+                style="display: none"
+              />
+              <button
+                id="removeImageBtn"
+                class="remove-img-btn"
+                style="display: none"
+              >
+                <span class="material-symbols-outlined">close</span>
+              </button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>活動名稱</label>
+            <input
+              type="text"
+              id="customName"
+              placeholder="例如：飯店休息、自由活動..."
+            />
+          </div>
+          <div class="form-group">
+            <label>分類標籤</label>
+            <select id="customCategory">
+              <option value="自訂行程">自訂行程</option>
+              <option value="美食饗宴">美食饗宴</option>
+              <option value="購物時尚">購物時尚</option>
+              <option value="休閒娛樂">休閒娛樂</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>備註 (Hover 時顯示)</label>
+            <textarea
+              id="customNote"
+              rows="3"
+              placeholder="輸入備註事項..."
+            ></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="action-btn secondary" id="cancelCustomBtn">
+            取消
+          </button>
+          <button class="action-btn primary" id="saveCustomBtn">
+            確認新增
+          </button>
+        </div>
+      </div>
     </div>
 
     <div class="modal-overlay" id="editNoteModal">
-        <div class="modal-container">
-            <div class="modal-header">
-                <h3>編輯備註</h3>
-                <button class="close-btn" id="closeEditNoteBtn">
-                    <span class="material-symbols-outlined">close</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label>備註內容</label>
-                    <textarea id="editNoteText" rows="4" placeholder="在這裡輸入行程備註..."></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="action-btn secondary" id="cancelEditNoteBtn">取消</button>
-                <button class="action-btn primary" id="saveEditNoteBtn">儲存備註</button>
-            </div>
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3>編輯備註</h3>
+          <button class="close-btn" id="closeEditNoteBtn">
+            <span class="material-symbols-outlined">close</span>
+          </button>
         </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>備註內容</label>
+            <textarea
+              id="editNoteText"
+              rows="4"
+              placeholder="在這裡輸入行程備註..."
+            ></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="action-btn secondary" id="cancelEditNoteBtn">
+            取消
+          </button>
+          <button class="action-btn primary" id="saveEditNoteBtn">
+            儲存備註
+          </button>
+        </div>
+      </div>
     </div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOMNmzOlYNCBuZqWaUtjhiFGYVXEt70OY&callback=initMap"
-        async defer></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHdIaipoq_uUJ3avQ7hlD5fHFcLHXHgWE&callback=initMap"
+      async
+      defer
+    ></script>
     <script src="js/layout/nav.js"></script>
     <script src="js/pages/itinerary/itinerary.js"></script>
-
-</body>
-
+  </body>
 </html>
